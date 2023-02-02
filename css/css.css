@@ -1,0 +1,206 @@
+/* reset */
+html, body {
+margin: 0;
+border: 0;
+padding: 0;
+}
+
+body {
+background: #222;
+font-family: "Sans";
+font-size: 16px;
+}
+
+/* Layout */
+#width {
+min-width: 35em;
+max-width: 60em;
+overflow: auto;
+margin: 0 auto 0 auto;
+padding: 0;
+}
+
+#head {
+height: 7em;
+background: linear-gradient(-27deg, rgba(2,0,36,0.5) 0%, rgba(54,54,54,0.4) 35%, rgba(255,255,255,0) 100%), rgba(255,122,22,1);
+}
+#head p {
+position: absolute;
+font-size: 250%;
+font-weight: 900;
+padding: 0;
+margin: 0.5em 0 0 1em;
+color: #f5f8f9;
+text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.3);
+}
+#headimg img{
+float: right;
+content: url(/img/mrhenley.svg);
+height: 7em; /* same as #head */
+}
+
+#content {
+background: #f5f8f9;
+padding: 0 2em 2em 2em;
+margin-top: 0;
+border-top: solid #0091DF 0.2em;
+}
+
+#foot {
+border-top: solid 1px;
+padding: 1em 3em 3em 3em;
+background: #efefef;
+font-size: 80%;
+text-align: center;
+}
+#foot * {
+margin: 0.2em 0 0 0;
+}
+
+/* General formatting */
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+text-align: left;
+font-weight: 900;
+text-shadow: 0.05em 0.05em 0.2em rgba(0,0,0,0.3);
+}
+
+h1 {
+color: #360082;
+}
+h2 {
+color: #000287;
+}
+h3 {
+color: #003C80;
+}
+h4 {
+color: #004352;
+}
+h5 {
+color: #034D3C;
+}
+h6 {
+color: #095205;
+}
+
+h2 a, h3 a {
+text-decoration: none;
+}
+/* Lists */
+dt {
+font-weight: bold;
+}
+dd {
+margin: 0 0 1em 5em;
+}
+ol, ul
+{
+margin-bottom: 1em;
+}
+li {
+}
+ul {
+list-style: disc;
+}
+ul ul {
+list-style: circle;
+margin: 0 0 0 0em;
+}
+ol {
+margin: 0 0 1em 1em;
+}
+/* Other */
+code {
+background: #E7FFC7;
+border-radius: 0.2em;
+padding: 0.1em;
+font-size: 80% !important;
+}
+pre {
+background: #E7FFC7;
+margin: 1em 0 1em 0;
+padding: 0.5em;
+border: solid #C3EB8D;
+border-width: 0 0 0 0.2em;
+white-space: pre-wrap;
+}
+pre code {
+padding: 0;
+}
+p + p {
+margin-top: 1em;
+}
+blockquote {
+margin: 1em 3em 1em 3em;
+padding: 0 0 0 1em;
+border-left: solid 3px #006587;
+}
+
+/* Point to the targetted id */
+:target::before {
+content: "🖙 ";
+}
+:target {
+color: #90105F;
+}
+/* Google etc. */
+iframe {
+margin: 1em auto 1em auto;
+}
+
+.float_left {
+float: left;
+}
+.float_right {
+float: right;
+}
+.clear {
+clear: both;
+}
+
+/* For narrow viewports */
+@media (max-width: 800px) {
+body {
+font-size: 14px;
+}
+#width {
+min-width: 100%;
+max-width: 100%;
+width: 100%;
+}
+@media (max-width: 600px) {
+body {
+font-size: 13px;
+}
+#width {
+min-width: 100%;
+max-width: 100%;
+width: 100%;
+}
+@media (max-width: 500px) {
+body {
+font-size: 12px;
+}
+#width {
+min-width: 100%;
+max-width: 100%;
+width: 100%;
+}
+@media (max-width: 400px) {
+body {
+font-size: 11px;
+}
+#width {
+min-width: 100%;
+max-width: 100%;
+width: 100%;
+}
+#head {
+display: none;
+}
+
+/* Don't let stuff expand outside the width of the window - particularly relevant for narrow mobile devices */
+img, iframe {
+max-width: 100% !important;
+}
