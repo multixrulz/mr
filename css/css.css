@@ -1,3 +1,17 @@
+@font-face {
+font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 400;
+src: url('/fonts/EncodeSans-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 800;
+src: url('/fonts/EncodeSans-Bold.ttf');
+}
+
 /* reset */
 html, body {
 margin: 0;
@@ -7,7 +21,7 @@ padding: 0;
 
 body {
 background: #222;
-font-family: "Sans";
+font-family: "Encode Sans";
 font-size: 16px;
 }
 

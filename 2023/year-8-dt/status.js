@@ -15,6 +15,16 @@ function students_loaded() {
     //console.log("Students loaded");
 }
 
+function nickname_to_avatar(nickname, mod) {
+    var sum = 0;
+    for (i = 0; i < nickname.length; i++) {
+        char = nickname.charCodeAt(i);
+        sum += char;
+    }
+    // Return the mod +1 so that it starts from 1, not 0.
+    return (sum % mod) + 1;
+}
+
 function load_student() {
     // Get the nickname, and set it on the page heading
     nickname = document.getElementById("nickname_entry").value.trim();
@@ -43,6 +53,16 @@ function load_student() {
             // Set XP
             xp = document.getElementById("XP");
             xp.style.width = s["XP"] + "%";
+            // Set avatar
+            avatar = document.getElementById("avatar");
+            if (s["avatar"] == 0) {
+                // Choose an avatar for the student
+                avatar_id = nickname_to_avatar(nickname, 62);
+            } else {
+                // Use the student-selected avatar
+                avatar_id = s["avatar"];
+            }
+                avatar.src = "avatars/" + s["avatar"] + ".svg";
             // Set badges
             for (var key in s["badges"])
                 set_class(key, s["badges"][key]);

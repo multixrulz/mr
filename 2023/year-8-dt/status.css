@@ -1,6 +1,10 @@
-/* Get rid of the mr henley avatar */
+/* Override stuff from global css */
 #headimg img{
 content: none;
+}
+
+#width {
+background: #333;
 }
 
 #content {
@@ -12,6 +16,17 @@ h1 {
 color: #eee;
 }
 
+a {
+color: #37BBE1;
+}
+a:visited {
+color: #37BBE1;
+}
+
+#foot {
+clear: both;
+}
+
 /* General table properties */
 td {
 border: 0;
@@ -20,6 +35,18 @@ border: 0;
 /* A class to hide elements */
 .hide {
 display: none;
+}
+
+/* Student nickname, avatar, XP */
+#studentinfo {
+width: 100%;
+}
+#studentinfo td {
+width: 50%;
+}
+#avatar {
+height: 8em;
+margin: 1em;
 }
 
 /* Progress bar */
@@ -113,6 +140,8 @@ float: right;
 text-align: right;
 max-width: 20%;
 width: 10em;
+margin-top: -3em;
+margin-bottom: 2em;
 }
 #badges img {
 width: 100%;
