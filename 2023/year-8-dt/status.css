@@ -42,7 +42,8 @@ display: none;
 width: 100%;
 }
 #studentinfo td {
-width: 50%;
+width: 15em;
+max-width: 50%;
 }
 #avatar {
 height: 8em;
@@ -144,8 +145,8 @@ margin-top: -3em;
 margin-bottom: 2em;
 }
 #badges img {
-width: 100%;
-max-width: 9em;
+height: 9em;
+max-width: 12em;
 }
 #badges .inactive {
 display: none;
@@ -154,11 +155,16 @@ display: none;
 /* Nickname form */
 input {
 background: #333;
-color: #eee;
+margin: 1em 0.5em 0 0;
 border: outset 0.2em #777;
 border-radius: 0.3em;
-margin: 1em 0.5em 0 0;
 padding: 0.2em;
+color: #eee;
+font-size: 100%;
+}
+#nickname_entry {
+width: 12em;
+max-width: 50%;
 }
 input:hover {
 background: #444;

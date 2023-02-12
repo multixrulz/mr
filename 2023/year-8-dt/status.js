@@ -22,12 +22,15 @@ function nickname_to_avatar(nickname, mod) {
         sum += char;
     }
     // Return the mod +1 so that it starts from 1, not 0.
-    return (sum % mod) + 1;
+    var modulus = sum % mod;
+    return modulus + 1;
 }
 
 function load_student() {
     // Get the nickname, and set it on the page heading
     nickname = document.getElementById("nickname_entry").value.trim();
+    // Change to lower case
+    nickname = nickname.toLowerCase();
 
     // Student not found
     nickname_e = document.getElementById("nickname");
@@ -62,7 +65,7 @@ function load_student() {
                 // Use the student-selected avatar
                 avatar_id = s["avatar"];
             }
-                avatar.src = "avatars/" + s["avatar"] + ".svg";
+                avatar.src = "avatars/" + avatar_id + ".svg";
             // Set badges
             for (var key in s["badges"])
                 set_class(key, s["badges"][key]);
