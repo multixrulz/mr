@@ -158,6 +158,38 @@ content: "🖙 ";
 :target {
 color: #90105F;
 }
+
+/* Buttons */
+.bigbutton ul {
+list-style: none;
+text-align: center;
+}
+
+.bigbutton ul li {
+position: relative;
+display: inline-block;
+margin: 3vh;
+background: #eee;
+border: solid #999 0.5vh;
+border-radius: 2vh;
+padding: 5vh;
+width: 25vh;
+height: 25vh;
+box-shadow: 1vh 1vh 0.85vh rgba(0,0,0,0.1);
+vertical-align: top;
+}
+
+.bigbutton ul li:hover {
+background: #efffff;
+border: solid #6fcfdf 0.5vh;
+box-shadow: 1vh 1vh 1vh rgba(0,20,30,0.15);
+}
+
+.bigbutton img {
+height: 20vh;
+max-width: 20vh !important;
+}
+
 /* Google etc. */
 iframe {
 margin: 1em auto 1em auto;
