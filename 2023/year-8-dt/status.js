@@ -4,7 +4,8 @@ function load_student_list() {
     json_text =
     json_rq = new XMLHttpRequest();
     json_rq.onload = students_loaded;
-    json_rq.open('GET', 'student-data.json', true);
+    url = 'student-data.json?' + Date.now();
+    json_rq.open('GET', url, true);
     json_rq.send(null);  // No data needs to be sent along with the
 }
 
@@ -81,7 +82,7 @@ function load_student() {
 }
 
 function set_class(id, value) {
-    console.log(id, value);
+    //console.log(id, value);
     element = document.getElementById(id);
     if (value == true)
         element.classList = ["active"];
