@@ -1,4 +1,5 @@
 var students = [];
+var timeout = 0;
 
 function load_student_list() {
     json_text =
@@ -25,6 +26,13 @@ function nickname_to_avatar(nickname, mod) {
     // Return the mod +1 so that it starts from 1, not 0.
     var modulus = sum % mod;
     return modulus + 1;
+}
+
+function queue_load_student() {
+    // Load the student after some number of milliseconds.
+    // This allows us to keep typing without constant updates.
+    clearTimeout(timeout);
+    timeout = setTimeout(load_student, 200);
 }
 
 function load_student() {
