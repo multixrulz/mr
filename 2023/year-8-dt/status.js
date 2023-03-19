@@ -51,9 +51,9 @@ function load_student() {
     progress = document.getElementById("progress");
     badges = document.getElementById("badges");
     activities = document.getElementById("activities");
-    progress.classList = ["hide"];
-    badges.classList = ["hide"];
-    activities.classList = ["hide"];
+    progress.classList.add("hide");
+    badges.classList.add("hide");
+    activities.classList.add("hide");
 
     // Match the student
     for (var i = 0; i < students.length; i++) {
@@ -82,9 +82,9 @@ function load_student() {
             for (var key in s["activities"])
                 set_class(key, s["activities"][key]);
             // Show everything
-            progress.classList = [];
-            badges.classList = [];
-            activities.classList = [];
+            progress.classList.remove("hide");
+            badges.classList.remove("hide");
+            activities.classList.remove("hide");
         }
     }
 }
@@ -92,10 +92,13 @@ function load_student() {
 function set_class(id, value) {
     //console.log(id, value);
     element = document.getElementById(id);
-    if (value == true)
-        element.classList = ["active"];
-    else
-        element.classList = ["inactive"];
+    if (value == true) {
+        element.classList.add("active");
+        element.classList.remove("inactive");
+    } else {
+        element.classList.remove("active");
+        element.classList.add("inactive");
+    }
 }
 
 // Load the student data right away

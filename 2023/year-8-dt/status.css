@@ -135,6 +135,10 @@ content: url('stars/award-inactive.svg');
 content: url('stars/award.svg');
 }
 
+#activities .notready {
+display: none !important;
+}
+
 /* Badges */
 #badges {
 float: right;
