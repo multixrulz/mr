@@ -152,11 +152,8 @@ border-left: solid 3px #006587;
 }
 
 /* Point to the targetted id */
-:target::before {
-content: "🖙 ";
-}
 :target {
-color: #90105F;
+color: #FF7A16;
 }
 
 /* Buttons */
@@ -188,6 +185,38 @@ box-shadow: 1vh 1vh 1vh rgba(0,20,30,0.15);
 .bigbutton img {
 height: 20vh;
 max-width: 20vh !important;
+}
+
+/* Blog */
+div.blogpost {
+margin-top: 1em;
+background: rgba(255,122,22,0.1);
+padding: 1em 1em 0.2em 1em;
+border-radius: 1em;
+}
+div.blogpost > h1 {
+margin-top: 0;
+}
+p.blogdate{
+font-size: 90%;
+text-align: right;
+}
+p.blogdate:before{
+content: "";
+display: block;
+position: relative;
+right: -90%;
+width: 10%;
+top: 0;
+border-top: solid 0.1em black;
+padding-top: 0.5em;
+}
+.contents ul li {
+list-style-type: none;
+bullet-style: none;
+padding-top: 0.3em;
+padding-bottom: 0.3em;
+text-indent: -2em;
 }
 
 /* Google etc. */

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Jared's Blog</title>
+<id>http://jared.henley.id.au/blog/atom.atom</id>
+<updated>2023-05-31T21:14:59.418573</updated>
+<entry>
+<link href="http://jared.henley.id.au/blog/2023/05/28.html" />
+<title>1000 lego astronaut minifigures fly to the edge of space</title>
+<summary>They left from Slovakia and the Czech Republic</summary>
+<updated>2023-05-31T21:14:41.762635</updated>
+<published>2023-05-28T00:00:00</published>
+</entry>
+</feed>
