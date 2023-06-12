@@ -234,6 +234,12 @@ float: right;
 clear: both;
 }
 
+/* YouTube video embed */
+.youtube {
+aspect-ratio: 16 / 9;
+width: 80%;
+}
+
 /* For narrow viewports */
 @media (max-width: 800px) {
 body {
