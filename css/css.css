@@ -230,6 +230,7 @@ border-radius: 0.5em;
 padding: 1em;
 background: #FFD8BB;
 min-height: 10vh; /* same as icon below */
+font-size: 200%;
 }
 input.show_done:checked + label {
 filter: grayscale(100%);
