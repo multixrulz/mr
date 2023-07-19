@@ -234,9 +234,9 @@ input.show_done + label div {
 margin: 0.5em 0;
 border: solid #FF7A16;
 border-radius: 0.5em;
-padding: 1em;
+padding: 0em 1em;
 background: #FFD8BB;
-min-height: 10vh; /* same as icon below */
+min-height: 18vh; /* same as icon below + padding*/
 font-size: 200%;
 }
 input.show_done:checked + label {
@@ -246,6 +246,7 @@ input.show_done + label .icon {
 float: right;
 clear: both;
 height: 10vh;
+padding: 1em 0;
 }
 
 /* Google etc. */
