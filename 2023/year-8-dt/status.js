@@ -5,7 +5,7 @@ function load_student_list() {
     json_text =
     json_rq = new XMLHttpRequest();
     json_rq.onload = students_loaded;
-    url = 'student-data.json?' + Date.now();
+    url = 'student-data.json?v=' + Date.now();
     json_rq.open('GET', url, true);
     json_rq.send(null);  // No data needs to be sent along with the
 }
