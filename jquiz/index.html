@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mr Henley’s Website — Year 9G Science</title>
+<title>JQuiz</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="/css/css.css">
 <link rel="shortcut icon" href="/favicon.png">
-<meta name="description" content="Lesson outlines and resources for Year 9G Science">
+<meta name="description" content="A static HTML, CSS and Javascript quiz system.">
 <meta name="generator" content="0cms">
 <meta name="author" content="Jared Henley">
 <meta name="copyright" content="&copy; State of NSW (Department of Education) 2023">
@@ -24,17 +24,22 @@
     </a>
     </div>
     <div id="content">
-<h1>9G Science</h1>
-<h2>Term 3</h2>
-<ul>
-<li><a href="t3/w1-04thu.html">Week 1, Thursday</a></li>
-<li><a href="t3/w1-05fri.html">Week 1, Friday</a></li>
-<li><a href="t3/w2-3w.html">Week 2, Wednesday</a></li>
-<li><a href="t3/w2-4t.html">Week 2, Thursday</a></li>
-<li><a href="t3/w3-2t.html">Week 3, Tuesday</a></li>
-<li><a href="t3/w3-3w.html">Week 3, Wednesday</a></li>
-<li><a href="t3/w3-5f.html">Week 3, Friday</a></li>
-</ul>
+<h1>JQuiz</h1>
+<p>JQuiz is a quiz system written in HTML, CSS and Javascript. It has no database or server.</p>
+<p>This page serves as a test page for JQuiz.</p>
+<p>The same quiz is being loaded up here twice to test that JQuiz is able to do that without getting the quizzes mixed up.</p>
+
+
+<script src="/jquiz/jquiz.js"></script>
+<script>
+jquiz_insert("/jquiz/tests/basic-multichoice.jquiz",
+    "Test yourself with this cool quiz");
+</script>
+<script>
+jquiz_insert("/jquiz/tests/basic-multichoice.jquiz",
+    "Test yourself with a random question");
+</script>
+
     </div>
     <div id="foot">
 <p>Author: Jared Henley</p>
@@ -42,8 +47,8 @@
 <p>Except as otherwise noted, all material in this website is licensed under a Creative Commons Share Alike Licence (CC-BY-SA).</p>
 <p><a href="/credits.html">Credits for material from third parties</a></p>
 <p>Built with <a href="http://0cms.henley.id.au">0cms</a>.</p>
-<p><em>Last built: 2023-08-06 16:31:49.705833</em></p>
-<p><em>Last modified: 2023-08-06 14:50:59.091766</em></p>
+<p><em>Last built: 2023-08-06 20:11:48.593307</em></p>
+<p><em>Last modified: 2023-08-06 20:11:46.693588</em></p>
     </div>
 </div>
 </body>

@@ -1,0 +1,32 @@
+% jquiz
+% multichoice
+text:What is 2+3?
+image:question.png
+@answer
+text: 4 is a really long answer to test how wrapping etc works.
+image:thing.svg
+correct: false
+@answer
+text: 5
+correct: true
+@answer
+image: 6.png
+correct: false
+@answer
+text: 23
+image:
+correct: false
+% multichoice
+text: What is 3+2?
+@answer
+text:No idea
+correct: false
+@answer
+text:Same as 2+3
+correct: true
+@answer
+text:15
+correct:false
+@answer
+text: 7
+correct: false
