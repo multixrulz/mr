@@ -1,0 +1,91 @@
+% jquiz
+% question
+text:What type of rock comes from volcanoes?
+@answer
+text:Soft rocks
+correct: false
+@answer
+text:Metamorphic rocks
+correct: false
+@answer
+text:Igneous rocks
+correct: true
+@answer
+text:Sedimentary rocks
+correct: false
+
+% question
+text:What type of rock do we get when other rocks have a lot of heat and pressure?
+@answer
+text:Igneous rocks
+correct: false
+@answer
+text:Orange rocks
+correct: false
+@answer
+text:Sedimentary rocks
+correct: false
+@answer
+text:Metamorphic rocks
+correct: true
+
+% question
+text: What type of rock is made of little particles that collect on the bottom of lakes and oceans?
+
+@answer
+text:Sedimentary rocks
+correct: true
+@answer
+text:Metamorphic rocks
+correct: false
+@answer
+text:Igneous rocks
+correct: false
+@answer
+text:Metal rocks
+correct: false
+
+% question
+text: Which of these things is NOT a sign of an igneous rock?
+@answer
+text: Little holes
+correct: false
+@answer
+text: Interlocking crystals
+correct: false
+@answer
+text: Has bands of crystals
+correct: true
+@answer
+text: Looks glassy
+correct: false
+
+% question
+text: Which of these is NOT a sign of a sedimentary rock?
+@answer
+text: Looks glassy
+correct: true
+@answer
+text: Made of little sand or mud particles
+correct: false
+@answer
+text: Has layers
+correct: false
+@answer
+text: Has evidence of living things
+correct: false
+
+% question
+text: Which of these things is a sign of a metamorphic rock?
+@answer
+text: Interlocking crystals
+correct: false
+@answer
+text: Made of little sand or mud particles
+correct: false
+@answer
+text: Has bands of crystals
+correct: true
+@answer
+text: Has evidence of living things
+correct: false
