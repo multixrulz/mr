@@ -1,0 +1,162 @@
+% jquiz
+% question
+text: What is the smallest piece of an element?
+@answer
+text: a compound
+correct: false
+@answer
+text: a galaxy
+correct: false
+@answer
+text: an atom
+correct: true
+@answer
+text: a chunk
+correct: false
+
+% question
+text: How many different types of atom are found in nature?
+@answer
+text: 27
+correct: false
+@answer
+text: 92
+correct: true
+@answer
+text: about 32 million
+correct: false
+@answer
+text: an infinite number
+correct: false
+
+% question
+text: What do we call the list of all the elements?
+@answer
+text: the periodic table
+correct: true
+@answer
+text: the list of elements
+correct: false
+@answer
+text: the chemist's handbook
+correct: false
+@answer
+text: a conspiracy theory
+correct: false
+
+% question
+text: Which of these things is not a property of metals?
+@answer
+text: ductile
+correct: false
+@answer
+text: malleable
+correct: false
+@answer
+text: brittle
+correct: true
+@answer
+text: strong
+correct: false
+
+% question
+text: What is an alloy?
+@answer
+text: a super-strong material
+correct: false
+@answer
+text: a new state of matter
+correct: false
+@answer
+text: a compound found in the human body
+correct: false
+@answer
+text: a mixture of metals
+correct: true
+
+% question
+text: A chemical change always involves ...
+@answer
+text: explosions
+correct: false
+@answer
+text: creation of new substances
+correct: true
+@answer
+text: heating
+correct: false
+@answer
+text: substances that cause cancer
+correct: false
+
+% question
+text: Are physical changes difficult to reverse?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% question
+text: Are chemical changes difficult to reverse?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% question
+text: Is there a chemical change when you cut wood?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% question
+text: Is there a chemical change when you burn fuel in a car engine?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% question
+text: Is there a chemical change when you fry an egg?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% question
+text: Is there a chemical change when you dent a car?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% question
+text: Is there a chemical change when you make a cake?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% question
+text: Do chemical reactions always cause chemical changes?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
