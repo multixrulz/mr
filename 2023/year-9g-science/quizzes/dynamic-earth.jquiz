@@ -1,0 +1,50 @@
+% jquiz
+% question
+text: Who is famous for creating the theory of continental drift?
+@answer
+text: Albert Einstein
+correct: false
+@answer
+text: Alfred Wegener
+correct: true
+@answer
+text: Isaac Newton
+correct: false
+@answer
+text: Marie Curie
+correct: false
+
+% question
+text: What was Pangaea?
+@answer
+text: A kind of dinosaur bird
+correct: false
+@answer
+text: A solution to every kind of problem
+correct: false
+@answer
+text: A piece of Earth's crust that floats around on the mantle
+correct: false
+@answer
+text: A supercontinent made from all the continents
+correct: true
+
+
+% question
+text: Continental drift theory tells us that the Earth is always changing
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% question
+text: Matching rocks and fossils at matching parts of continents is evidence for continental drift
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+

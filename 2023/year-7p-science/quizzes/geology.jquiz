@@ -89,3 +89,65 @@ correct: true
 @answer
 text: Has evidence of living things
 correct: false
+
+% question
+text: Rocks breaking into smaller pieces is called
+@answer
+text: Weathering
+correct: true
+@answer
+text: Erosion
+correct: false
+@answer
+text: Breaking
+correct: false
+@answer
+text: Deposition
+correct: false
+
+% question
+text: What do we call the movement of small rocks, dirt and dust by water or wind?
+@answer
+text: Weathering
+correct: false
+@answer
+text: Erosion
+correct: true
+@answer
+text: Moving
+correct: false
+@answer
+text: Deposition
+correct: false
+
+% question
+text: _____________ weathering is caused by physical things like wind, rain, and tree roots.
+@answer
+text: Chemical
+correct: false
+@answer
+text: Natural
+correct: false
+@answer
+text: Physical
+correct: true
+@answer
+text: Ordinary
+correct: false
+
+% question
+text: _____________ weathering is caused by chemicals, such as acid rain.
+@answer
+text: Chemical
+correct: true
+@answer
+text: Natural
+correct: false
+@answer
+text: Physical
+correct: false
+@answer
+text: Man-made
+correct: false
+
+
