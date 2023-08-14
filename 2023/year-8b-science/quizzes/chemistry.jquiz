@@ -160,3 +160,48 @@ correct: true
 @answer
 text: No
 correct: false
+
+% question
+text: Which of these things makes a chemical reaction happen faster without being used up?
+@answer
+text: Reactants
+correct: false
+@answer
+text: Products
+correct: false
+@answer
+text: Catalysts
+correct: true
+@answer
+text: Cold
+correct: false
+
+% question
+text: Which of these things does NOT make a chemical reaction faster?
+@answer
+text: Higher temperature
+correct: false
+@answer
+text: Catalyst
+correct: false
+@answer
+text: Higher concentration
+correct: false
+@answer
+text: Larger particles
+correct: true
+
+% question
+text: Which of these things does NOT slow down the rusting reaction?
+@answer
+text: Salty water
+correct: true
+@answer
+text: Paint
+correct: false
+@answer
+text: Galvanising (zinc coating)
+correct: false
+@answer
+text: Dry climate
+correct: false
