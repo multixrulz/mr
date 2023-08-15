@@ -76,7 +76,7 @@ text: Transform plate boundary
 correct: false
 
 % question
-text: What is the name of the process by which one tectonic plate is goes beneath another?
+text: What is the name of the process by which one tectonic plate goes beneath another?
 @answer
 text: Seafloor spreading
 correct: false
