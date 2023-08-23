@@ -12,7 +12,7 @@ text: abiotic
 correct: true
 @answer
 text: abiomial
-correct: true
+correct: false
 
 % question
 text: A biotic factor is something that is, or used to be, ____________
@@ -57,7 +57,7 @@ text: micro-ecosystem
 correct: true
 @answer
 text: meso-ecosystem
-correct: true
+correct: false
 
 
 % question
