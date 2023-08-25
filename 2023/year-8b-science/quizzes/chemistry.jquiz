@@ -1,5 +1,5 @@
 % jquiz
-% question
+% multichoice
 text: What is the smallest piece of an element?
 @answer
 text: a compound
@@ -14,7 +14,7 @@ correct: true
 text: a chunk
 correct: false
 
-% question
+% multichoice
 text: How many different types of atom are found in nature?
 @answer
 text: 27
@@ -29,7 +29,7 @@ correct: false
 text: an infinite number
 correct: false
 
-% question
+% multichoice
 text: What do we call the list of all the elements?
 @answer
 text: the periodic table
@@ -44,7 +44,7 @@ correct: false
 text: a conspiracy theory
 correct: false
 
-% question
+% multichoice
 text: Which of these things is not a property of metals?
 @answer
 text: ductile
@@ -59,7 +59,7 @@ correct: true
 text: strong
 correct: false
 
-% question
+% multichoice
 text: What is an alloy?
 @answer
 text: a super-strong material
@@ -74,7 +74,7 @@ correct: false
 text: a mixture of metals
 correct: true
 
-% question
+% multichoice
 text: A chemical change always involves ...
 @answer
 text: explosions
@@ -89,7 +89,7 @@ correct: false
 text: substances that cause cancer
 correct: false
 
-% question
+% multichoice
 text: Are physical changes difficult to reverse?
 @answer
 text: Yes
@@ -98,7 +98,7 @@ correct: false
 text: No
 correct: true
 
-% question
+% multichoice
 text: Are chemical changes difficult to reverse?
 @answer
 text: Yes
@@ -107,7 +107,7 @@ correct: true
 text: No
 correct: false
 
-% question
+% multichoice
 text: Is there a chemical change when you cut wood?
 @answer
 text: Yes
@@ -116,7 +116,7 @@ correct: false
 text: No
 correct: true
 
-% question
+% multichoice
 text: Is there a chemical change when you burn fuel in a car engine?
 @answer
 text: Yes
@@ -125,7 +125,7 @@ correct: true
 text: No
 correct: false
 
-% question
+% multichoice
 text: Is there a chemical change when you fry an egg?
 @answer
 text: Yes
@@ -134,7 +134,7 @@ correct: true
 text: No
 correct: false
 
-% question
+% multichoice
 text: Is there a chemical change when you dent a car?
 @answer
 text: Yes
@@ -143,7 +143,7 @@ correct: false
 text: No
 correct: true
 
-% question
+% multichoice
 text: Is there a chemical change when you make a cake?
 @answer
 text: Yes
@@ -152,7 +152,7 @@ correct: true
 text: No
 correct: false
 
-% question
+% multichoice
 text: Do chemical reactions always cause chemical changes?
 @answer
 text: Yes
@@ -161,7 +161,7 @@ correct: true
 text: No
 correct: false
 
-% question
+% multichoice
 text: Which of these things makes a chemical reaction happen faster without being used up?
 @answer
 text: Reactants
@@ -176,7 +176,7 @@ correct: true
 text: Cold
 correct: false
 
-% question
+% multichoice
 text: Which of these things does NOT make a chemical reaction faster?
 @answer
 text: Higher temperature
@@ -191,7 +191,7 @@ correct: false
 text: Larger particles
 correct: true
 
-% question
+% multichoice
 text: Which of these things does NOT slow down the rusting reaction?
 @answer
 text: Salty water

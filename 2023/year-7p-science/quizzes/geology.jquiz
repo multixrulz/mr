@@ -46,34 +46,34 @@ text:Metal rocks
 correct: false
 
 % question
-text: Which of these things is NOT a sign of an igneous rock?
+text: Which of these things are signs of an igneous rock?
 @answer
 text: Little holes
-correct: false
+correct: true
 @answer
 text: Interlocking crystals
-correct: false
+correct: true
 @answer
 text: Has bands of crystals
-correct: true
+correct: false
 @answer
 text: Looks glassy
-correct: false
+correct: true
 
 % question
-text: Which of these is NOT a sign of a sedimentary rock?
+text: Which of these are signs of a sedimentary rock?
 @answer
 text: Looks glassy
-correct: true
+correct: false
 @answer
 text: Made of little sand or mud particles
-correct: false
+correct: true
 @answer
 text: Has layers
-correct: false
+correct: true
 @answer
 text: Has evidence of living things
-correct: false
+correct: true
 
 % question
 text: Which of these things is a sign of a metamorphic rock?
