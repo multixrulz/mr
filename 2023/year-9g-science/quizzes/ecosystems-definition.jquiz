@@ -1,5 +1,5 @@
 % jquiz
-% question
+% multichoice
 text: An ecosystem is a group of interacting ____________ and biotic factors.
 @answer
 text: living
@@ -14,7 +14,7 @@ correct: true
 text: abiomial
 correct: false
 
-% question
+% multichoice
 text: A biotic factor is something that is, or used to be, ____________
 @answer
 text: alive
@@ -29,7 +29,7 @@ correct: false
 text: moving
 correct: false
 
-% question
+% multichoice
 text: An abiotic factor is something that never was _____________
 @answer
 text: healthy
@@ -44,7 +44,7 @@ correct: false
 text: alive
 correct: true
 
-% question
+% multichoice
 text: A very small ecosystem is called a ______________
 @answer
 text: planet
@@ -60,7 +60,7 @@ text: meso-ecosystem
 correct: false
 
 
-% question
+% multichoice
 text: A middle-sized ecosystem like a lake is called a ______________
 @answer
 text: planet
