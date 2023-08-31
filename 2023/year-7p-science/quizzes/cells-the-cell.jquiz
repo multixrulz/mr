@@ -1,0 +1,31 @@
+% jquiz
+
+% multichoice
+text: Who first discovered cells?
+@answer
+text: Robert Hooke
+correct: true
+@answer
+text: Albert Einstein
+correct: false
+@answer
+text: Mr Henley
+correct: false
+@answer
+text: Aristotle
+correct: false
+
+% multichoice
+text: What is the smallest unit of life?
+@answer
+text: a cell
+correct: true
+@answer
+text: an atom
+correct: false
+@answer
+text: a molecule
+correct: false
+@answer
+text: an organelle
+correct: false
