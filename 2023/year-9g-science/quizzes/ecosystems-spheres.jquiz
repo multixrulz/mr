@@ -1,0 +1,159 @@
+% jquiz
+% multichoice
+text:Which Greek word means "vapour"?
+@answer
+text: atmos
+correct: true
+@answer
+text:lithos
+correct: false
+@answer
+text:hydro
+correct: false
+@answer
+text:bio
+correct: false
+
+% multichoice
+text:Which Greek word means "water"?
+@answer
+text: atmos
+correct: false
+@answer
+text:lithos
+correct: false
+@answer
+text:hydro
+correct: true
+@answer
+text:bio
+correct: false
+
+% multichoice
+text:Which Greek word means "life"?
+@answer
+text: atmos
+correct: false
+@answer
+text:lithos
+correct: false
+@answer
+text:hydro
+correct: false
+@answer
+text:bio
+correct: true
+
+% multichoice
+text:Which Greek word means "stone"?
+@answer
+text: atmos
+correct: false
+@answer
+text:lithos
+correct: true
+@answer
+text:hydro
+correct: false
+@answer
+text:bio
+correct: false
+
+% multichoice
+text: What does the atmosphere do?
+@answer
+text: Protection from UV radiation
+correct: true
+@answer
+text:Holds in heat to warm the planet
+correct: true
+@answer
+text:Contains oxygen and carbon dioxide needed for life
+correct: true
+@answer
+text:Hides the Earth from alien probes
+correct: false
+
+% multichoice
+text: What are the two main gases in the atmosphere?
+@answer
+text: Nitrogen
+correct: true
+@answer
+text: Oxygen
+correct: true
+@answer
+text: Methane
+correct: false
+@answer
+text: Carbon Dioxide
+correct: false
+
+% multichoice
+text: The hydrosphere includes
+@answer
+text: Liquid water
+correct: true
+@answer
+text:Ice
+correct: true
+@answer
+text:Water vapour
+correct: false
+@answer
+text:Fish
+correct: false
+
+% multichoice
+text: The biosphere contains
+@answer
+text:All life
+correct: true
+@answer
+text:Animals, but not plants or humans
+correct: false
+@answer
+text:Humans only
+correct: false
+@answer
+text:Abiotic factors
+correct: false
+
+% multichoice
+text:The crust and upper part of the mantle are called the
+@answer
+text:Lithosphere
+correct: true
+@answer
+text:Life Zone
+correct: false
+@answer
+text:Crustosphere
+correct: false
+@answer
+text:Biosphere
+correct: false
+
+% multichoice
+text: The lithosphere constantly changes
+@answer
+text:True
+correct: true
+@answer
+text:False
+correct: false
+
+% multichoice
+text: Which spheres does a volcanic eruption affect?
+@answer
+text:Lithosphere
+correct: true
+@answer
+text:Atmosphere
+correct: true
+@answer
+text:Hydrosphere
+correct: true
+@answer
+text:Biosphere
+correct: true
