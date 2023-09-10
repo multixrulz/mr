@@ -75,10 +75,10 @@ function load_student() {
                 avatar_id = s["avatar"];
             }
                 avatar.src = "avatars/" + avatar_id + ".svg";
-            // Set badges
+            // Set badge visibility
             for (var key in s["badges"])
                 set_class(key, s["badges"][key]);
-            // Set activities
+            // Set activity visibility
             for (var key in s["activities"])
                 set_class(key, s["activities"][key]);
             // Show everything
