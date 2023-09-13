@@ -248,6 +248,9 @@ clear: both;
 height: 10vh;
 padding: 1em 0;
 }
+.icon img {
+height: 10vh;
+}
 
 /* Google etc. */
 iframe {
