@@ -323,11 +323,11 @@ correct: false
 % multichoice
 text:What colours can blood be?
 @answer
-text: red
+text: dark red
 correct: true
 @answer
-text: orange
-correct: false
+text: bright red
+correct: true
 @answer
 text: blue
 correct: false
