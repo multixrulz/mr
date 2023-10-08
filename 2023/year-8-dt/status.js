@@ -69,7 +69,7 @@ function load_student() {
             avatar = document.getElementById("avatar");
             if (s["avatar"] == 0) {
                 // Choose an avatar for the student
-                avatar_id = nickname_to_avatar(nickname, 62);
+                avatar_id = nickname_to_avatar(nickname, 58);
             } else {
                 // Use the student-selected avatar
                 avatar_id = s["avatar"];
