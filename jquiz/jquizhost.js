@@ -61,7 +61,9 @@ function jquiz_print() {
         html = `<h1 class="title">${title}</h1>`;
         jquiz_write_print_html(html);
         quiz_data['quiz'].forEach((question, index) => {
+            console.log("Question 1");
             if (index < quiz_data['max_questions']) {
+                console.log("Printing question");
                 console.log(`JQuiz: Writing out question ${index}`);
                 html = '<div class="jquiz-question">';
                 html += jquiz_question_html(question);
