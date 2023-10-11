@@ -61,14 +61,16 @@ function jquiz_print() {
         html = `<h1 class="title">${title}</h1>`;
         jquiz_write_print_html(html);
         quiz_data['quiz'].forEach((question, index) => {
-            if (index < quiz_data['max_questions']) {
+            if (index < quiz_data['num_questions']) {
                 console.log("Printing question");
                 console.log(`JQuiz: Writing out question ${index}`);
+                html = '<div class="nobreak">';
                 html = '<div class="jquiz-question">';
                 html += jquiz_question_html(question);
                 html += '</div>';
                 html += '<div class="jquiz-answers">';
                 html += jquiz_answer_html(question, true);
+                html += '</div>';
                 html += '</div>';
                 jquiz_write_print_html(html);
             }
@@ -90,6 +92,14 @@ function jquiz_load_quiz(callback) {
             console.log("JQuiz: Parse failed with exception " + e);
             return
         }
+        // How many questions are we going to show?
+        num_questions = quiz_data['quiz'].length;
+        if (quiz_data['max_questions'] === null) {
+            num_questions = quiz_data['quiz'].length;
+        } else {
+            num_questions = Math.min(num_questions, quiz_data['max_questions']);
+        }
+        quiz_data['num_questions'] = num_questions;
         quiz_data['loaded'] = true;
         console.log("JQuiz: quiz at " + quiz_data['src'] + " parsed.");
         callback();
@@ -105,6 +115,8 @@ function jquiz_get_data() {
     quiz_data['src'] = params.get("src");
     quiz_data['title'] = params.get("title");
     quiz_data['max_questions'] = params.get("max_q");
+    console.log("Got the following from the GET string:")
+    console.log(quiz_data)
 }
 
 function jquiz_audio_load() {
@@ -184,8 +196,7 @@ function jquiz_start() {
     quiz_results = {
         'q_index': 0,
         'completed': false,
-        'score': 0,
-        'num_questions': num_questions};
+        'score': 0};
     div = document.getElementById('jquiz');
     div.requestFullscreen();
 }
@@ -204,7 +215,7 @@ function jquiz_next_question() {
     q_index = quiz_results['q_index'];
     q_number = q_index + 1;
     score = quiz_results['score'];
-    num_questions = quiz_results['num_questions'];
+    num_questions = quiz_data['num_questions'];
     // TODO: Might need to check that the quiz has loaded first, and do
     // nothing otherwise, waiting for the user to click again.
     question = quiz_data['quiz'][q_index];
@@ -214,7 +225,7 @@ function jquiz_next_question() {
 
     // Increment the question number and check if the quiz will be completed with this question
     quiz_results['q_index']++;
-    if (quiz_results['q_index'] >= quiz_results['num_questions']) {
+    if (quiz_results['q_index'] >= num_questions) {
         quiz_results['completed'] = true;
         console.log("JQuiz: This is the last question. Quiz is complete.");
         next_button_text = "Finish quiz";
@@ -325,7 +336,7 @@ function jquiz_show_scoreboard() {
     jquiz_audio_play_music();
     // Display the score
     score = quiz_results['score'];
-    num_questions = quiz_results['num_questions'];
+    num_questions = quiz_data['num_questions'];
     html = `
         <div class="jquiz-quiz">
         <div class="jquiz-scoreboard">
@@ -357,13 +368,6 @@ function jquiz_shuffle_quiz() {
     jquiz_shuffle(quiz_data['quiz']);
     // Also shuffle the answers
     quiz_data['quiz'].forEach(question => jquiz_shuffle(question.answers));
-    // How many questions are we going to show?
-    num_questions = quiz_data['quiz'].length;
-    if (quiz_data['max_questions'] === null) {
-        num_questions = quiz_data['quiz'].length;
-    } else {
-        num_questions = Math.min(num_questions, quiz_data['max_questions']);
-    }
 }
 
 function jquiz_lock_it_in() {

@@ -41,12 +41,20 @@ body {
     margin-right: 1em;
     margin-left: 0.5em;
 }
+/* Style the box around question and answer */
+.nobreak {
+}
 /* Style questions */
 .jquiz-question {
     display: list-item;
+    list-style-position: outside;
     list-style-type: decimal;
-    padding-top: 1em;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
     margin-left: 2em;
+}
+.jquiz-question * {
+    vertical-align: top;
 }
 .jquiz-question div {
     display: inline-block;
@@ -55,8 +63,8 @@ body {
 .jquiz-answers {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin-left: 1em;
+    grid-template-rows: min-content;
+    margin-left: 2em;
 }
 
 .jquiz-answer {
