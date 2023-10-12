@@ -128,7 +128,7 @@ function jquiz_audio_load() {
 }
 
 function jquiz_audio_play_music() {
-    audio_music.volume = 0.05;
+    audio_music.volume = 0.1;
     audio_music.play();
 }
 
@@ -140,7 +140,7 @@ function jquiz_audio_music_ended(callback) {
 }
 
 function jquiz_audio_play_thinking() {
-    audio_thinking.volume = 0.05;
+    audio_thinking.volume = 0.02;
     audio_thinking.play();
 }
 
