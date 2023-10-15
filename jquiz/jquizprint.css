@@ -33,9 +33,6 @@ body {
     vertical-align: top;
     height: 6em;
 }
-.jquiz-answer * {
-    vertical-align: top;
-}
 .jquiz-answer img {
     height: 4em;
     margin-right: 1em;
@@ -69,6 +66,7 @@ body {
 
 .jquiz-answer {
     display: flex;
+    align-items: center;
 }
 
 .jquiz-answer input {
@@ -80,3 +78,24 @@ body {
     display: flex;
 }
 
+#show-answers {
+    margin-top: 2em;
+}
+
+/* Question numbering - required because of .nobreak divs*/
+body {
+    counter-reset: list-item;
+}
+.jquiz-question {
+    counter-increment: list-item;
+}
+
+@media print {
+    .nobreak {
+        break-inside: avoid;
+    }
+
+    #show-answers {
+        display: none;
+    }
+}

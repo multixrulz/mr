@@ -23,6 +23,7 @@ var quiz_results = {};
 var audio_correct;
 var audio_incorrect;
 var audio_music;
+var previous_id = 0;
 
 // Get things going
 function jquiz_run() {
@@ -65,7 +66,7 @@ function jquiz_print() {
                 console.log("Printing question");
                 console.log(`JQuiz: Writing out question ${index}`);
                 html = '<div class="nobreak">';
-                html = '<div class="jquiz-question">';
+                html += '<div class="jquiz-question">';
                 html += jquiz_question_html(question);
                 html += '</div>';
                 html += '<div class="jquiz-answers">';
@@ -75,6 +76,16 @@ function jquiz_print() {
                 jquiz_write_print_html(html);
             }
             });
+        html = `<input id="show-answers" type="button" onclick="jquiz_show_answers();" value="Show answers">`;
+        jquiz_write_print_html(html);
+    });
+}
+
+function jquiz_show_answers() {
+    selector = "input[correct='true']";
+    correct_answers = document.querySelectorAll(selector);
+    correct_answers.forEach(element => {
+        element.checked = true;
     });
 }
 
@@ -266,7 +277,14 @@ function jquiz_question_html(question) {
     return question_html;
 }
 
+function unique_id() {
+    new_id = previous_id + 1;
+    previous_id = new_id;
+    return "id" + new_id.toString();
+}
+
 function jquiz_answer_html(question, add_div=false) {
+    question_id = unique_id();
     // Build up some HTML for the answers
     answer_code = [];
     // How many correct answers are there?
@@ -285,12 +303,11 @@ function jquiz_answer_html(question, add_div=false) {
         }
     });
     question.answers.forEach((answer, index) => {
-        // Not guaranteed unique but hopefully good enough
-        answer_id = (Math.random() * 10**20).toString();
+        answer_id = unique_id();
         answer_snippet = jquiz_text_image_html(answer, quiz_data['src']);
         if (add_div == true)
             answer_code.push('<div class="jquiz-answer">');
-        answer_code.push(`<input type="${input_type}" id="${answer_id}" name="jquiz-${input_type}" correct="${answer.correct}" index="${index}" />
+        answer_code.push(`<input type="${input_type}" id="${answer_id}" name="jquiz-${question_id}" correct="${answer.correct}" index="${index}" />
         <label for="${answer_id}">${answer_snippet}</label>`);
         if (add_div == true)
             answer_code.push('</div>');

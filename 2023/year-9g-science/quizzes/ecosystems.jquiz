@@ -431,3 +431,211 @@ correct: true
 @answer
 text:Biosphere
 correct: true
+
+% multichoice
+text: Which of these processes releases carbon dioxide into the atmosphere?
+@answer
+text: respiration
+correct: true
+@answer
+text: combustion
+correct: true
+@answer
+text: decay
+correct: true
+@answer
+text: photosynthesis
+correct: false
+
+% multichoice
+text: Which of these processes take carbon to the bottom of the ocean
+@answer
+text: ocean creatures like phytoplankton die and sink
+correct: true
+@answer
+text: organic matter from land washes into the ocean and sinks
+correct: true
+@answer
+text: carbon dioxide dissolves in the ocean
+correct: false
+
+
+% multichoice
+text: Most of the mass of a tree comes from
+@answer
+text: carbon dioxide in the air
+correct: true
+@answer
+text: carbon dioxide in the water
+correct: false
+@answer
+text: carbon in organic matter in the ground
+correct: false
+
+% multichoice
+text: How much more carbon dioxide is in the ocean compared to the atmosphere?
+@answer
+text: 60 times
+correct: true
+@answer
+text: 30 times
+correct: false
+@answer
+text: 100 times
+correct: false
+@answer
+text: 5 times
+correct: false
+
+% multichoice
+text: Which processes remove carbon from the atmosphere?
+@answer
+text: photosynthesis
+correct: true
+@answer
+text: carbon exchange in the ocean
+correct: true
+@answer
+text: respiration
+correct: false
+@answer
+text: rock formation
+correct: false
+
+% multichoice
+text: Which plants capture nitrogen from the air
+@answer
+text: legumes
+correct: true
+@answer
+text: grains
+correct: false
+@answer
+text: trees
+correct: false
+@answer
+text: grasses
+correct: false
+
+% multichoice
+text: How does nitrogen move from animals into the ground?
+@answer
+text: urine
+correct: true
+@answer
+text: dung
+correct: true
+@answer
+text: breath
+correct: false
+@answer
+text: burping
+correct: false
+
+% multichoice
+text: Some microbes take soil nitrogen compounds and produce nitrogen gas
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Plants need to absorb nitrogen from the soil
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Which agricultural process moves nitrogen out of the soil?
+@answer
+text: harvesting
+correct: true
+@answer
+text: fertilising
+correct: false
+@answer
+text: sowing
+correct: false
+@answer
+text: spraying
+correct: false
+
+% multichoice
+text: How does water mostly enter the atmosphere?
+@answer
+text: evaporation
+correct: true
+@answer
+text: precipitation
+correct: false
+@answer
+text: condensation
+correct: false
+@answer
+text: runoff
+correct: false
+
+% multichoice
+text: Where is most of the Earth’s water that is part of the water cycle?
+@answer
+text: oceans
+correct: true
+@answer
+text: atmosphere
+correct: false
+@answer
+text: groundwater
+correct: false
+@answer
+text: rivers and lakes
+correct: false
+
+% multichoice
+text: Condensation in the water cycle produces
+@answer
+text: clouds
+correct: true
+@answer
+text: rain
+correct: false
+@answer
+text: humidity
+correct: false
+@answer
+text: dry weather
+correct: false
+
+% multichoice
+text: Which of these is a kind of precipitation?
+@answer
+text: rain
+correct: true
+@answer
+text: snow
+correct: true
+@answer
+text: hail
+correct: true
+@answer
+text: wind
+correct: false
+
+% multichoice
+text: What causes evaporation in the water cycle?
+@answer
+text: Heat from the sun
+correct: true
+@answer
+text: Cold from the polar ice
+correct: false
+@answer
+text: Cold high in the atmosphere
+correct: false
+@answer
+text: Heat from magma underground
+correct: false
