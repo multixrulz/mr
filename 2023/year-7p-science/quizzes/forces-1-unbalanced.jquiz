@@ -59,5 +59,17 @@ correct: false
 text: natural
 correct: false
 
-
-
+% multichoice
+text: When an unbalanced force acts on an object, what happens?
+@answer
+text: Its speed or direction changes
+correct: true
+@answer
+text: It starts moving
+correct: false
+@answer
+text: It slows down
+correct: false
+@answer
+text: It moves at a constant speed
+correct: false

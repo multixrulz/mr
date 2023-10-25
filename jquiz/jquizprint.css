@@ -83,6 +83,7 @@ body {
 }
 
 /* Question numbering - required because of .nobreak divs*/
+}
 body {
     counter-reset: list-item;
 }

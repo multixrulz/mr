@@ -1,0 +1,100 @@
+% jquiz
+% multichoice
+text: Which kind of friction makes it hard to start pushing a heavy box across the floor?
+@answer
+text: static
+correct: true
+@answer
+text: sliding
+correct: false
+@answer
+text: rolling
+correct: false
+@answer
+text: fluid
+correct: false
+
+% multichoice
+text: Which kind of friction slows you when you do a big slide to score a try?
+@answer
+text: sliding
+correct: true
+@answer
+text: static
+correct: false
+@answer
+text: rolling
+correct: false
+@answer
+text: fluid
+correct: false
+
+% multichoice
+text: Which kind of friction acts on the tyres of a motorbike while it is going?
+@answer
+text: rolling
+correct: true
+@answer
+text: static
+correct: false
+@answer
+text: sliding
+correct: false
+@answer
+text: fluid
+correct: false
+
+% multichoice
+text: Which kind of friction do you make smaller by putting your head down while riding a bike?
+@answer
+text: fluid
+correct: true
+@answer
+text: static
+correct: false
+@answer
+text: sliding
+correct: false
+@answer
+text: rolling
+correct: false
+
+% multichoice
+text: Which direction does the friction force act in?
+@answer
+text: opposite to the direction the thing is moving
+correct: true
+@answer
+text: in the direction the thing is moving
+correct: false
+@answer
+text: downward
+correct: false
+@answer
+text: sideways compared to the direction the thing is moving
+correct: false
+
+% multichoice
+text: Do we always want to make friction really small?
+@answer
+text: No
+correct: true
+@answer
+text: Yes
+correct: false
+
+% multichoice
+text: Sliding friction makes things
+@answer
+text: hotter
+correct: true
+@answer
+text: colder
+correct: false
+@answer
+text: wetter
+correct: false
+@answer
+text: harder
+correct: false
+
