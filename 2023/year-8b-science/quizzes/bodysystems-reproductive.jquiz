@@ -1,0 +1,78 @@
+% jquiz
+% multichoice
+text: How many sperm cells compete to get to the egg?
+@answer
+text: Millions
+correct: true
+@answer
+text: Hundreds
+correct: false
+@answer
+text: Thousands
+correct: false
+@answer
+text: Tens of thousands
+correct: false
+
+% multichoice
+text: How long does it take a human baby to grow from fertilisation to birth?
+@answer
+text: 9 months
+correct: true
+@answer
+text: 3 months
+correct: false
+@answer
+text: 1 year
+correct: false
+@answer
+text: 11 months
+correct: false
+
+% multichoice
+text: Where does a baby grow?
+@answer
+text: Uterus
+correct: true
+@answer
+text: Penis
+correct: false
+@answer
+text: Fallopian tube
+correct: false
+@answer
+text: Ovary
+correct: false
+
+% multichoice
+text: Where are sperm made?
+@answer
+text: Testes
+correct: true
+@answer
+text: Uterus
+correct: false
+@answer
+text: Fallopian tube
+correct: false
+@answer
+text: Ovaries
+correct: false
+
+% multichoice
+text: Where are eggs made?
+@answer
+text: Ovaries
+correct: true
+@answer
+text: Uterus
+correct: false
+@answer
+text: Fallopian tube
+correct: false
+@answer
+text: Testes
+correct: false
+
+
+
