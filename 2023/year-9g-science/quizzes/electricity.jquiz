@@ -1,0 +1,236 @@
+% jquiz
+% multichoice
+text: What is needed in any electric circuit?
+@answer
+text: Load
+correct: true
+@answer
+text: Conducting path
+correct: true
+@answer
+text: Power supply
+correct: true
+@answer
+text: Volt meter
+correct: false
+@answer
+text: Ammeter
+correct: false
+@answer
+text: Resistance
+correct: false
+
+% multichoice
+text: What is the symbol for a battery?
+@answer
+image: electricity/battery.svg
+correct: true
+@answer
+image: electricity/wire.svg
+correct: false
+@answer
+image: electricity/lamp.svg
+correct: false
+@answer
+image: electricity/switch.svg
+correct: false
+
+% multichoice
+text: What is the symbol for a wire?
+@answer
+image: electricity/battery.svg
+correct: false
+@answer
+image: electricity/wire.svg
+correct: true
+@answer
+image: electricity/lamp.svg
+correct: false
+@answer
+image: electricity/switch.svg
+correct: false
+
+% multichoice
+text: What is the symbol for a lamp?
+@answer
+image: electricity/battery.svg
+correct: false
+@answer
+image: electricity/wire.svg
+correct: false
+@answer
+image: electricity/lamp.svg
+correct: true
+@answer
+image: electricity/switch.svg
+correct: false
+
+% multichoice
+text: What is the symbol for a switch?
+@answer
+image: electricity/battery.svg
+correct: false
+@answer
+image: electricity/wire.svg
+correct: false
+@answer
+image: electricity/lamp.svg
+correct: false
+@answer
+image: electricity/switch.svg
+correct: true
+
+% multichoice
+text: What do we call the flow of electric charge?
+@answer
+text: Current
+correct: true
+@answer
+text: Voltage
+correct: false
+@answer
+text: Resistance
+correct: false
+@answer
+text: Load
+correct: false
+
+% multichoice
+text: What do we call measure of how much a load restricts the current?
+@answer
+text: Current
+correct: false
+@answer
+text: Voltage
+correct: false
+@answer
+text: Resistance
+correct: true
+@answer
+text: Load
+correct: false
+
+% multichoice
+text: What do we call the energy of electric charges in a circuit?
+@answer
+text: Current
+correct: false
+@answer
+text: Voltage
+correct: true
+@answer
+text: Resistance
+correct: false
+@answer
+text: Load
+correct: false
+
+% multichoice
+text: What is the unit used to measure current?
+@answer
+text: Amps
+correct: true
+@answer
+text: Volts
+correct: false
+@answer
+text: Ohms
+correct: false
+@answer
+text: Joules
+correct: false
+
+% multichoice
+text: What is the unit used to measure voltage?
+@answer
+text: Amps
+correct: false
+@answer
+text: Volts
+correct: true
+@answer
+text: Ohms
+correct: false
+@answer
+text: Joules
+correct: false
+
+% multichoice
+text: What is the unit used to measure resistance?
+@answer
+text: Amps
+correct: false
+@answer
+text: Volts
+correct: false
+@answer
+text: Ohms
+correct: true
+@answer
+text: Joules
+correct: false
+
+% multichoice
+text: What is the unit used to measure energy?
+@answer
+text: Amps
+correct: false
+@answer
+text: Volts
+correct: false
+@answer
+text: Ohms
+correct: false
+@answer
+text: Joules
+correct: true
+
+% multichoice
+text: Which of these is a parallel circuit?
+@answer
+image: electricity/parallel.svg
+correct: true
+@answer
+image: electricity/series.svg
+correct: false
+
+% multichoice
+text: Which of these is a series circuit?
+@answer
+image: electricity/series.svg
+correct: true
+@answer
+image: electricity/parallel.svg
+correct: false
+
+% multichoice
+text: Which of these is true about a series circuit?
+@answer
+text: The voltage is split between the components
+correct: true
+@answer
+text: The same current flows through the components
+correct: true
+@answer
+text: If one component fails, the circuit is broken
+correct: true
+@answer
+text: The current is split between the components
+correct: false
+
+% multichoice
+text: Which of these is true about a parallel circuit?
+@answer
+text: The current is split between the components
+correct: true
+@answer
+text: The same voltage exists across each components
+correct: true
+@answer
+text: If one component fails, the circuit is broken
+correct: false
+@answer
+text: The voltage is split between the components
+correct: false
+
+

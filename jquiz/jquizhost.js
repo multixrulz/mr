@@ -47,8 +47,11 @@ function jquiz_start_button() {
         html = `<h1 class="jquiz-contrast-with-bg jquiz-title">${title}</h1>
     <input type="button" value="Start the quiz" onclick="jquiz_start();" />
     <div id="jquiz-credits">
-<p><a href="credits.html">JQuiz Credits</a></p>
-</div>`;
+        <p><a href="credits.html">JQuiz Credits</a></p>
+    </div>
+    <div class="jquiz-bottombar">
+        <input type="image" class="jquiz-quit" value="quit" onclick="window.close();" />
+    </div>`;
     jquiz_write_interactive_html(html);
 }
 
@@ -59,7 +62,7 @@ function jquiz_print() {
 
         console.log("JQuiz: Writing out the questions");
         title = quiz_data['title'];
-        html = `<h1 class="title">${title}</h1>`;
+        html = `<p>Name:</p><h1 class="title">${title}</h1>`;
         jquiz_write_print_html(html);
         quiz_data['quiz'].forEach((question, index) => {
             if (index < quiz_data['num_questions']) {

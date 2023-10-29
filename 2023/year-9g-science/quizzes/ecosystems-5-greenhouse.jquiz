@@ -1,0 +1,92 @@
+% jquiz
+% multichoice
+text: Which of these is a greenhouse gas?
+@answer
+text: Carbon Dioxide
+correct: true
+@answer
+text: Methane
+correct: true
+@answer
+text: Water vapour
+correct: true
+@answer
+text: Oxygen
+correct: false
+
+% multichoice
+text: What would happen if there was no greenhouse effect at all?
+@answer
+text: Earth would be in an ice age
+correct: true
+@answer
+text: Everything would be perfect
+correct: false
+@answer
+text: All life would die from heat
+correct: false
+@answer
+text: Nobody could grow vegetables in winter
+correct: false
+
+% multichoice
+text: Is the amount of carbon dioxide in the atmosphere increasing?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: What is the main cause of increased carbon dioxide in the atmosphere?
+@answer
+text: Burning of fossil fuels
+correct: true
+@answer
+text: Burping cows
+correct: false
+@answer
+text: Environmentalists
+correct: false
+@answer
+text: More people on the Earth
+correct: false
+
+% multichoice
+text: Which of these things gives evidence that the Earth is getting warmer?
+@answer
+text: Weather records
+correct: true
+@answer
+text: Melting ice sheets at the poles
+correct: true
+@answer
+text: Melting glaciers
+correct: true
+@answer
+text: Rising sea levels
+correct: true
+@answer
+text: Air pollution in cities
+correct: false
+@answer
+text: High prices for food
+correct: false
+
+% multichoice
+text: Why are renewable energy sources being promoted?
+@answer
+text: They don’t add carbon dioxide to the atmosphere
+correct: true
+@answer
+text: The earth will never run out of them
+correct: true
+@answer
+text: They put people in coal mines out of work
+correct: false
+@answer
+text: They give people a way to reduce their electricity bills using solar panels
+correct: false
+
+

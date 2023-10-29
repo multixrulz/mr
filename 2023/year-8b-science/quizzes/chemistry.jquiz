@@ -45,19 +45,19 @@ text: a conspiracy theory
 correct: false
 
 % multichoice
-text: Which of these things is not a property of metals?
+text: Which of these things is a property of most metals?
 @answer
 text: ductile
-correct: false
-@answer
-text: malleable
-correct: false
-@answer
-text: brittle
 correct: true
 @answer
-text: strong
+text: malleable
+correct: true
+@answer
+text: brittle
 correct: false
+@answer
+text: strong
+correct: true
 
 % multichoice
 text: What is an alloy?

@@ -29,7 +29,6 @@ correct: false
 text: A supercontinent made from all the continents
 correct: true
 
-
 % question
 text: Continental drift theory tells us that the Earth is always changing
 @answer
@@ -66,13 +65,13 @@ correct: false
 % question
 text: Which type of plate boundary is associated with the formation of mountains?
 @answer
-text: Divergent plate boundary
+text: Divergent
 correct: false
 @answer
-text: Convergent plate boundary
+text: Convergent
 correct: true
 @answer
-text: Transform plate boundary
+text: Transform
 correct: false
 
 % question
@@ -91,7 +90,22 @@ text: Convection
 correct: false
 
 % question
-text: What is the name of the layer of the Earth that tectonic plates move on?
+text: Which layer of the earth is made of the crust and asthenosphere?
+@answer
+text: Lithosphere
+correct: true
+@answer
+text: Lower mantle
+correct: false
+@answer
+text: Upper mantle
+correct: false
+@answer
+text: Inner Core
+correct: false
+
+% question
+text: Which layer of the Earth do tectonic plates move on?
 @answer
 text: Crust
 correct: false
@@ -106,41 +120,79 @@ text: Inner Core
 correct: false
 
 % question
-text: Which of the following is not a type of plate boundary?
+text: Which layer is at the centre of the Earth?
+@answer
+text: Crust
+correct: false
+@answer
+text: Mantle
+correct: true
+@answer
+text: Outer Core
+correct: false
+@answer
+text: Inner Core
+correct: false
+
+% question
+text: Which of the following is a type of plate boundary?
 @answer
 text: Divergent
-correct: false
+correct: true
 @answer
 text: Convergent
-correct: false
+correct: true
 @answer
 text: Transform
-correct: false
+correct: true
 @answer
 text: Subduction
+correct: false
+
+% question
+text: Which of the following is a feature of a convergent plate boundary?
+@answer
+text: Rift valleys
+correct: false
+@answer
+text: Volcanoes
+correct: true
+@answer
+text: Mountain ranges
+correct: true
+@answer
+text: Earthquakes
 correct: true
 
 % question
-text: Which of the following is not a feature of a convergent plate boundary?
+text: Which of the following is a feature of a transform plate boundary?
 @answer
-text: Deep-sea trench
+text: Earthquakes
 correct: true
+@answer
+text: Rift valleys
+correct: false
 @answer
 text: Volcanoes
 correct: false
 @answer
 text: Mountain ranges
 correct: false
+
+% question
+text: Which of the following is a feature of a divergent plate boundary?
+@answer
+text: Mid-ocean ridge
+correct: true
 @answer
 text: Earthquakes
 correct: false
-
-% question
-text: Which of the following is not a feature of a divergent plate boundary?
-Mid-ocean ridge
-Earthquakes
-Volcanoes
-Mountain ranges
+@answer
+text: Rift valleys
+correct: true
+@answer
+text: Mountain ranges
+correct: false
 
 % question
 text: What is the name of the theory that proposed that the continents were once connected in a supercontinent?
@@ -155,4 +207,19 @@ text: Seafloor spreading
 correct: false
 @answer
 text: Convection
+correct: false
+
+% question
+text: What is the process where hotter, less dense material rises while cooler, more dense material sinks?
+@answer
+text: Subduction
+correct: false
+@answer
+text: Convection
+correct: true
+@answer
+text: Conduction
+correct: false
+@answer
+text: Continental drift
 correct: false
