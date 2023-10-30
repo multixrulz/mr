@@ -1,0 +1,37 @@
+% jquiz
+% multichoice
+text: Which of these things causes permanent changes to an ecosystem?
+@answer
+text: Climate change
+correct: true
+@answer
+text: Natural disaster
+correct: true
+@answer
+text: Human activity
+correct: true
+@answer
+text: Rain
+correct: false
+@answer
+text: Flood
+correct: false
+@answer
+text: Drought
+correct: false
+
+% multichoice
+text: In which type of ecosystem do more than half of the world's species live?
+@answer
+text: Rainforests
+correct: true
+@answer
+text: Coral reefs
+correct: false
+@answer
+text: Grasslands
+correct: false
+@answer
+text: Deserts
+correct: false
+

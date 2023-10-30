@@ -273,3 +273,126 @@ correct: false
 @answer
 text: Decomposers
 correct: false
+
+% multichoice
+text: Which of these things causes permanent changes to an ecosystem?
+@answer
+text: Climate change
+correct: true
+@answer
+text: Natural disaster
+correct: true
+@answer
+text: Human activity
+correct: true
+@answer
+text: Rain
+correct: false
+@answer
+text: Flood
+correct: false
+@answer
+text: Drought
+correct: false
+
+% multichoice
+text: In which type of ecosystem do more than half of the world's species live?
+@answer
+text: Rainforests
+correct: true
+@answer
+text: Coral reefs
+correct: false
+@answer
+text: Grasslands
+correct: false
+@answer
+text: Deserts
+correct: false
+
+% multichoice
+text: What is the name for a feature of a living thing that helps it to live in its environment?
+@answer
+text: adaptation
+correct: true
+@answer
+text: modification
+correct: false
+@answer
+text: alteration
+correct: false
+@answer
+text:  transformation
+correct: false
+
+% multichoice
+text: Which word describes an adaptation in the shape or size of a living thing?
+@answer
+text: structural
+correct: true
+@answer
+text: behavioural
+correct: false
+@answer
+text: physiological
+correct: false
+
+% multichoice
+text: Which word describes an adaptation in the way a living thing acts?
+@answer
+text: structural
+correct: false
+@answer
+text: behavioural
+correct: true
+@answer
+text: physiological
+correct: false
+
+% multichoice
+text: Which word describes an adaptation in the way a living thing's body works?
+@answer
+text: structural
+correct: false
+@answer
+text: behavioural
+correct: false
+@answer
+text: physiological
+correct: true
+
+% multichoice
+text: A kangaroo has long feet with springy tendons that help it hop. What kind of adaptation is this?
+@answer
+text: structural
+correct: true
+@answer
+text: behavioural
+correct: false
+@answer
+text: physiological
+correct: false
+
+% multichoice
+text: Many desert animals are nocturnal - they sleep in the day and are active at night. What kind of adaptation is this?
+@answer
+text: structural
+correct: false
+@answer
+text: behavioural
+correct: true
+@answer
+text: physiological
+correct: false
+
+% multichoice
+text: Cane toads make poison in their skin to protect themselves from predators. What kind of adaptation is this?
+@answer
+text: structural
+correct: false
+@answer
+text: behavioural
+correct: false
+@answer
+text: physiological
+correct: true
