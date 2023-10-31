@@ -15,6 +15,36 @@ text:Sedimentary rocks
 correct: false
 
 % question
+text:What is liquid rock called when it is underground?
+@answer
+text:Magma
+correct: true
+@answer
+text:Lava
+correct: false
+@answer
+text:Igneous fluid
+correct: false
+@answer
+text:Sediment
+correct: false
+
+% question
+text:What is liquid rock called when it is above the ground?
+@answer
+text:Magma
+correct: false
+@answer
+text:Lava
+correct: true
+@answer
+text:Igneous fluid
+correct: false
+@answer
+text:Sediment
+correct: false
+
+% question
 text:What type of rock do we get when other rocks have a lot of heat and pressure?
 @answer
 text:Igneous rocks

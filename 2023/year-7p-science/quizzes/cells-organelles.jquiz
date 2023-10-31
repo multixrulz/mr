@@ -164,3 +164,18 @@ correct: false
 @answer
 text:Golgi apparatus
 correct: false
+
+% multichoice
+text: What is the gooey liquid inside a cell?
+@answer
+text:Cytoplasm
+correct: true
+@answer
+text:Cell membrane
+correct: false
+@answer
+text:Mitochondria
+correct: false
+@answer
+text:Golgi apparatus
+correct: false
