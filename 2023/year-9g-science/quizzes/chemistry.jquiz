@@ -132,7 +132,7 @@ correct: false
 text: How many electrons can the second electron shell hold?
 @answer
 text: 2
-correct: true
+correct: false
 @answer
 text: 18
 correct: false
@@ -141,16 +141,16 @@ text: 4
 correct: false
 @answer
 text: 8
-correct: false
+correct: true
 
 % multichoice
 text: How many electrons can the third electron shell hold?
 @answer
 text: 2
-correct: true
+correct: false
 @answer
 text: 18
-correct: false
+correct: true
 @answer
 text: 12
 correct: false
@@ -209,10 +209,10 @@ text: What is the atomic number of silicon? (Use the periodic table entry shown 
 image: chemistry/silicon.svg
 @answer
 text: 28.09
-correct: true
+correct: false
 @answer
 text: 14
-correct: false
+correct: true
 @answer
 text: Si
 correct: false
