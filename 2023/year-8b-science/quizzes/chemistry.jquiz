@@ -15,6 +15,61 @@ text: a chunk
 correct: false
 
 % multichoice
+text: What is the atomic number of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: true
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: false
+
+% multichoice
+text: What is the chemical symbol number of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: false
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: true
+
+% multichoice
+text: How many electrons does a neutral atom of nitrogen have? (Use the periodic table entry shown here)
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: true
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: false
+@answer
+text: It doesn’t say
+correct: false
+
+% multichoice
+text: What is the atomic mass of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: false
+@answer
+text: 14.01
+correct: true
+@answer
+text: N
+correct: false
+
+% multichoice
 text: How many different types of atom are found in nature?
 @answer
 text: 27
@@ -45,6 +100,87 @@ text: a conspiracy theory
 correct: false
 
 % multichoice
+text: Which of these things are parts of an atom?
+@answer
+text: Proton
+correct: true
+@answer
+text: Neutron
+correct: true
+@answer
+text: Electron
+correct: true
+@answer
+text: Photon
+correct: false
+@answer
+text: Positron
+correct: false
+@answer
+text: Krypton
+correct: false
+
+% multichoice
+text: Which particles orbit the nucleus of an atom?
+@answer
+text: Electrons
+correct: true
+@answer
+text: Protons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles make up the nucleus of an atom?
+@answer
+text: Protons
+correct: true
+@answer
+text: Neutrons
+correct: true
+@answer
+text: Electrons
+correct: false
+
+% multichoice
+text: Which particles have a negative electric charge?
+@answer
+text: Electrons
+correct: true
+@answer
+text: Protons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles have a positive electric charge?
+@answer
+text: Protons
+correct: true
+@answer
+text: Electrons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles have no electric charge?
+@answer
+text: Neutrons
+correct: true
+@answer
+text: Electrons
+correct: false
+@answer
+text: Protons
+correct: false
+
+% multichoice
 text: Which of these things is a property of most metals?
 @answer
 text: ductile
@@ -58,6 +194,33 @@ correct: false
 @answer
 text: strong
 correct: true
+@answer
+text: soft
+correct: false
+@answer
+text: electrical insulators
+correct: false
+
+% multichoice
+text: Which of these things is a property of most metals?
+@answer
+text: hard
+correct: true
+@answer
+text: shiny
+correct: true
+@answer
+text: conduct electricity
+correct: true
+@answer
+text: conduct heat
+correct: true
+@answer
+text: low melting point
+correct: false
+@answer
+text: low density
+correct: false
 
 % multichoice
 text: What is an alloy?
@@ -205,3 +368,41 @@ correct: false
 @answer
 text: Dry climate
 correct: false
+
+% multichoice
+text: What information is in a chemical formula (e.g. SiO<sub>2</sub>)?
+@answer
+text: The elements in the compound
+correct: true
+@answer
+text: The number of atoms in a molecule of the compound
+correct: true
+@answer
+text: If the compound is a poison
+correct: false
+@answer
+text: The everyday name of the compound
+correct: false
+
+% multichoice
+text: A chemical change always creates new substances. Which of these things could also be a sign of a chemical change?
+@answer
+text: Change in temperature
+correct: true
+@answer
+text: Change in colour
+correct: true
+@answer
+text: Bubbles
+correct: true
+@answer
+text: Emits light
+correct: true
+@answer
+text: Makes a precipitate
+correct: true
+@answer
+text: Breaks into smaller pieces
+correct: false
+
+
