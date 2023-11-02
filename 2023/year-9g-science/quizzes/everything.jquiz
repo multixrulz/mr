@@ -1,0 +1,1533 @@
+% jquiz
+% multichoice
+text: What is needed in any electric circuit?
+@answer
+text: Load
+correct: true
+@answer
+text: Conducting path
+correct: true
+@answer
+text: Power supply
+correct: true
+@answer
+text: Volt meter
+correct: false
+@answer
+text: Ammeter
+correct: false
+@answer
+text: Resistance
+correct: false
+
+% multichoice
+text: What is the symbol for a battery?
+@answer
+image: electricity/battery.svg
+correct: true
+@answer
+image: electricity/wire.svg
+correct: false
+@answer
+image: electricity/lamp.svg
+correct: false
+@answer
+image: electricity/switch.svg
+correct: false
+
+% multichoice
+text: What is the symbol for a wire?
+@answer
+image: electricity/battery.svg
+correct: false
+@answer
+image: electricity/wire.svg
+correct: true
+@answer
+image: electricity/lamp.svg
+correct: false
+@answer
+image: electricity/switch.svg
+correct: false
+
+% multichoice
+text: What is the symbol for a lamp?
+@answer
+image: electricity/battery.svg
+correct: false
+@answer
+image: electricity/wire.svg
+correct: false
+@answer
+image: electricity/lamp.svg
+correct: true
+@answer
+image: electricity/switch.svg
+correct: false
+
+% multichoice
+text: What is the symbol for a switch?
+@answer
+image: electricity/battery.svg
+correct: false
+@answer
+image: electricity/wire.svg
+correct: false
+@answer
+image: electricity/lamp.svg
+correct: false
+@answer
+image: electricity/switch.svg
+correct: true
+
+% multichoice
+text: What do we call the flow of electric charge?
+@answer
+text: Current
+correct: true
+@answer
+text: Voltage
+correct: false
+@answer
+text: Resistance
+correct: false
+@answer
+text: Load
+correct: false
+
+% multichoice
+text: What do we call measure of how much a load restricts the current?
+@answer
+text: Current
+correct: false
+@answer
+text: Voltage
+correct: false
+@answer
+text: Resistance
+correct: true
+@answer
+text: Load
+correct: false
+
+% multichoice
+text: What do we call the energy of electric charges in a circuit?
+@answer
+text: Current
+correct: false
+@answer
+text: Voltage
+correct: true
+@answer
+text: Resistance
+correct: false
+@answer
+text: Load
+correct: false
+
+% multichoice
+text: What is the unit used to measure current?
+@answer
+text: Amps
+correct: true
+@answer
+text: Volts
+correct: false
+@answer
+text: Ohms
+correct: false
+@answer
+text: Joules
+correct: false
+
+% multichoice
+text: What is the unit used to measure voltage?
+@answer
+text: Amps
+correct: false
+@answer
+text: Volts
+correct: true
+@answer
+text: Ohms
+correct: false
+@answer
+text: Joules
+correct: false
+
+% multichoice
+text: What is the unit used to measure resistance?
+@answer
+text: Amps
+correct: false
+@answer
+text: Volts
+correct: false
+@answer
+text: Ohms
+correct: true
+@answer
+text: Joules
+correct: false
+
+% multichoice
+text: What is the unit used to measure energy?
+@answer
+text: Amps
+correct: false
+@answer
+text: Volts
+correct: false
+@answer
+text: Ohms
+correct: false
+@answer
+text: Joules
+correct: true
+
+% multichoice
+text: Which of these is a parallel circuit?
+@answer
+image: electricity/parallel.svg
+correct: true
+@answer
+image: electricity/series.svg
+correct: false
+
+% multichoice
+text: Which of these is a series circuit?
+@answer
+image: electricity/series.svg
+correct: true
+@answer
+image: electricity/parallel.svg
+correct: false
+
+% multichoice
+text: Which of these is true about a series circuit?
+@answer
+text: The voltage is split between the components
+correct: true
+@answer
+text: The same current flows through the components
+correct: true
+@answer
+text: If one component fails, the circuit is broken
+correct: true
+@answer
+text: The current is split between the components
+correct: false
+
+% multichoice
+text: Which of these is true about a parallel circuit?
+@answer
+text: The current is split between the components
+correct: true
+@answer
+text: The same voltage exists across each components
+correct: true
+@answer
+text: If one component fails, the circuit is broken
+correct: false
+@answer
+text: The voltage is split between the components
+correct: false
+
+% multichoice
+text: An ecosystem is a group of interacting ____________ and biotic factors.
+@answer
+text: living
+correct: false
+@answer
+text: dead
+correct: false
+@answer
+text: abiotic
+correct: true
+@answer
+text: abiomial
+correct: false
+
+% multichoice
+text: A biotic factor is something that is, or used to be, ____________
+@answer
+text: alive
+correct: true
+@answer
+text: dead
+correct: false
+@answer
+text: beautiful
+correct: false
+@answer
+text: moving
+correct: false
+
+% multichoice
+text: An abiotic factor is something that never was _____________
+@answer
+text: healthy
+correct: false
+@answer
+text: green
+correct: false
+@answer
+text: dead
+correct: false
+@answer
+text: alive
+correct: true
+
+% multichoice
+text: A very small ecosystem is called a ______________
+@answer
+text: planet
+correct: false
+@answer
+text: mega-ecosystem
+correct: false
+@answer
+text: micro-ecosystem
+correct: true
+@answer
+text: meso-ecosystem
+correct: false
+
+% multichoice
+text: A middle-sized ecosystem like a lake is called a ______________
+@answer
+text: planet
+correct: false
+@answer
+text: mega-ecosystem
+correct: false
+@answer
+text: micro-ecosystem
+correct: false
+@answer
+text: meso-ecosystem
+correct: true
+
+% multichoice
+text: What do we call an organism that produces its own food using sunlight?
+@answer
+text: Producer
+correct: true
+@answer
+text: Consumer
+correct: false
+@answer
+text: Decomposer
+correct: false
+@answer
+text: Ecosystem
+correct: false
+
+% multichoice
+text: Which of these is a producer?
+@answer
+text: Grass
+correct: true
+@answer
+text: Trees
+correct: true
+@answer
+text: Vegetables
+correct: true
+@answer
+text: Sheep
+correct: false
+@answer
+text: Insects
+correct: false
+@answer
+text: Soil
+correct: false
+
+% multichoice
+text: What do we call an organism that needs to get its food from another living thing?
+@answer
+text: Consumer
+correct: true
+@answer
+text: Producer
+correct: false
+@answer
+text: Decomposer
+correct: false
+@answer
+text: Ecosystem
+correct: false
+
+
+% multichoice
+text: Which of these is a consumer?
+@answer
+text: People
+correct: true
+@answer
+text: Sheep
+correct: true
+@answer
+text: Insects
+correct: true
+@answer
+text: Grass
+correct: false
+@answer
+text: Trees
+correct: false
+@answer
+text: Soil
+correct: false
+
+% multichoice
+text: What do we call an animal that eats only plants?
+@answer
+text: Herbivore
+correct: true
+@answer
+text: Carnivore
+correct: false
+@answer
+text:Omnivore
+correct: false
+
+% multichoice
+text: What do we call an animal that eats only animals?
+@answer
+text: Carnivore
+correct: true
+@answer
+text: Herbivore
+correct: false
+@answer
+text:Omnivore
+correct: false
+
+% multichoice
+text: What do we call an animal that eats both plants and animals?
+@answer
+text:Omnivore
+correct: true
+@answer
+text: Carnivore
+correct: false
+@answer
+text: Herbivore
+correct: false
+
+% multichoice
+text: What do we call an organism that mainly eats things that have died, or their waste?
+@answer
+text: Decomposer
+correct: true
+@answer
+text: Producer
+correct: false
+@answer
+text: Consumer
+correct: false
+@answer
+text: Ecosystem
+correct: false
+
+% multichoice
+text: What does a primary consumer (first order consumer)  eat?
+@answer
+text: Producers
+correct: true
+@answer
+text: Primary consumers (first order consumer)
+correct: false
+@answer
+text: Secondary consumers (second order consumer)
+correct: false
+@answer
+text: Tertiary consumers (third order consumer)
+correct: false
+
+% multichoice
+text: What does a secondary consumer (second order consumer)  eat?
+@answer
+text: Producers
+correct: false
+@answer
+text: Primary consumers (first order consumer)
+correct: true
+@answer
+text: Secondary consumers (second order consumer)
+correct: false
+@answer
+text: Tertiary consumers (third order consumer)
+correct: false
+
+% multichoice
+text: What does a tertiary consumer (third order consumer)  eat?
+@answer
+text: Producers
+correct: false
+@answer
+text: Primary consumers (first order consumer)
+correct: false
+@answer
+text: Secondary consumers (second order consumer)
+correct: true
+@answer
+text: Tertiary consumers (third order consumer)
+correct: false
+
+% multichoice
+text: What does a food web show?
+@answer
+text: The animals in an ecosystem and what they eat
+correct: true
+@answer
+text: How energy flows through an ecosystem
+correct: true
+@answer
+text: Which animals are herbivores, omnivores and carnivores
+correct: true
+@answer
+text: Which animals are the best
+correct: false
+
+% multichoice
+text: What is the original source of energy in a food web or ecosystem
+@answer
+text: The sun
+correct: true
+@answer
+text: Producers
+correct: false
+@answer
+text: Consumers
+correct: false
+@answer
+text: Decomposers
+correct: false
+
+% multichoice
+text:Which Greek word means "vapour"?
+@answer
+text: atmos
+correct: true
+@answer
+text:lithos
+correct: false
+@answer
+text:hydro
+correct: false
+@answer
+text:bio
+correct: false
+
+% multichoice
+text:Which Greek word means "water"?
+@answer
+text: atmos
+correct: false
+@answer
+text:lithos
+correct: false
+@answer
+text:hydro
+correct: true
+@answer
+text:bio
+correct: false
+
+% multichoice
+text:Which Greek word means "life"?
+@answer
+text: atmos
+correct: false
+@answer
+text:lithos
+correct: false
+@answer
+text:hydro
+correct: false
+@answer
+text:bio
+correct: true
+
+% multichoice
+text:Which Greek word means "stone"?
+@answer
+text: atmos
+correct: false
+@answer
+text:lithos
+correct: true
+@answer
+text:hydro
+correct: false
+@answer
+text:bio
+correct: false
+
+% multichoice
+text: What does the atmosphere do?
+@answer
+text: Protection from UV radiation
+correct: true
+@answer
+text:Holds in heat to warm the planet
+correct: true
+@answer
+text:Contains oxygen and carbon dioxide needed for life
+correct: true
+@answer
+text:Hides the Earth from alien probes
+correct: false
+
+% multichoice
+text: What are the two main gases in the atmosphere?
+@answer
+text: Nitrogen
+correct: true
+@answer
+text: Oxygen
+correct: true
+@answer
+text: Methane
+correct: false
+@answer
+text: Carbon Dioxide
+correct: false
+
+% multichoice
+text: The hydrosphere includes
+@answer
+text: Liquid water
+correct: true
+@answer
+text:Ice
+correct: true
+@answer
+text:Water vapour
+correct: false
+@answer
+text:Fish
+correct: false
+
+% multichoice
+text: The biosphere contains
+@answer
+text:All life
+correct: true
+@answer
+text:Animals, but not plants or humans
+correct: false
+@answer
+text:Humans only
+correct: false
+@answer
+text:Abiotic factors
+correct: false
+
+% multichoice
+text:The crust and upper part of the mantle are called the
+@answer
+text:Lithosphere
+correct: true
+@answer
+text:Life Zone
+correct: false
+@answer
+text:Crustosphere
+correct: false
+@answer
+text:Biosphere
+correct: false
+
+% multichoice
+text: The lithosphere constantly changes
+@answer
+text:True
+correct: true
+@answer
+text:False
+correct: false
+
+% multichoice
+text: Which spheres does a volcanic eruption affect?
+@answer
+text:Lithosphere
+correct: true
+@answer
+text:Atmosphere
+correct: true
+@answer
+text:Hydrosphere
+correct: true
+@answer
+text:Biosphere
+correct: true
+
+% multichoice
+text: Which of these processes releases carbon dioxide into the atmosphere?
+@answer
+text: respiration
+correct: true
+@answer
+text: combustion
+correct: true
+@answer
+text: decay
+correct: true
+@answer
+text: photosynthesis
+correct: false
+
+% multichoice
+text: Which of these processes take carbon to the bottom of the ocean
+@answer
+text: ocean creatures like phytoplankton die and sink
+correct: true
+@answer
+text: organic matter from land washes into the ocean and sinks
+correct: true
+@answer
+text: carbon dioxide dissolves in the ocean
+correct: false
+
+
+% multichoice
+text: Most of the mass of a tree comes from
+@answer
+text: carbon dioxide in the air
+correct: true
+@answer
+text: carbon dioxide in the water
+correct: false
+@answer
+text: carbon in organic matter in the ground
+correct: false
+
+% multichoice
+text: How much more carbon dioxide is in the ocean compared to the atmosphere?
+@answer
+text: 60 times
+correct: true
+@answer
+text: 30 times
+correct: false
+@answer
+text: 100 times
+correct: false
+@answer
+text: 5 times
+correct: false
+
+% multichoice
+text: Which processes remove carbon from the atmosphere?
+@answer
+text: photosynthesis
+correct: true
+@answer
+text: carbon exchange in the ocean
+correct: true
+@answer
+text: respiration
+correct: false
+@answer
+text: rock formation
+correct: false
+
+% multichoice
+text: Which plants capture nitrogen from the air
+@answer
+text: legumes
+correct: true
+@answer
+text: grains
+correct: false
+@answer
+text: trees
+correct: false
+@answer
+text: grasses
+correct: false
+
+% multichoice
+text: How does nitrogen move from animals into the ground?
+@answer
+text: urine
+correct: true
+@answer
+text: dung
+correct: true
+@answer
+text: breath
+correct: false
+@answer
+text: burping
+correct: false
+
+% multichoice
+text: Some microbes take soil nitrogen compounds and produce nitrogen gas
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Plants need to absorb nitrogen from the soil
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Which agricultural process moves nitrogen out of the soil?
+@answer
+text: harvesting
+correct: true
+@answer
+text: fertilising
+correct: false
+@answer
+text: sowing
+correct: false
+@answer
+text: spraying
+correct: false
+
+% multichoice
+text: How does water mostly enter the atmosphere?
+@answer
+text: evaporation
+correct: true
+@answer
+text: precipitation
+correct: false
+@answer
+text: condensation
+correct: false
+@answer
+text: runoff
+correct: false
+
+% multichoice
+text: Where is most of the Earth’s water that is part of the water cycle?
+@answer
+text: oceans
+correct: true
+@answer
+text: atmosphere
+correct: false
+@answer
+text: groundwater
+correct: false
+@answer
+text: rivers and lakes
+correct: false
+
+% multichoice
+text: Condensation in the water cycle produces
+@answer
+text: clouds
+correct: true
+@answer
+text: rain
+correct: false
+@answer
+text: humidity
+correct: false
+@answer
+text: dry weather
+correct: false
+
+% multichoice
+text: Which of these is a kind of precipitation?
+@answer
+text: rain
+correct: true
+@answer
+text: snow
+correct: true
+@answer
+text: hail
+correct: true
+@answer
+text: wind
+correct: false
+
+% multichoice
+text: What causes evaporation in the water cycle?
+@answer
+text: Heat from the sun
+correct: true
+@answer
+text: Cold from the polar ice
+correct: false
+@answer
+text: Cold high in the atmosphere
+correct: false
+@answer
+text: Heat from magma underground
+correct: false
+
+% multichoice
+text: Which of these is a greenhouse gas?
+@answer
+text: Carbon Dioxide
+correct: true
+@answer
+text: Methane
+correct: true
+@answer
+text: Water vapour
+correct: true
+@answer
+text: Oxygen
+correct: false
+
+% multichoice
+text: What would happen if there was no greenhouse effect at all?
+@answer
+text: Earth would be in an ice age
+correct: true
+@answer
+text: Everything would be perfect
+correct: false
+@answer
+text: All life would die from heat
+correct: false
+@answer
+text: Nobody could grow vegetables in winter
+correct: false
+
+% multichoice
+text: Is the amount of carbon dioxide in the atmosphere increasing?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: What is the main cause of increased carbon dioxide in the atmosphere?
+@answer
+text: Burning of fossil fuels
+correct: true
+@answer
+text: Burping cows
+correct: false
+@answer
+text: Environmentalists
+correct: false
+@answer
+text: More people on the Earth
+correct: false
+
+% multichoice
+text: Which of these things gives evidence that the Earth is getting warmer?
+@answer
+text: Weather records
+correct: true
+@answer
+text: Melting ice sheets at the poles
+correct: true
+@answer
+text: Melting glaciers
+correct: true
+@answer
+text: Rising sea levels
+correct: true
+@answer
+text: Air pollution in cities
+correct: false
+@answer
+text: High prices for food
+correct: false
+
+% multichoice
+text: Why are renewable energy sources being promoted?
+@answer
+text: They don’t add carbon dioxide to the atmosphere
+correct: true
+@answer
+text: The earth will never run out of them
+correct: true
+@answer
+text: They put people in coal mines out of work
+correct: false
+@answer
+text: They give people a way to reduce their electricity bills using solar panels
+correct: false
+
+% question
+text: Who is famous for creating the theory of continental drift?
+@answer
+text: Albert Einstein
+correct: false
+@answer
+text: Alfred Wegener
+correct: true
+@answer
+text: Isaac Newton
+correct: false
+@answer
+text: Marie Curie
+correct: false
+
+% question
+text: What was Pangaea?
+@answer
+text: A kind of dinosaur bird
+correct: false
+@answer
+text: A solution to every kind of problem
+correct: false
+@answer
+text: A piece of Earth's crust that floats around on the mantle
+correct: false
+@answer
+text: A supercontinent made from all the continents
+correct: true
+
+% question
+text: Continental drift theory tells us that the Earth is always changing
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% question
+text: Matching rocks and fossils at matching parts of continents is evidence for continental drift
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% question
+text: What is the name of the supercontinent that we believe existed about 250 million years ago?
+@answer
+text: Pangaea
+correct: true
+@answer
+text: Laurasia
+correct: false
+@answer
+text: Gondwanaland
+correct: false
+@answer
+text: The Ring of Fire
+correct: false
+
+% question
+text: Which type of plate boundary is associated with the formation of mountains?
+@answer
+text: Divergent
+correct: false
+@answer
+text: Convergent
+correct: true
+@answer
+text: Transform
+correct: false
+
+% question
+text: What is the name of the process by which one tectonic plate goes beneath another?
+@answer
+text: Seafloor spreading
+correct: false
+@answer
+text: Continental drift
+correct: false
+@answer
+text: Subduction
+correct: true
+@answer
+text: Convection
+correct: false
+
+% question
+text: Which layer of the earth is made of the crust and asthenosphere?
+@answer
+text: Lithosphere
+correct: true
+@answer
+text: Lower mantle
+correct: false
+@answer
+text: Upper mantle
+correct: false
+@answer
+text: Inner Core
+correct: false
+
+% question
+text: Which layer of the Earth do tectonic plates move on?
+@answer
+text: Crust
+correct: false
+@answer
+text: Mantle
+correct: true
+@answer
+text: Outer Core
+correct: false
+@answer
+text: Inner Core
+correct: false
+
+% question
+text: Which layer is at the centre of the Earth?
+@answer
+text: Crust
+correct: false
+@answer
+text: Mantle
+correct: true
+@answer
+text: Outer Core
+correct: false
+@answer
+text: Inner Core
+correct: false
+
+% question
+text: Which of the following is a type of plate boundary?
+@answer
+text: Divergent
+correct: true
+@answer
+text: Convergent
+correct: true
+@answer
+text: Transform
+correct: true
+@answer
+text: Subduction
+correct: false
+
+% question
+text: Which of the following is a feature of a convergent plate boundary?
+@answer
+text: Rift valleys
+correct: false
+@answer
+text: Volcanoes
+correct: true
+@answer
+text: Mountain ranges
+correct: true
+@answer
+text: Earthquakes
+correct: true
+
+% question
+text: Which of the following is a feature of a transform plate boundary?
+@answer
+text: Earthquakes
+correct: true
+@answer
+text: Rift valleys
+correct: false
+@answer
+text: Volcanoes
+correct: false
+@answer
+text: Mountain ranges
+correct: false
+
+% question
+text: Which of the following is a feature of a divergent plate boundary?
+@answer
+text: Mid-ocean ridge
+correct: true
+@answer
+text: Earthquakes
+correct: false
+@answer
+text: Rift valleys
+correct: true
+@answer
+text: Mountain ranges
+correct: false
+
+% question
+text: What is the name of the theory that proposed that the continents were once connected in a supercontinent?
+@answer
+text: Plate tectonics
+correct: false
+@answer
+text: Continental drift
+correct: true
+@answer
+text: Seafloor spreading
+correct: false
+@answer
+text: Convection
+correct: false
+
+% question
+text: What is the process where hotter, less dense material rises while cooler, more dense material sinks?
+@answer
+text: Subduction
+correct: false
+@answer
+text: Convection
+correct: true
+@answer
+text: Conduction
+correct: false
+@answer
+text: Continental drift
+correct: false
+
+% multichoice
+text: What is the smallest piece of an element?
+@answer
+text: Atom
+correct: true
+@answer
+text: Compound
+correct: false
+@answer
+text: Molecule
+correct: false
+@answer
+text: Nucleus
+correct: false
+
+% multichoice
+text: Which of these things are parts of an atom?
+@answer
+text: Proton
+correct: true
+@answer
+text: Neutron
+correct: true
+@answer
+text: Electron
+correct: true
+@answer
+text: Photon
+correct: false
+@answer
+text: Positron
+correct: false
+@answer
+text: Krypton
+correct: false
+
+% multichoice
+text: Which particles orbit the nucleus of an atom?
+@answer
+text: Electrons
+correct: true
+@answer
+text: Protons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles make up the nucleus of an atom?
+@answer
+text: Protons
+correct: true
+@answer
+text: Neutrons
+correct: true
+@answer
+text: Electrons
+correct: false
+
+% multichoice
+text: Which particles have a negative electric charge?
+@answer
+text: Electrons
+correct: true
+@answer
+text: Protons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles have a positive electric charge?
+@answer
+text: Protons
+correct: true
+@answer
+text: Electrons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles have no electric charge?
+@answer
+text: Neutrons
+correct: true
+@answer
+text: Electrons
+correct: false
+@answer
+text: Protons
+correct: false
+
+% multichoice
+text: Electrons are arranged in shells around the nucleus
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: An inner electron shell must be full before the next shell can take electrons
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: How many electrons can the first electron shell hold?
+@answer
+text: 2
+correct: true
+@answer
+text: 1
+correct: false
+@answer
+text: 4
+correct: false
+@answer
+text: 8
+correct: false
+
+% multichoice
+text: How many electrons can the second electron shell hold?
+@answer
+text: 2
+correct: false
+@answer
+text: 18
+correct: false
+@answer
+text: 4
+correct: false
+@answer
+text: 8
+correct: true
+
+% multichoice
+text: How many electrons can the third electron shell hold?
+@answer
+text: 2
+correct: false
+@answer
+text: 18
+correct: true
+@answer
+text: 12
+correct: false
+@answer
+text: 8
+correct: false
+
+% multichoice
+text: A carbon atom has 6 protons. How many electrons does a neutral carbon atom have?
+@answer
+text: 6
+correct: true
+@answer
+text: 12
+correct: false
+@answer
+text: 8
+correct: false
+@answer
+text: 0
+correct: false
+
+% multichoice
+text: A sodium atom has 11 protons. How many electrons does a neutral sodium atom have?
+@answer
+text: 11
+correct: true
+@answer
+text: 0
+correct: false
+@answer
+text: 12
+correct: false
+@answer
+text: 18
+correct: false
+
+% multichoice
+text: What is the atomic number of nitrogen? (Use the periodic table entry shown here)
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: true
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: false
+@answer
+text: It doesn’t say
+correct: false
+
+% multichoice
+text: What is the atomic number of silicon? (Use the periodic table entry shown here)
+image: chemistry/silicon.svg
+@answer
+text: 28.09
+correct: false
+@answer
+text: 14
+correct: true
+@answer
+text: Si
+correct: false
+@answer
+text: Silicon
+correct: false
+
+% multichoice
+text: How many electrons does a neutral atom of nitrogen have? (Use the periodic table entry shown here)
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: true
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: false
+@answer
+text: It doesn’t say
+correct: false
+
+% multichoice
+text: A neutral atom of nitrogen has electrons arranged into shells as shown. How would you write this out in numbers?
+image: chemistry/nitrogen-e-config-7.svg
+@answer
+text: 2, 5
+correct: true
+@answer
+text: 5, 2
+correct: false
+@answer
+text: 0, 5, 2
+correct: false
+@answer
+text: 0, 2, 5
+correct: false
+
+% multichoice
+text: What is the electron configuration of silicon?
+image: chemistry/silicon.svg
+@answer
+text: 2, 8, 4
+correct: true
+@answer
+text: 2, 8, 14
+correct: false
+@answer
+text: 0, 4, 10
+correct: false
+@answer
+text: 2, 6, 6
+correct: false
+
+% multichoice
+text: Most atoms of silicon have a mass of 28. How many neutrons do they each have?
+image: chemistry/silicon.svg
+@answer
+text: 14
+correct: true
+@answer
+text: 28
+correct: false
+@answer
+text: 0
+correct: false
+@answer
+text: 0.01
+correct: false
+
+% multichoice
+text: Which of these things is a property of most metals?
+@answer
+text: ductile
+correct: true
+@answer
+text: malleable
+correct: true
+@answer
+text: brittle
+correct: false
+@answer
+text: strong
+correct: true
+@answer
+text: soft
+correct: false
+@answer
+text: electrical insulators
+correct: false
+
+% multichoice
+text: Which of these things is a property of most metals?
+@answer
+text: hard
+correct: true
+@answer
+text: shiny
+correct: true
+@answer
+text: conduct electricity
+correct: true
+@answer
+text: conduct heat
+correct: true
+@answer
+text: low melting point
+correct: false
+@answer
+text: low density
+correct: false
+
+% multichoice
+text: What information is in a chemical formula (e.g. SiO<sub>2</sub>)?
+@answer
+text: The elements in the compound
+correct: true
+@answer
+text: The number of atoms in a molecule of the compound
+correct: true
+@answer
+text: If the compound is a poison
+correct: false
+@answer
+text: The everyday name of the compound
+correct: false
+

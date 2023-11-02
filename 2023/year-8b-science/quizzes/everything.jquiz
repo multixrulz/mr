@@ -1,0 +1,2389 @@
+% jquiz
+% multichoice
+text: What is the name for stored energy?
+@answer
+text: Potential energy
+correct: true
+@answer
+text: Kinetic energy
+correct: false
+@answer
+text: Nuclear energy
+correct: false
+@answer
+text: Renewable energy
+correct: false
+
+% multichoice
+text: What is the name for the energy of motion?
+@answer
+text: Potential energy
+correct: false
+@answer
+text: Kinetic energy
+correct: true
+@answer
+text: Chemical energy
+correct: false
+@answer
+text: Mechanical energy
+correct: false
+
+% multichoice
+text: Which of these is a type of energy?
+@answer
+text: Electrical energy
+correct: true
+@answer
+text: Sound energy
+correct: true
+@answer
+text: Light energy
+correct: true
+@answer
+text: Chemical energy
+correct: true
+@answer
+text: Nuclear energy
+correct: true
+@answer
+text: Cold energy
+correct: false
+
+% multichoice
+text: Which of these is a type of potential energy?
+@answer
+text: Gravitational potential energy
+correct: true
+@answer
+text: Electrical potential energy
+correct: true
+@answer
+text: Chemical potential energy
+correct: true
+@answer
+text: Sound potential energy
+correct: false
+@answer
+text: Heat potential energy
+correct: false
+@answer
+text: Light potential energy
+correct: false
+
+% multichoice
+text:What is the unit we use to measure energy?
+@answer
+text: Joule
+correct: true
+@answer
+text: Watt
+correct: false
+@answer
+text: Degree
+correct: false
+@answer
+text: Cell
+correct: false
+
+% multichoice
+text: What type of heat transfer is happening when hot particles bump into their cooler neighbours?
+@answer
+text: Conduction
+correct: true
+@answer
+text: Convection
+correct: false
+@answer
+text: Radiation
+correct: false
+
+% multichoice
+text: What type of heat transfer is happening when a hotter part of a fluid rises and a cooler part sinks?
+@answer
+text: Conduction
+correct: false
+@answer
+text: Convection
+correct: true
+@answer
+text: Radiation
+correct: false
+
+% multichoice
+text: What type of heat transfer is happening when a hot object emits electromagnetic waves?
+@answer
+text: Conduction
+correct: false
+@answer
+text: Convection
+correct: false
+@answer
+text: Radiation
+correct: true
+
+% multichoice
+text: Which kind of heat transfer does ice create in a drink?
+@answer
+text: Conduction
+correct: false
+@answer
+text: Convection
+correct: true
+@answer
+text: Radiation
+correct: false
+
+% multichoice
+text: What kind of heat transfer happens when the pool water makes you cold?
+@answer
+text: Conduction
+correct: true
+@answer
+text: Convection
+correct: false
+@answer
+text: Radiation
+correct: false
+
+% multichoice
+text: What type of heat transfer makes you warm when you sit near a fire?
+@answer
+text: Conduction
+correct: false
+@answer
+text: Convection
+correct: false
+@answer
+text: Radiation
+correct: true
+
+% multichoice
+text: Sea breezes and land breezes are an example of
+@answer
+text: Convection
+correct: true
+@answer
+text: Conduction
+correct: false
+@answer
+text: Radiation
+correct: false
+
+% multichoice
+text: Dark coloured things emit and absorb more radiation than light coloured things.
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Energy can be created and destroyed
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: Energy can be transformed from one type to another
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: When energy is transformed from one type to another, some energy is usually lost in the form of
+@answer
+text: Heat
+correct: true
+@answer
+text: Light
+correct: false
+@answer
+text: Sound
+correct: false
+@answer
+text: Electricity
+correct: false
+
+% multichoice
+text: Which of these things could reduce the amount of energy needed in a house?
+@answer
+text: Double-glazed windows
+correct: true
+@answer
+text: Insulation
+correct: true
+@answer
+text: Draft-stoppers on doors
+correct: true
+@answer
+text: A shiny roof
+correct: true
+@answer
+text: Solar hot water system
+correct: true
+@answer
+text: Thin walls
+correct: false
+
+% multichoice
+text: Which of these energy sources is renewable?
+@answer
+text: Solar
+correct: true
+@answer
+text: Wind
+correct: true
+@answer
+text: Geothermal
+correct: true
+@answer
+text: Tidal
+correct: true
+@answer
+text: Coal
+correct: false
+@answer
+text: Diesel
+correct: false
+
+% multichoice
+text: When a candle is burnt, what energy transformation happens?
+@answer
+text: Chemical potential energy → Light and heat
+correct: true
+@answer
+text: Chemical potential energy → Kinetic energy
+correct: false
+@answer
+text: Kinetic energy → Heat and light
+correct: false
+@answer
+text: Elastic potential energy → Kinetic energy
+correct: false
+
+% multichoice
+text: When a crane lifts building parts up, what energy transformation happens?
+@answer
+text: Chemical potential energy → Kinetic energy → Gravitational potential energy
+correct: true
+@answer
+text: Chemical potential energy → Light and heat
+correct: false
+@answer
+text: Kinetic energy → Heat and light
+correct: false
+@answer
+text: Elastic potential energy → Kinetic energy
+correct: false
+
+% multichoice
+text: When a water balloon full of water is used to spray water, what energy transformation happens?
+@answer
+text: Elastic potential energy → Kinetic energy
+correct: true
+@answer
+text: Gravitational potential energy → Kinetic energy
+correct: false
+@answer
+text: Gravitational potential energy → Sound energy
+correct: false
+@answer
+text: Chemical potential energy → Kinetic energy
+correct: false
+
+% multichoice
+text: In a hydroelectric power station, what energy transformation happens?
+@answer
+text: Gravitational potential energy → Kinetic energy → Electrical energy
+correct: true
+@answer
+text: Kinetic energy → Chemical potential energy
+correct: false
+@answer
+text: Gravitational potential energy → Chemical potential energy
+correct: false
+@answer
+text: Gravitational potential energy → Light and heat
+correct: false
+
+% multichoice
+text: An ecosystem is a group of interacting ____________ and biotic factors.
+@answer
+text: living
+correct: false
+@answer
+text: dead
+correct: false
+@answer
+text: abiotic
+correct: true
+@answer
+text: abiomial
+correct: false
+
+% multichoice
+text: A biotic factor is something that is, or used to be, ____________
+@answer
+text: alive
+correct: true
+@answer
+text: dead
+correct: false
+@answer
+text: beautiful
+correct: false
+@answer
+text: moving
+correct: false
+
+% multichoice
+text: An abiotic factor is something that never was _____________
+@answer
+text: healthy
+correct: false
+@answer
+text: green
+correct: false
+@answer
+text: dead
+correct: false
+@answer
+text: alive
+correct: true
+
+% multichoice
+text: A very small ecosystem is called a ______________
+@answer
+text: planet
+correct: false
+@answer
+text: mega-ecosystem
+correct: false
+@answer
+text: micro-ecosystem
+correct: true
+@answer
+text: meso-ecosystem
+correct: false
+
+
+% multichoice
+text: A middle-sized ecosystem like a lake is called a ______________
+@answer
+text: planet
+correct: false
+@answer
+text: mega-ecosystem
+correct: false
+@answer
+text: micro-ecosystem
+correct: false
+@answer
+text: meso-ecosystem
+correct: true
+
+% multichoice
+text: What do we call an organism that produces its own food using sunlight?
+@answer
+text: Producer
+correct: true
+@answer
+text: Consumer
+correct: false
+@answer
+text: Decomposer
+correct: false
+@answer
+text: Ecosystem
+correct: false
+
+% multichoice
+text: Which of these is a producer?
+@answer
+text: Grass
+correct: true
+@answer
+text: Trees
+correct: true
+@answer
+text: Vegetables
+correct: true
+@answer
+text: Sheep
+correct: false
+@answer
+text: Insects
+correct: false
+@answer
+text: Soil
+correct: false
+
+% multichoice
+text: What do we call an organism that needs to get its food from another living thing?
+@answer
+text: Consumer
+correct: true
+@answer
+text: Producer
+correct: false
+@answer
+text: Decomposer
+correct: false
+@answer
+text: Ecosystem
+correct: false
+
+
+% multichoice
+text: Which of these is a consumer?
+@answer
+text: People
+correct: true
+@answer
+text: Sheep
+correct: true
+@answer
+text: Insects
+correct: true
+@answer
+text: Grass
+correct: false
+@answer
+text: Trees
+correct: false
+@answer
+text: Soil
+correct: false
+
+% multichoice
+text: What do we call an animal that eats only plants?
+@answer
+text: Herbivore
+correct: true
+@answer
+text: Carnivore
+correct: false
+@answer
+text:Omnivore
+correct: false
+
+% multichoice
+text: What do we call an animal that eats only animals?
+@answer
+text: Carnivore
+correct: true
+@answer
+text: Herbivore
+correct: false
+@answer
+text:Omnivore
+correct: false
+
+% multichoice
+text: What do we call an animal that eats both plants and animals?
+@answer
+text:Omnivore
+correct: true
+@answer
+text: Carnivore
+correct: false
+@answer
+text: Herbivore
+correct: false
+
+% multichoice
+text: What do we call an organism that mainly eats things that have died, or their waste?
+@answer
+text: Decomposer
+correct: true
+@answer
+text: Producer
+correct: false
+@answer
+text: Consumer
+correct: false
+@answer
+text: Ecosystem
+correct: false
+
+% multichoice
+text: What does a primary consumer (first order consumer)  eat?
+@answer
+text: Producers
+correct: true
+@answer
+text: Primary consumers (first order consumer)
+correct: false
+@answer
+text: Secondary consumers (second order consumer)
+correct: false
+@answer
+text: Tertiary consumers (third order consumer)
+correct: false
+
+% multichoice
+text: What does a secondary consumer (second order consumer)  eat?
+@answer
+text: Producers
+correct: false
+@answer
+text: Primary consumers (first order consumer)
+correct: true
+@answer
+text: Secondary consumers (second order consumer)
+correct: false
+@answer
+text: Tertiary consumers (third order consumer)
+correct: false
+
+% multichoice
+text: What does a tertiary consumer (third order consumer)  eat?
+@answer
+text: Producers
+correct: false
+@answer
+text: Primary consumers (first order consumer)
+correct: false
+@answer
+text: Secondary consumers (second order consumer)
+correct: true
+@answer
+text: Tertiary consumers (third order consumer)
+correct: false
+
+% multichoice
+text: What does a food web show?
+@answer
+text: The animals in an ecosystem and what they eat
+correct: true
+@answer
+text: How energy flows through an ecosystem
+correct: true
+@answer
+text: Which animals are herbivores, omnivores and carnivores
+correct: true
+@answer
+text: Which animals are the best
+correct: false
+
+% multichoice
+text: What is the original source of energy in a food web or ecosystem
+@answer
+text: The sun
+correct: true
+@answer
+text: Producers
+correct: false
+@answer
+text: Consumers
+correct: false
+@answer
+text: Decomposers
+correct: false
+
+% multichoice
+text: Which of these things causes permanent changes to an ecosystem?
+@answer
+text: Climate change
+correct: true
+@answer
+text: Natural disaster
+correct: true
+@answer
+text: Human activity
+correct: true
+@answer
+text: Rain
+correct: false
+@answer
+text: Flood
+correct: false
+@answer
+text: Drought
+correct: false
+
+% multichoice
+text: In which type of ecosystem do more than half of the world's species live?
+@answer
+text: Rainforests
+correct: true
+@answer
+text: Coral reefs
+correct: false
+@answer
+text: Grasslands
+correct: false
+@answer
+text: Deserts
+correct: false
+
+% multichoice
+text: What is the name for a feature of a living thing that helps it to live in its environment?
+@answer
+text: adaptation
+correct: true
+@answer
+text: modification
+correct: false
+@answer
+text: alteration
+correct: false
+@answer
+text:  transformation
+correct: false
+
+% multichoice
+text: Which word describes an adaptation in the shape or size of a living thing?
+@answer
+text: structural
+correct: true
+@answer
+text: behavioural
+correct: false
+@answer
+text: physiological
+correct: false
+
+% multichoice
+text: Which word describes an adaptation in the way a living thing acts?
+@answer
+text: structural
+correct: false
+@answer
+text: behavioural
+correct: true
+@answer
+text: physiological
+correct: false
+
+% multichoice
+text: Which word describes an adaptation in the way a living thing's body works?
+@answer
+text: structural
+correct: false
+@answer
+text: behavioural
+correct: false
+@answer
+text: physiological
+correct: true
+
+% multichoice
+text: A kangaroo has long feet with springy tendons that help it hop. What kind of adaptation is this?
+@answer
+text: structural
+correct: true
+@answer
+text: behavioural
+correct: false
+@answer
+text: physiological
+correct: false
+
+% multichoice
+text: Many desert animals are nocturnal - they sleep in the day and are active at night. What kind of adaptation is this?
+@answer
+text: structural
+correct: false
+@answer
+text: behavioural
+correct: true
+@answer
+text: physiological
+correct: false
+
+% multichoice
+text: Cane toads make poison in their skin to protect themselves from predators. What kind of adaptation is this?
+@answer
+text: structural
+correct: false
+@answer
+text: behavioural
+correct: false
+@answer
+text: physiological
+correct: true
+
+% multichoice
+text: What is the smallest piece of an element?
+@answer
+text: a compound
+correct: false
+@answer
+text: a galaxy
+correct: false
+@answer
+text: an atom
+correct: true
+@answer
+text: a chunk
+correct: false
+
+% multichoice
+text: What is the atomic number of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: true
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: false
+
+% multichoice
+text: What is the chemical symbol number of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: false
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: true
+
+% multichoice
+text: How many electrons does a neutral atom of nitrogen have? (Use the periodic table entry shown here)
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: true
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: false
+@answer
+text: It doesn’t say
+correct: false
+
+% multichoice
+text: What is the atomic mass of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: false
+@answer
+text: 14.01
+correct: true
+@answer
+text: N
+correct: false
+
+% multichoice
+text: How many different types of atom are found in nature?
+@answer
+text: 27
+correct: false
+@answer
+text: 92
+correct: true
+@answer
+text: about 32 million
+correct: false
+@answer
+text: an infinite number
+correct: false
+
+% multichoice
+text: What do we call the list of all the elements?
+@answer
+text: the periodic table
+correct: true
+@answer
+text: the list of elements
+correct: false
+@answer
+text: the chemist's handbook
+correct: false
+@answer
+text: a conspiracy theory
+correct: false
+
+% multichoice
+text: Which of these things are parts of an atom?
+@answer
+text: Proton
+correct: true
+@answer
+text: Neutron
+correct: true
+@answer
+text: Electron
+correct: true
+@answer
+text: Photon
+correct: false
+@answer
+text: Positron
+correct: false
+@answer
+text: Krypton
+correct: false
+
+% multichoice
+text: Which particles orbit the nucleus of an atom?
+@answer
+text: Electrons
+correct: true
+@answer
+text: Protons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles make up the nucleus of an atom?
+@answer
+text: Protons
+correct: true
+@answer
+text: Neutrons
+correct: true
+@answer
+text: Electrons
+correct: false
+
+% multichoice
+text: Which particles have a negative electric charge?
+@answer
+text: Electrons
+correct: true
+@answer
+text: Protons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles have a positive electric charge?
+@answer
+text: Protons
+correct: true
+@answer
+text: Electrons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles have no electric charge?
+@answer
+text: Neutrons
+correct: true
+@answer
+text: Electrons
+correct: false
+@answer
+text: Protons
+correct: false
+
+% multichoice
+text: Which of these things is a property of most metals?
+@answer
+text: ductile
+correct: true
+@answer
+text: malleable
+correct: true
+@answer
+text: brittle
+correct: false
+@answer
+text: strong
+correct: true
+@answer
+text: soft
+correct: false
+@answer
+text: electrical insulators
+correct: false
+
+% multichoice
+text: Which of these things is a property of most metals?
+@answer
+text: hard
+correct: true
+@answer
+text: shiny
+correct: true
+@answer
+text: conduct electricity
+correct: true
+@answer
+text: conduct heat
+correct: true
+@answer
+text: low melting point
+correct: false
+@answer
+text: low density
+correct: false
+
+% multichoice
+text: What is an alloy?
+@answer
+text: a super-strong material
+correct: false
+@answer
+text: a new state of matter
+correct: false
+@answer
+text: a compound found in the human body
+correct: false
+@answer
+text: a mixture of metals
+correct: true
+
+% multichoice
+text: A chemical change always involves ...
+@answer
+text: explosions
+correct: false
+@answer
+text: creation of new substances
+correct: true
+@answer
+text: heating
+correct: false
+@answer
+text: substances that cause cancer
+correct: false
+
+% multichoice
+text: Are physical changes difficult to reverse?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% multichoice
+text: Are chemical changes difficult to reverse?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Is there a chemical change when you cut wood?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% multichoice
+text: Is there a chemical change when you burn fuel in a car engine?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Is there a chemical change when you fry an egg?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Is there a chemical change when you dent a car?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% multichoice
+text: Is there a chemical change when you make a cake?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Do chemical reactions always cause chemical changes?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Which of these things makes a chemical reaction happen faster without being used up?
+@answer
+text: Reactants
+correct: false
+@answer
+text: Products
+correct: false
+@answer
+text: Catalysts
+correct: true
+@answer
+text: Cold
+correct: false
+
+% multichoice
+text: Which of these things does NOT make a chemical reaction faster?
+@answer
+text: Higher temperature
+correct: false
+@answer
+text: Catalyst
+correct: false
+@answer
+text: Higher concentration
+correct: false
+@answer
+text: Larger particles
+correct: true
+
+% multichoice
+text: Which of these things does NOT slow down the rusting reaction?
+@answer
+text: Salty water
+correct: true
+@answer
+text: Paint
+correct: false
+@answer
+text: Galvanising (zinc coating)
+correct: false
+@answer
+text: Dry climate
+correct: false
+
+% multichoice
+text: What information is in a chemical formula (e.g. SiO<sub>2</sub>)?
+@answer
+text: The elements in the compound
+correct: true
+@answer
+text: The number of atoms in a molecule of the compound
+correct: true
+@answer
+text: If the compound is a poison
+correct: false
+@answer
+text: The everyday name of the compound
+correct: false
+
+% multichoice
+text: A chemical change always creates new substances. Which of these things could also be a sign of a chemical change?
+@answer
+text: Change in temperature
+correct: true
+@answer
+text: Change in colour
+correct: true
+@answer
+text: Bubbles
+correct: true
+@answer
+text: Emits light
+correct: true
+@answer
+text: Makes a precipitate
+correct: true
+@answer
+text: Breaks into smaller pieces
+correct: false
+
+% multichoice
+text:How many different body systems are there?
+@answer
+text: 11
+correct: true
+@answer
+text: 5
+correct: false
+@answer
+text: 8
+correct: false
+@answer
+text: 14
+correct: false
+
+% multichoice
+text: Which of these things is part of your circulatory system?
+@answer
+text:Blood
+correct: true
+@answer
+text:Heart
+correct: true
+@answer
+text:Arteries
+correct: true
+@answer
+text:Veins
+correct: true
+@answer
+text:Blood cells
+correct: true
+@answer
+text:Vampires
+correct: false
+
+% multichoice
+text: Which body system moves nutrients to different parts of your body?
+@answer
+text: Circulatory
+correct: true
+@answer
+text: Digestive
+correct: false
+@answer
+text: Excretory
+correct: false
+@answer
+text:Integumentory
+correct: false
+
+% multichoice
+text: Which of these things is part of your digestive system?
+@answer
+text: Mouth
+correct: true
+@answer
+text: Stomach
+correct: true
+@answer
+text: Intestines
+correct: true
+@answer
+text: Kidneys
+correct: false
+
+% multichoice
+text: Which body system makes hormones such as adrenaline?
+@answer
+text: Endocrine
+correct: true
+@answer
+text: Lymphatic/Immunbe
+correct: false
+@answer
+text: Nervous
+correct: false
+@answer
+text: Respiratory
+correct: false
+
+% multichoice
+text: Which body system removes waste from your body?
+@answer
+text:Excretory
+correct: true
+@answer
+text:Digestive
+correct: false
+@answer
+text:Muscular
+correct: false
+@answer
+text:Skeletal
+correct: false
+
+% multichoice
+text: Which of these things is part of your excretory system?
+@answer
+text: Kidneys
+correct: true
+@answer
+text: Lungs
+correct: true
+@answer
+text: Heart
+correct: false
+@answer
+text:Muscles
+correct: false
+
+% multichoice
+text: Which body system protects your body from the rest of the world?
+@answer
+text: Integumentory
+correct: true
+@answer
+text: Skeletal
+correct: false
+@answer
+text:Muscular
+correct: false
+@answer
+text:Endocrine
+correct: false
+
+% multichoice
+text: Which of these things is part of your integumentory system?
+@answer
+text:Skin
+correct: true
+@answer
+text:Muscles
+correct: false
+@answer
+text:Liver
+correct: false
+@answer
+text:Kidneys
+correct: false
+
+% multichoice
+text:Which body system fights off diseases?
+@answer
+text:Lymphatic / Immune
+correct: true
+@answer
+text: Digestive
+correct: false
+@answer
+text:Respiratory
+correct: false
+@answer
+text: Nervous
+correct: false
+
+% multichoice
+text:Which body system enables you to move around?
+@answer
+text:Muscular
+correct: true
+@answer
+text:Excretory
+correct: false
+@answer
+text:Digestive
+correct: false
+@answer
+text:Reproductive
+correct: false
+
+% multichoice
+text: Which of these is a real kind of muscle?
+@answer
+text:Skeletal
+correct: true
+@answer
+text:Smooth
+correct: true
+@answer
+text:Cardiac
+correct: true
+@answer
+text:Huge
+correct: false
+
+% multichoice
+text:Which body system allows you to sense the world around you and choose to do things in it?
+@answer
+text:Nervous
+correct: true
+@answer
+text:Skeletal
+correct: false
+@answer
+text:Circulatory
+correct: false
+@answer
+text:Respiratory
+correct: false
+
+% multichoice
+text:Which of these things is part of the nervous system?
+@answer
+text:Brain
+correct: true
+@answer
+text:Spinal cord
+correct: true
+@answer
+text:Neurons
+correct: true
+@answer
+text:Stomach
+correct: false
+
+% multichoice
+text:Which body system creates new people?
+@answer
+text:Reproductive
+correct: true
+@answer
+text:Digestive
+correct: false
+@answer
+text:Skeletal
+correct: false
+@answer
+text:Integumentory
+correct: false
+
+% multichoice
+text:Which body system allows gases to come into and out of your blood?
+@answer
+text:Respiratory
+correct: true
+@answer
+text:Nervous
+correct: false
+@answer
+text:Endocrine
+correct: false
+@answer
+text:Muscular
+correct: false
+
+% multichoice
+text: Which of these things is part of your respiratory system?
+@answer
+text: Lungs
+correct: true
+@answer
+text:Bones
+correct: false
+@answer
+text:Brain
+correct: false
+@answer
+text:Liver
+correct: false
+
+% multichoice
+text: Which body system gives you a shape and enables your muscles to move you effectively?
+@answer
+text: Skeletal
+correct: true
+@answer
+text: Nervous
+correct: false
+@answer
+text: Excretory
+correct: false
+@answer
+text:Lymphatic/Immune
+correct: false
+
+% multichoice
+text: How many bones does an adult human have?
+@answer
+text:206
+correct: true
+@answer
+text:189
+correct: false
+@answer
+text: 241
+correct: false
+@answer
+text:260
+correct: false
+
+% multichoice
+text:Which of these is part of the circulatory system?
+@answer
+text: Heart
+correct: true
+@answer
+text: Arteries
+correct: true
+@answer
+text: Veins
+correct: true
+@answer
+text: blood
+correct: true
+
+% multichoice
+text:What does the circulatory system do?
+@answer
+text:Move nutrients from your food around your body
+correct: true
+@answer
+text:Take carbon dioxide from your body to your lungs
+correct: true
+@answer
+text:Transport oxygen from your lungs to the rest of your body
+correct: true
+@answer
+text:Create food for vampires
+correct: false
+
+% multichoice
+text:What colours can blood be?
+@answer
+text: dark red
+correct: true
+@answer
+text: bright red
+correct: true
+@answer
+text: blue
+correct: false
+@answer
+text: green
+correct: false
+
+% multichoice
+text:Which blood vessels are often drawn in blue in diagrams?
+@answer
+text:veins
+correct: true
+@answer
+text:arteries
+correct: false
+@answer
+text:capillaries
+correct: false
+
+% multichoice
+text:Which of these things is a part of blood?
+@answer
+text:plasma
+correct: true
+@answer
+text:red blood cells
+correct: true
+@answer
+text:white blood cells
+correct: true
+@answer
+text:platelets
+correct: true
+@answer
+text:green blood cells
+correct: false
+@answer
+text:spoonlets
+correct: false
+
+% multichoice
+text: Which side of the heart pumps the low oxygen blood?
+@answer
+text:right
+correct: true
+@answer
+text:left
+correct: false
+
+% multichoice
+text: Which side of the heart pumps the high oxygen blood?
+@answer
+text:left
+correct: true
+@answer
+text:right
+correct: false
+
+% multichoice
+text:Which of these is true about arteries
+@answer
+text:Carry blood away from the heart
+correct: true
+@answer
+text:Carry blood to the heart
+correct: false
+@answer
+text:Carry high oxygen blood
+correct: false
+@answer
+text:Carry low oxygen blood
+correct: false
+
+% multichoice
+text:Which of these is true about veins
+@answer
+text:Carry blood to the heart
+correct: true
+@answer
+text:Carry blood away from the heart
+correct: false
+@answer
+text:Carry high oxygen blood
+correct: false
+@answer
+text:Carry low oxygen blood
+correct: false
+
+% multichoice
+text:What is a capillary?
+@answer
+text:A small blood vessel
+correct: true
+@answer
+text:A part of the blood
+correct: false
+@answer
+text:Another name for a red blood cell
+correct: false
+@answer
+text:A disease of the blood
+correct: false
+
+% multichoice
+text: Which path does blood follow when going through the heart?
+@answer
+text:Vein, Atrium, Ventricle, Artery
+correct: true
+@answer
+text: Artery, Atrium, Ventricle, Vein
+correct: false
+@answer
+text: Atrium, Artery, Ventricle, Vein
+correct: false
+@answer
+text: Vein, Ventricle, Atrium, Artery
+correct: false
+
+% multichoice
+text: Which part of the heart makes sure that blood flows in the right direction?
+@answer
+text: Valves
+correct: true
+@answer
+text: Atriums
+correct: false
+@answer
+text: Ventricles
+correct: false
+
+% multichoice
+text: Which part of the heart pumps more strongly?
+@answer
+text:Ventricle
+correct: true
+@answer
+text:Atrium
+correct: false
+
+% multichoice
+text: Which side of the heart pumps blood to the lungs
+@answer
+text: right
+correct: true
+@answer
+text: left
+correct: false
+
+% multichoice
+text: Which body organ is shaped like a bean?
+@answer
+text: kidney
+correct: true
+@answer
+text: heart
+correct: false
+@answer
+text: lungs
+correct: false
+@answer
+text:intestines
+correct: false
+
+% multichoice
+text: The main role of the kidneys is to
+@answer
+text: Get rid of waste from your body
+correct: true
+@answer
+text: Produce hormones
+correct: false
+@answer
+text: Process food
+correct: false
+@answer
+text: Sense the world
+correct: false
+
+% multichoice
+text: How many times does your blood go through your kidneys each day?
+@answer
+text: 20-25 times
+correct: true
+@answer
+text: 1-2 times
+correct: false
+@answer
+text: 100-120 times
+correct: false
+@answer
+text: 1000 times
+correct: false
+
+% multichoice
+text: What are the parts in a kidney called?
+@answer
+text: nephrons
+correct: true
+@answer
+text: capillaries
+correct: false
+@answer
+text: alveoli
+correct: false
+@answer
+text: villi
+correct: false
+
+% multichoice
+text: What are the two parts of a nephron?
+@answer
+text: glomerulus and tubule
+correct: true
+@answer
+text: glomerulus and bladder
+correct: false
+@answer
+text: tibia and fibula
+correct: false
+@answer
+text: axon and dendrite
+correct: false
+
+% multichoice
+text: The kidneys filter out vitamins and minerals and then re-absorb the ones you still need
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Waste products like urea are removed from the blood by the kidneys
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: What does urine travel through from your kidneys to your bladder?
+@answer
+text: ureters
+correct: true
+@answer
+text: canals
+correct: false
+@answer
+text: arteries
+correct: false
+@answer
+text: tubules
+correct: false
+
+% multichoice
+text: The kidneys control the amount of water in your body
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: How many kidneys do you have
+@answer
+text: 2
+correct: true
+@answer
+text: 1
+correct: false
+@answer
+text: 3
+correct: false
+@answer
+text: 0
+correct: false
+
+% multichoice
+text: What would happen if you had no kidneys?
+@answer
+text: You would die
+correct: true
+@answer
+text: You would urinate a lot
+correct: false
+@answer
+text: You would always be hungry
+correct: false
+@answer
+text: You would need an injection every day
+correct: false
+
+% multichoice
+text: What does the digestive system do?
+@answer
+text: Cut your food into small pieces
+correct: true
+@answer
+text: Turn your food into a liquid
+correct: true
+@answer
+text: Kill bacteria in your food
+correct: true
+@answer
+text: Absorb food nutrients into your body
+correct: true
+
+% multichoice
+text: Where does digestion begin?
+@answer
+text: Mouth
+correct: true
+@answer
+text: Stomach
+correct: false
+@answer
+text: Small intestine
+correct: false
+@answer
+text: Large intestine
+correct: false
+
+% multichoice
+text: What is the name of the tube that connects your mouth and stomach?
+@answer
+text: oesophagus
+correct: true
+@answer
+text: small intestine
+correct: false
+@answer
+text: trachea
+correct: false
+@answer
+text: vena cava
+correct: false
+
+% multichoice
+text: How is food moved down your oesophagus?
+@answer
+text: Muscles in the oesphagus push it down
+correct: true
+@answer
+text: It falls by gravity
+correct: false
+@answer
+text: The tongue pushes it
+correct: false
+@answer
+text: There's a vacuum in your stomach to suck it down
+correct: false
+
+% multichoice
+text: What does saliva do?
+@answer
+text: Begins digesting food
+correct: true
+@answer
+text: Makes food softer
+correct: true
+@answer
+text: Washes food down your throat
+correct: false
+@answer
+text: Kills bacteria
+correct: false
+
+% multichoice
+text: What is the name of the flap that stops food from going to your lungs?
+@answer
+text: Epiglottis
+correct: true
+@answer
+text: Glottis
+correct: false
+@answer
+text: Trachea
+correct: false
+@answer
+text: Oesophagus
+correct: false
+
+% multichoice
+text: What do enzymes in the stomach do?
+@answer
+text: Break food down
+correct: true
+@answer
+text: Make food slippery
+correct: false
+@answer
+text: Remove all the bad things from junk food
+correct: false
+@answer
+text: Make you vomit
+correct: false
+
+% multichoice
+text: What is your food called as it leaves the stomach?
+@answer
+text: Chyme
+correct: true
+@answer
+text: Porridge
+correct: false
+@answer
+text: Foodslop
+correct: false
+@answer
+text: Nutrislurry
+correct: false
+
+% multichoice
+text: What are the little bumps on the inside of your small intestine called?
+@answer
+text: Villi
+correct: true
+@answer
+text: Bumplets
+correct: false
+@answer
+text: Fingerlings
+correct: false
+@answer
+text: Nodes
+correct: false
+
+% multichoice
+text: Where are the nutrients from your food absorbed into your body?
+@answer
+text: Small intestine
+correct: true
+@answer
+text: Large intestine
+correct: false
+@answer
+text: Stomach
+correct: false
+@answer
+text: Rectum
+correct: false
+
+% multichoice
+text: Where is the food waste stored before it is pooed out?
+@answer
+text: Rectum
+correct: true
+@answer
+text: Large intestine
+correct: false
+@answer
+text: Small intestine
+correct: false
+@answer
+text: Gut
+correct: false
+
+% multichoice
+text: What does the skeletal system do?
+@answer
+text: Protect internal organs
+correct: true
+@answer
+text: Give us a shape
+correct: true
+@answer
+text: Give muscles something to move
+correct: true
+@answer
+text: Make blood cells
+correct: true
+@answer
+text: Store fat
+correct: true
+@answer
+text: Let us walk around after death
+correct: false
+
+% multichoice
+text: Bones are not alive
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: What are the different bone shape categories?
+@answer
+text: Long
+correct: true
+@answer
+text: Short
+correct: true
+@answer
+text: Sesamoid
+correct: true
+@answer
+text: Irregular
+correct: true
+@answer
+text: Flat
+correct: true
+@answer
+text: Spherical
+correct: false
+
+% multichoice
+text: Bones change as we live. What is this process called?
+@answer
+text: Remodelling
+correct: true
+@answer
+text: Hardening
+correct: false
+@answer
+text: Rebuilding
+correct: false
+@answer
+text: Repairing
+correct: false
+
+% multichoice
+text: What substance pads the places where bones meet?
+@answer
+text: Cartilage
+correct: true
+@answer
+text: Collagen
+correct: false
+@answer
+text: Hard bone tissue
+correct: false
+@answer
+text: Soft bone tissue
+correct: false
+
+% multichoice
+text: What joins bones to other bones
+@answer
+text: Ligaments
+correct: true
+@answer
+text: Tendons
+correct: false
+
+% multichoice
+text: What joins muscles to bones?
+@answer
+text: Tendons
+correct: true
+@answer
+text: Ligaments
+correct: false
+
+% multichoice
+text: Which of these is a subsystem of the skeletal system?
+@answer
+text: Axial skeleton
+correct: true
+@answer
+text: Appendicular skeleton
+correct: true
+@answer
+text: Radial skeleton
+correct: false
+@answer
+text: Linear skeleton
+correct: false
+
+% multichoice
+text: Which of these bones are in the axial skeleton?
+@answer
+text: Skull
+correct: true
+@answer
+text: Spine
+correct: true
+@answer
+text: Ribs
+correct: true
+@answer
+text: Arm bones
+correct: false
+
+% multichoice
+text: Which of these bones are in the appendicular skeleton?
+@answer
+text: Arm bones
+correct: true
+@answer
+text: Foot bones
+correct: true
+@answer
+text: Shoulders
+correct: true
+@answer
+text: Ear bones
+correct: false
+
+% multichoice
+text: What defines a long bone?
+@answer
+text: Cylinder shape
+correct: true
+@answer
+text: Longer than they are wide
+correct: true
+@answer
+text: The 16 longest bones in the body
+correct: false
+@answer
+text: Lasts a long time
+correct: false
+
+% multichoice
+text: Which of these bones are long bones?
+@answer
+text: Finger bones
+correct: true
+@answer
+text: Toe bones
+correct: true
+@answer
+text: Arm bones
+correct: true
+@answer
+text: Leg bones
+correct: true
+@answer
+text: Hip bones
+correct: false
+@answer
+text: Back bones
+correct: false
+
+% multichoice
+text: Where are short bones found?
+@answer
+text: Wrist
+correct: true
+@answer
+text: Ankle
+correct: true
+@answer
+text: Finger
+correct: false
+@answer
+text: Leg
+correct: false
+
+% multichoice
+text: What defines a sesamoid bone?
+@answer
+text: Its round shape
+correct: true
+@answer
+text: Its sesame flavour
+correct: false
+@answer
+text: Its small size
+correct: false
+@answer
+text: Its ablilty to handle pressure
+correct: false
+
+% multichoice
+text: Which of these are flat bones?
+@answer
+text: Skull bones
+correct: true
+@answer
+text: Shoulder blades
+correct: true
+@answer
+text: Pelvis
+correct: false
+@answer
+text: Ribs
+correct: false
+
+% multichoice
+text: Which of these bones has an irregular shape?
+@answer
+text: Vertebrae (back bones)
+correct: true
+@answer
+text: Knee caps
+correct: false
+@answer
+text: Shoulder blades
+correct: false
+@answer
+text: Thigh bones
+correct: false
+
+% multichoice
+text: What are the types of bone tissue?
+@answer
+text: Compact
+correct: true
+@answer
+text: Spongy
+correct: true
+@answer
+text: Dry
+correct: false
+@answer
+text: Hard
+correct: false
+
+% multichoice
+text: What are the two types of bone marrow?
+@answer
+text: Yellow
+correct: true
+@answer
+text: Red
+correct: true
+@answer
+text: White
+correct: false
+@answer
+text: Black
+correct: false
+
+% multichoice
+text: Which cells build bones?
+@answer
+text: Osteoblasts
+correct: true
+@answer
+text: Osteocytes
+correct: false
+@answer
+text: Osteoclasts
+correct: false
+@answer
+text: Chondroblasts
+correct: false
+
+% multichoice
+text: Which cells maintain bones?
+@answer
+text: Osteocytes
+correct: true
+@answer
+text: Osteoblasts
+correct: false
+@answer
+text: Osteoclasts
+correct: false
+@answer
+text: Chondroblasts
+correct: false
+
+% multichoice
+text: Which cells break down bones?
+@answer
+text: Osteoclasts
+correct: true
+@answer
+text: Osteocytes
+correct: false
+@answer
+text: Osteoblasts
+correct: false
+@answer
+text: Chondroblasts
+correct: false
+
+% multichoice
+text: Which cells make cartilage?
+@answer
+text: Chondroblasts
+correct: true
+@answer
+text: Osteoclasts
+correct: false
+@answer
+text: Osteocytes
+correct: false
+@answer
+text: Osteoblasts
+correct: false
+
+% multichoice
+text: How many sperm cells compete to get to the egg?
+@answer
+text: Millions
+correct: true
+@answer
+text: Hundreds
+correct: false
+@answer
+text: Thousands
+correct: false
+@answer
+text: Tens of thousands
+correct: false
+
+% multichoice
+text: How long does it take a human baby to grow from fertilisation to birth?
+@answer
+text: 9 months
+correct: true
+@answer
+text: 3 months
+correct: false
+@answer
+text: 1 year
+correct: false
+@answer
+text: 11 months
+correct: false
+
+% multichoice
+text: Where does a baby grow?
+@answer
+text: Uterus
+correct: true
+@answer
+text: Penis
+correct: false
+@answer
+text: Fallopian tube
+correct: false
+@answer
+text: Ovary
+correct: false
+
+% multichoice
+text: Where are sperm made?
+@answer
+text: Testes
+correct: true
+@answer
+text: Uterus
+correct: false
+@answer
+text: Fallopian tube
+correct: false
+@answer
+text: Ovaries
+correct: false
+
+% multichoice
+text: Where are eggs made?
+@answer
+text: Ovaries
+correct: true
+@answer
+text: Uterus
+correct: false
+@answer
+text: Fallopian tube
+correct: false
+@answer
+text: Testes
+correct: false
+
+% multichoice
+text: What is the scientific name for your windpipe?
+@answer
+text: Trachea
+correct: true
+@answer
+text: Bronchi
+correct: false
+@answer
+text: Nasal cavity
+correct: false
+@answer
+text: Pharynx
+correct: false
+
+% multichoice
+text: What does the nasal cavity do to the air we breathe?
+@answer
+text: Warms it
+correct: true
+@answer
+text: Filters it
+correct: true
+@answer
+text: Humidifies it
+correct: true
+@answer
+text: Decomposes it
+correct: false
+
+% multichoice
+text: What are the bubbles in our lungs called?
+@answer
+text: Alveoli
+correct: true
+@answer
+text: Epiglottis
+correct: false
+@answer
+text: Balloons
+correct: false
+@answer
+text: Bronchoiles
+correct: false
+
+% multichoice
+text: Which gas goes into our blood in the lungs?
+@answer
+text: Oxygen
+correct: true
+@answer
+text: Carbon dioxide
+correct: false
+@answer
+text: Nitrogen
+correct: false
+@answer
+text: Helium
+correct: false
+
+% multichoice
+text: Which gas comes out of our blood in the lungs?
+@answer
+text: Carbon dioxide
+correct: true
+@answer
+text: Oxygen
+correct: false
+@answer
+text: Nitrogen
+correct: false
+@answer
+text: Helium
+correct: false
+

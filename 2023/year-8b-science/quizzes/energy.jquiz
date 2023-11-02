@@ -1,0 +1,317 @@
+% jquiz
+% multichoice
+text: What is the name for stored energy?
+@answer
+text: Potential energy
+correct: true
+@answer
+text: Kinetic energy
+correct: false
+@answer
+text: Nuclear energy
+correct: false
+@answer
+text: Renewable energy
+correct: false
+
+% multichoice
+text: What is the name for the energy of motion?
+@answer
+text: Potential energy
+correct: false
+@answer
+text: Kinetic energy
+correct: true
+@answer
+text: Chemical energy
+correct: false
+@answer
+text: Mechanical energy
+correct: false
+
+% multichoice
+text: Which of these is a type of energy?
+@answer
+text: Electrical energy
+correct: true
+@answer
+text: Sound energy
+correct: true
+@answer
+text: Light energy
+correct: true
+@answer
+text: Chemical energy
+correct: true
+@answer
+text: Nuclear energy
+correct: true
+@answer
+text: Cold energy
+correct: false
+
+% multichoice
+text: Which of these is a type of potential energy?
+@answer
+text: Gravitational potential energy
+correct: true
+@answer
+text: Electrical potential energy
+correct: true
+@answer
+text: Chemical potential energy
+correct: true
+@answer
+text: Sound potential energy
+correct: false
+@answer
+text: Heat potential energy
+correct: false
+@answer
+text: Light potential energy
+correct: false
+
+% multichoice
+text:What is the unit we use to measure energy?
+@answer
+text: Joule
+correct: true
+@answer
+text: Watt
+correct: false
+@answer
+text: Degree
+correct: false
+@answer
+text: Cell
+correct: false
+
+% multichoice
+text: What type of heat transfer is happening when hot particles bump into their cooler neighbours?
+@answer
+text: Conduction
+correct: true
+@answer
+text: Convection
+correct: false
+@answer
+text: Radiation
+correct: false
+
+% multichoice
+text: What type of heat transfer is happening when a hotter part of a fluid rises and a cooler part sinks?
+@answer
+text: Conduction
+correct: false
+@answer
+text: Convection
+correct: true
+@answer
+text: Radiation
+correct: false
+
+% multichoice
+text: What type of heat transfer is happening when a hot object emits electromagnetic waves?
+@answer
+text: Conduction
+correct: false
+@answer
+text: Convection
+correct: false
+@answer
+text: Radiation
+correct: true
+
+% multichoice
+text: Which kind of heat transfer does ice create in a drink?
+@answer
+text: Conduction
+correct: false
+@answer
+text: Convection
+correct: true
+@answer
+text: Radiation
+correct: false
+
+% multichoice
+text: What kind of heat transfer happens when the pool water makes you cold?
+@answer
+text: Conduction
+correct: true
+@answer
+text: Convection
+correct: false
+@answer
+text: Radiation
+correct: false
+
+% multichoice
+text: What type of heat transfer makes you warm when you sit near a fire?
+@answer
+text: Conduction
+correct: false
+@answer
+text: Convection
+correct: false
+@answer
+text: Radiation
+correct: true
+
+% multichoice
+text: Sea breezes and land breezes are an example of
+@answer
+text: Convection
+correct: true
+@answer
+text: Conduction
+correct: false
+@answer
+text: Radiation
+correct: false
+
+% multichoice
+text: Dark coloured things emit and absorb more radiation than light coloured things.
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Energy can be created and destroyed
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: Energy can be transformed from one type to another
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: When energy is transformed from one type to another, some energy is usually lost in the form of
+@answer
+text: Heat
+correct: true
+@answer
+text: Light
+correct: false
+@answer
+text: Sound
+correct: false
+@answer
+text: Electricity
+correct: false
+
+% multichoice
+text: Which of these things could reduce the amount of energy needed in a house?
+@answer
+text: Double-glazed windows
+correct: true
+@answer
+text: Insulation
+correct: true
+@answer
+text: Draft-stoppers on doors
+correct: true
+@answer
+text: A shiny roof
+correct: true
+@answer
+text: Solar hot water system
+correct: true
+@answer
+text: Thin walls
+correct: false
+
+% multichoice
+text: Which of these energy sources is renewable?
+@answer
+text: Solar
+correct: true
+@answer
+text: Wind
+correct: true
+@answer
+text: Geothermal
+correct: true
+@answer
+text: Tidal
+correct: true
+@answer
+text: Coal
+correct: false
+@answer
+text: Diesel
+correct: false
+
+% multichoice
+text: When a candle is burnt, what energy transformation happens?
+@answer
+text: Chemical potential energy → Light and heat
+correct: true
+@answer
+text: Chemical potential energy → Kinetic energy
+correct: false
+@answer
+text: Kinetic energy → Heat and light
+correct: false
+@answer
+text: Elastic potential energy → Kinetic energy
+correct: false
+
+% multichoice
+text: When a crane lifts building parts up, what energy transformation happens?
+@answer
+text: Chemical potential energy → Kinetic energy → Gravitational potential energy
+correct: true
+@answer
+text: Chemical potential energy → Light and heat
+correct: false
+@answer
+text: Kinetic energy → Heat and light
+correct: false
+@answer
+text: Elastic potential energy → Kinetic energy
+correct: false
+
+% multichoice
+text: When a water balloon full of water is used to spray water, what energy transformation happens?
+@answer
+text: Elastic potential energy → Kinetic energy
+correct: true
+@answer
+text: Gravitational potential energy → Kinetic energy
+correct: false
+@answer
+text: Gravitational potential energy → Sound energy
+correct: false
+@answer
+text: Chemical potential energy → Kinetic energy
+correct: false
+
+% multichoice
+text: In a hydroelectric power station, what energy transformation happens?
+@answer
+text: Gravitational potential energy → Kinetic energy → Electrical energy
+correct: true
+@answer
+text: Kinetic energy → Chemical potential energy
+correct: false
+@answer
+text: Gravitational potential energy → Chemical potential energy
+correct: false
+@answer
+text: Gravitational potential energy → Light and heat
+correct: false
+
+
