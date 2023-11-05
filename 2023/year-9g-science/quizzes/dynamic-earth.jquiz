@@ -126,13 +126,13 @@ text: Crust
 correct: false
 @answer
 text: Mantle
-correct: true
+correct: false
 @answer
 text: Outer Core
 correct: false
 @answer
 text: Inner Core
-correct: false
+correct: true
 
 % question
 text: Which of the following is a type of plate boundary?
