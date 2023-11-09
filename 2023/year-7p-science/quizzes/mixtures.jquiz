@@ -46,7 +46,6 @@ correct: true
 @answer
 text: True
 correct: false
-@answer
 
 % multichoice
 text: Sugar dissolves in water. What is the solute in this situation?
