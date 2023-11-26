@@ -28,7 +28,7 @@ text: N
 correct: false
 
 % multichoice
-text: What is the chemical symbol number of nitrogen?
+text: What is the chemical symbol of nitrogen?
 image: chemistry/nitrogen.svg
 @answer
 text: 7

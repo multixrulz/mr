@@ -17,8 +17,8 @@ correct: true
 text: friction
 correct: true
 @answer
-text: muscles
-correct: true
+text: looking
+correct: false
 
 % multichoice
 text: If you put a force on an object, does it always move?
@@ -172,3 +172,92 @@ correct: false
 @answer
 text: harder
 correct: false
+
+% multichoice
+text: Gravity, electricity and magnetism all make a _______ that causes a force
+@answer
+text: field
+correct: true
+@answer
+text: paddock
+correct: false
+@answer
+text: magic zone
+correct: false
+@answer
+text: contact
+correct: false
+
+% multichoice
+text: What type of force does wind produce?
+@answer
+text: contact
+correct: true
+@answer
+text: non-contact
+correct: false
+
+% multichoice
+text: What type of force does pushing produce?
+@answer
+text: contact
+correct: true
+@answer
+text: non-contact
+correct: false
+
+% multichoice
+text: What type of force does pulling produce?
+@answer
+text: contact
+correct: true
+@answer
+text: non-contact
+correct: false
+
+% multichoice
+text: What type of force does friction produce?
+@answer
+text: contact
+correct: true
+@answer
+text: non-contact
+correct: false
+
+% multichoice
+text: What type of force do muscles produce?
+@answer
+text: contact
+correct: true
+@answer
+text: non-contact
+correct: false
+
+% multichoice
+text: What type of force does electricity produce?
+@answer
+text: non-contact
+correct: true
+@answer
+text: contact
+correct: false
+
+% multichoice
+text: What type of force does gravity produce?
+@answer
+text: non-contact
+correct: true
+@answer
+text: contact
+correct: false
+
+% multichoice
+text: What type of force does magnetism produce?
+@answer
+text: non-contact
+correct: true
+@answer
+text: contact
+correct: false
+
+
