@@ -1,0 +1,105 @@
+/* Main layout */
+@font-face {
+font-family: 'SiteFont';
+font-style: normal;
+font-weight: 800;
+src: url('fonts/EncodeSans-Black.ttf');
+}
+
+@font-face {
+font-family: 'SiteFont';
+font-style: normal;
+font-weight: 400;
+src: url('fonts/ABeeZee-Regular.ttf');
+}
+
+@font-face {
+font-family: 'SiteFont';
+font-style: italic;
+font-weight: 400;
+src: url('fonts/ABeeZee-Italic.ttf');
+}
+
+body {
+    font-family: SiteFont;
+}
+
+.jquiz-container {
+    padding: 1em;
+}
+
+/* Images */
+.jquiz-question img {
+    vertical-align: top;
+    height: 8em;
+    margin-left: 2em;
+}
+.jquiz-answer img {
+    vertical-align: top;
+    height: 4em;
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
+/* Style questions */
+.jquiz-question {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    margin-left: 2em;
+}
+.jquiz-question::before {
+    content: counter(question_number) ". ";
+}
+.jquiz-question div {
+    display: inline-block;
+}
+/* Style answers */
+.jquiz-answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content;
+    margin-left: 7ex;
+}
+
+.jquiz-answer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.jquiz-answer * {
+    vertical-align: top;
+}
+
+.jquiz-answer input {
+    display: block;
+    height: 1em;
+}
+
+.jquiz-answer label {
+    display: flex;
+}
+
+#show-answers {
+    margin-top: 2em;
+}
+
+/* Question numbering - required because of .nobreak divs*/
+}
+body {
+    counter-reset: question_number;
+}
+.nobreak {
+    counter-increment: question_number;
+}
+
+@media print {
+    .nobreak {
+        break-inside: avoid;
+    }
+
+    #show-answers {
+        display: none;
+    }
+}
