@@ -220,12 +220,16 @@ padding-top: 0.5em;
 }
 .contents ul li {
 list-style-type: none;
+bullet-style: none;
 padding-top: 0.3em;
 padding-bottom: 0.3em;
 text-indent: -2em;
 }
 
 /* List of activites - show it's been done */
+.lessonoutline {
+font-size: 200%;
+}
 input.show_done {
 display: none;
 }
@@ -236,7 +240,6 @@ border-radius: 0.5em;
 padding: 0em 1em;
 background: #FFD8BB;
 min-height: 18vh; /* same as icon below + padding*/
-font-size: 200%;
 }
 input.show_done:checked + label {
 filter: grayscale(100%);
