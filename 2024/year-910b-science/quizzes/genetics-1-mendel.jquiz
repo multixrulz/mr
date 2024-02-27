@@ -1,0 +1,110 @@
+% jquiz
+% multichoice
+text: Which of these is true about Gregor Mendel?
+@answer
+text: He was an Austrian monk
+correct: true
+@answer
+text: He discovered basic laws of genetics
+correct: true
+@answer
+text: He bred a lot of pea plants
+correct: true
+@answer
+text: He won a Nobel prize
+correct: false
+
+% multichoice
+text: Fur colour, leaf shape, ability to roll tongue, and colour blindness are examples of …
+@answer
+text: Traits
+correct: true
+@answer
+text: Genes
+correct: false
+@answer
+text: Alleles
+correct: false
+@answer
+text: Dominant genes
+correct: false
+
+% multichoice
+text: What is the physical thing that allows traits to be inherited?
+@answer
+text: Gene
+correct: true
+@answer
+text: Heredity
+correct: false
+@answer
+text: Dominant
+correct: false
+@answer
+text: Recessive
+correct: false
+
+% multichoice
+text: What is the science of heredity called?
+@answer
+text: Genetics
+correct: true
+@answer
+text: Alleles
+correct: false
+@answer
+text: Traits
+correct: false
+@answer
+text: Genes
+correct: false
+
+% multichoice
+text: What do we call the passing down of traits through a family of living things?
+@answer
+text: Heredity
+correct: true
+@answer
+text: Genetics
+correct: false
+@answer
+text: Dominancy
+correct: false
+@answer
+text: Recessivity
+correct: false
+
+% multichoice
+text: Genes come in pairs
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Different variations of a gene are called …
+@answer
+text: Alleles
+correct: true
+@answer
+text: Dominant genes
+correct: false
+@answer
+text: Recessive genes
+correct: false
+@answer
+text: Traits
+correct: false
+
+% multichoice
+text: When an organism has both a dominant allele and a recessive allele, which allele controls the trait that is seen in the organism?
+@answer
+text: Dominant allele
+correct: true
+@answer
+text: Recessive allele
+correct: false
+
+
