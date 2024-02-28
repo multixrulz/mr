@@ -1,6 +1,7 @@
 % jquiz
 % multichoice
-text:
+text: Which allele is dominant in this punnett square?
+image: genetics/punnett-AA-Aa-complete.svg
 @answer
 text:
 correct: true
