@@ -195,6 +195,16 @@ height: 100%;
     border-color: red;
 }
 
+.jquiz-auto .jquiz-answers input.correct + label {
+    background-color: #4D994D;
+    border-color: green;
+}
+
+.jquiz-auto .jquiz-answers input.incorrect + label {
+    background-color: #994D4D;
+    border-color: red;
+}
+
 /* Style splash screen */
 .jquiz-splash {
     width: 100%;
@@ -243,6 +253,12 @@ height: 100%;
     margin: 1vh;
     padding: 1vh;
     font-size: 3vh;
+}
+
+.jquiz-auto .jquiz-score,
+.jquiz-auto .jquiz-lock,
+.jquiz-auto .jquiz-next {
+    display:none !important;
 }
 
 .jquiz-bottombar input:disabled {

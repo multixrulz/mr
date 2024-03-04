@@ -24,6 +24,13 @@ var audio_correct;
 var audio_incorrect;
 var audio_music;
 var previous_id = 0;
+var auto=false;
+
+// Make the quiz go automatically
+function jquiz_run_auto() {
+    auto=true;
+    jquiz_run();
+}
 
 // Get things going
 function jquiz_run() {
@@ -135,10 +142,15 @@ function jquiz_get_data() {
 
 function jquiz_audio_load() {
     // Sounds to play
-    audio_correct = new Audio('media/applause_normal.mp3');
+    audio_correct = new Audio('media/381355__funwithsound__applause-1.mp3');
     audio_incorrect = new Audio('media/336998__timkahn__awww-01.mp3');
+    audio_answer_shown = audio_correct;
+    if (auto) {
+        audio_thinking = new Audio('media/thinking-time-148496-short.mp3');
+    } else {
+        audio_thinking = new Audio('media/thinking-time-148496.mp3');
+    }
     audio_music = new Audio('media/sport-news-intro-01-by-taigasoundprod-from-filmmusic-io.mp3');
-    audio_thinking = new Audio('media/thinking-time-148496.mp3');
 }
 
 function jquiz_audio_play_music() {
@@ -153,14 +165,33 @@ function jquiz_audio_music_ended(callback) {
     }
 }
 
+function jquiz_audio_thinking_ended(callback) {
+    audio_thinking.onended = function() {
+        callback();
+        audio_thinking.onended = null;
+    }
+}
+
+function jquiz_audio_answer_shown_ended(callback) {
+    audio_answer_shown.onended = function() {
+        callback();
+        audio_answer_shown.onended = null;
+    }
+}
+
 function jquiz_audio_play_thinking() {
-    audio_thinking.volume = 0.02;
+    audio_thinking.volume = 0.04;
     audio_thinking.play();
 }
 
 function jquiz_audio_play_correct() {
-    audio_correct.volume = 0.05;
+    audio_correct.volume = 0.03;
     audio_correct.play();
+}
+
+function jquiz_audio_play_answer_shown() {
+    audio_answer_shown.volume = 0.03;
+    audio_answer_shown.play();
 }
 
 function jquiz_audio_play_incorrect() {
@@ -246,8 +277,12 @@ function jquiz_next_question() {
     } else {
         next_button_text = "Next question";
     }
-    html = `
-        <div class="jquiz-quiz">
+    if (auto) {
+        html = `<div class="jquiz-quiz jquiz-auto">`;
+    } else {
+        html = `<div class="jquiz-quiz">`;
+    }
+    html += `
         <div class="jquiz-question jquiz-contrast-with-bg">
             ${question_html}
         </div>
@@ -272,6 +307,10 @@ function jquiz_next_question() {
 
     // Play the thinking music
     jquiz_audio_play_thinking();
+    // If we're in auto mode, call jquiz_lock_it_in() when the music ends
+    if (auto) {
+        jquiz_audio_thinking_ended(jquiz_lock_it_in);
+    }
 }
 
 function jquiz_question_html(question) {
@@ -357,15 +396,27 @@ function jquiz_show_scoreboard() {
     // Display the score
     score = quiz_results['score'];
     num_questions = quiz_data['num_questions'];
-    html = `
-        <div class="jquiz-quiz">
-        <div class="jquiz-scoreboard">
-            <p>You scored<br><span class="score">${score}</span><br> out of ${num_questions}</p>
-        </div>
-        <div class="jquiz-bottombar">
-            <input type="button" value="close" class="jquiz-close" onclick="jquiz_start_button();" />
-        </div>
-        </div>`;
+    if (auto) {
+        html = `
+            <div class="jquiz-quiz">
+            <div class="jquiz-scoreboard">
+                <p>How well did you do?</p>
+            </div>
+            <div class="jquiz-bottombar">
+                <input type="button" value="close" class="jquiz-close" onclick="jquiz_start_button();" />
+            </div>
+            </div>`;
+    } else {
+        html = `
+            <div class="jquiz-quiz">
+            <div class="jquiz-scoreboard">
+                <p>You scored<br><span class="score">${score}</span><br> out of ${num_questions}</p>
+            </div>
+            <div class="jquiz-bottombar">
+                <input type="button" value="close" class="jquiz-close" onclick="jquiz_start_button();" />
+            </div>
+            </div>`;
+    }
     // Put the HTML into the quiz div
     jquiz_write_interactive_html(html);
 }
@@ -407,24 +458,29 @@ function jquiz_lock_it_in() {
         user_correct = user_correct && right_answer;
     });
     jquiz_audio_stop();
-    if (user_correct) {
+    if (auto) {
+        jquiz_audio_play_answer_shown();
+        jquiz_audio_answer_shown_ended(jquiz_next_question);
         quiz_results['score']++;
-        jquiz_audio_play_correct();
     } else {
-        jquiz_audio_play_incorrect();
-
+        if (user_correct) {
+            quiz_results['score']++;
+            jquiz_audio_play_correct();
+        } else {
+            jquiz_audio_play_incorrect();
+        }
+        console.log("User is", user_correct);
+        // Enable the "next question" button.
+        selector = ".jquiz-next";
+        next_button = document.querySelector(selector);
+        next_button.disabled = false;
+        selector = ".jquiz-lock";
+        lock_button = document.querySelector(selector);
+        lock_button.disabled = true;
+        selector = ".jquiz-score";
+        score_text = document.querySelector(selector);
+        score_text.innerHTML = "Score: " + quiz_results['score'];
     }
-    console.log("User is", user_correct);
-    // Enable the "next question" button.
-    selector = ".jquiz-next";
-    next_button = document.querySelector(selector);
-    next_button.disabled = false;
-    selector = ".jquiz-lock";
-    lock_button = document.querySelector(selector);
-    lock_button.disabled = true;
-    selector = ".jquiz-score";
-    score_text = document.querySelector(selector);
-    score_text.innerHTML = "Score: " + quiz_results['score'];
 }
 
 
