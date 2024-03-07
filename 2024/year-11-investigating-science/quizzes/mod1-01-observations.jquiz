@@ -304,7 +304,7 @@ text: Inference
 correct: false
 
 % multichoice
-text: What type of statement is this: It was dark when this photo was made
+text: What type of statement is this: The fuel tank has just been filled
 image: mod1-01-observe-inference/fuel_gauge_fuel_light.jpg
 @answer
 text: Quantitative observation

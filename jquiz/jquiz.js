@@ -344,9 +344,16 @@ function jquiz_answer_html(question, add_div=false) {
             }
         }
     });
+    answer_numbers = 'ABCDEFGHIJKLMN';
     question.answers.forEach((answer, index) => {
         answer_id = unique_id();
-        answer_snippet = jquiz_text_image_html(answer, quiz_data['src']);
+        if (auto) {
+            answer_num = answer_numbers[index];
+            answer.text = answer_num + ': ' + answer.text;
+            answer_snippet = jquiz_text_image_html(answer, quiz_data['src']);
+        } else {
+            answer_snippet = jquiz_text_image_html(answer, quiz_data['src']);
+        }
         if (add_div == true)
             answer_code.push('<div class="jquiz-answer">');
         answer_code.push(`<input type="${input_type}" id="${answer_id}" name="jquiz-${question_id}" correct="${answer.correct}" index="${index}" />
