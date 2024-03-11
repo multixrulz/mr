@@ -8,7 +8,7 @@ correct: true
 text: Fallopian tube
 correct: true
 @answer
-text: Uterus
+text: Cervix
 correct: true
 @answer
 text: Testes
@@ -24,22 +24,22 @@ correct: false
 text: Which of these body parts are in a male?
 @answer
 text: Ovary
-correct: true
+correct: false
 @answer
 text: Fallopian tube
-correct: true
+correct: false
 @answer
 text: Uterus
-correct: true
+correct: false
 @answer
 text: Testes
-correct: false
+correct: true
 @answer
 text: Scrotum
-correct: false
+correct: true
 @answer
 text: Sperm duct
-correct: false
+correct: true
 
 % multichoice
 text: What do the testes produce?
