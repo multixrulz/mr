@@ -1,0 +1,618 @@
+% jquiz
+% multichoice
+text:How many different body systems are there?
+@answer
+text: 11
+correct: true
+@answer
+text: 5
+correct: false
+@answer
+text: 8
+correct: false
+@answer
+text: 14
+correct: false
+
+% multichoice
+text: Which body system moves nutrients to different parts of your body?
+@answer
+text: Circulatory
+correct: true
+@answer
+text: Digestive
+correct: false
+@answer
+text: Excretory
+correct: false
+@answer
+text:Integumentory
+correct: false
+
+% multichoice
+text: Which body system brings nutrients from your food into your blood?
+@answer
+text: Circulatory
+correct: false
+@answer
+text: Digestive
+correct: true
+@answer
+text: Excretory
+correct: false
+@answer
+text:Integumentory
+correct: false
+
+% multichoice
+text: Which body system makes hormones such as adrenaline?
+@answer
+text: Endocrine
+correct: true
+@answer
+text: Lymphatic/Immunbe
+correct: false
+@answer
+text: Nervous
+correct: false
+@answer
+text: Respiratory
+correct: false
+
+% multichoice
+text: Which body system removes waste from your body?
+@answer
+text:Excretory
+correct: true
+@answer
+text:Digestive
+correct: false
+@answer
+text:Muscular
+correct: false
+@answer
+text:Skeletal
+correct: false
+
+% multichoice
+text: Which body system protects your body from the rest of the world?
+@answer
+text: Integumentory
+correct: true
+@answer
+text: Skeletal
+correct: false
+@answer
+text:Muscular
+correct: false
+@answer
+text:Endocrine
+correct: false
+
+% multichoice
+text:Which body system fights off diseases?
+@answer
+text:Lymphatic / Immune
+correct: true
+@answer
+text: Digestive
+correct: false
+@answer
+text:Respiratory
+correct: false
+@answer
+text: Nervous
+correct: false
+
+% multichoice
+text:Which body system enables you to move around?
+@answer
+text:Muscular
+correct: true
+@answer
+text:Excretory
+correct: false
+@answer
+text:Digestive
+correct: false
+@answer
+text:Reproductive
+correct: false
+
+% multichoice
+text:Which body system allows you to sense the world around you and choose to do things in it?
+@answer
+text:Nervous
+correct: true
+@answer
+text:Skeletal
+correct: false
+@answer
+text:Circulatory
+correct: false
+@answer
+text:Respiratory
+correct: false
+
+% multichoice
+text:Which body system creates new people?
+@answer
+text:Reproductive
+correct: true
+@answer
+text:Digestive
+correct: false
+@answer
+text:Skeletal
+correct: false
+@answer
+text:Integumentory
+correct: false
+
+% multichoice
+text:Which body system brings oxygen into your blood?
+@answer
+text:Respiratory
+correct: true
+@answer
+text:Nervous
+correct: false
+@answer
+text:Endocrine
+correct: false
+@answer
+text:Muscular
+correct: false
+
+
+% multichoice
+text: Which body system gives you a shape and enables your muscles to move you effectively?
+@answer
+text: Skeletal
+correct: true
+@answer
+text: Nervous
+correct: false
+@answer
+text: Excretory
+correct: false
+@answer
+text:Lymphatic/Immune
+correct: false
+
+
+
+% multichoice
+text: What does the skeletal system do?
+@answer
+text: Protect internal organs
+correct: true
+@answer
+text: Give us a shape
+correct: true
+@answer
+text: Give muscles something to move
+correct: true
+@answer
+text: Make blood cells
+correct: true
+@answer
+text: Store fat
+correct: true
+@answer
+text: Let us walk around after death
+correct: false
+
+% multichoice
+text: Bones are not alive
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: What are the different bone shape categories?
+@answer
+text: Long
+correct: true
+@answer
+text: Short
+correct: true
+@answer
+text: Sesamoid
+correct: true
+@answer
+text: Irregular
+correct: true
+@answer
+text: Flat
+correct: true
+@answer
+text: Spherical
+correct: false
+
+% multichoice
+text: What substance pads the places where bones meet?
+@answer
+text: Cartilage
+correct: true
+@answer
+text: Collagen
+correct: false
+@answer
+text: Hard bone tissue
+correct: false
+@answer
+text: Soft bone tissue
+correct: false
+
+% multichoice
+text: What joins bones to other bones
+@answer
+text: Ligaments
+correct: true
+@answer
+text: Tendons
+correct: false
+
+% multichoice
+text: What joins muscles to bones?
+@answer
+text: Tendons
+correct: true
+@answer
+text: Ligaments
+correct: false
+
+% multichoice
+text: What defines a long bone?
+@answer
+text: Cylinder shape
+correct: true
+@answer
+text: Longer than they are wide
+correct: true
+@answer
+text: The 16 longest bones in the body
+correct: false
+@answer
+text: Lasts a long time
+correct: false
+
+% multichoice
+text: Which of these bones are long bones?
+@answer
+text: Finger bones
+correct: true
+@answer
+text: Toe bones
+correct: true
+@answer
+text: Arm bones
+correct: true
+@answer
+text: Leg bones
+correct: true
+@answer
+text: Hip bones
+correct: false
+@answer
+text: Back bones
+correct: false
+
+% multichoice
+text: Where are short bones found?
+@answer
+text: Wrist
+correct: true
+@answer
+text: Ankle
+correct: true
+@answer
+text: Finger
+correct: false
+@answer
+text: Leg
+correct: false
+
+% multichoice
+text: What defines a sesamoid bone?
+@answer
+text: Its round shape
+correct: true
+@answer
+text: Its sesame flavour
+correct: false
+@answer
+text: Its small size
+correct: false
+@answer
+text: Its ablilty to handle pressure
+correct: false
+
+% multichoice
+text: Which of these are flat bones?
+@answer
+text: Skull bones
+correct: true
+@answer
+text: Shoulder blades
+correct: true
+@answer
+text: Pelvis
+correct: false
+@answer
+text: Ribs
+correct: false
+
+% multichoice
+text: Which of these bones has an irregular shape?
+@answer
+text: Vertebrae (back bones)
+correct: true
+@answer
+text: Knee caps
+correct: false
+@answer
+text: Shoulder blades
+correct: false
+@answer
+text: Thigh bones
+correct: false
+
+% multichoice
+text: What are the types of bone tissue?
+@answer
+text: Compact
+correct: true
+@answer
+text: Spongy
+correct: true
+@answer
+text: Dry
+correct: false
+@answer
+text: Hard
+correct: false
+
+% multichoice
+text: What are the two types of bone marrow?
+@answer
+text: Yellow
+correct: true
+@answer
+text: Red
+correct: true
+@answer
+text: White
+correct: false
+@answer
+text: Black
+correct: false
+
+% multichoice
+text: Where do you find a hinge joint?
+@answer
+text: Fingers
+correct: true
+@answer
+text: Toes
+correct: true
+@answer
+text: Elbows
+correct: true
+@answer
+text: Knees
+correct: true
+@answer
+text: Neck
+correct: false
+@answer
+text: Shoulders
+correct: false
+
+% multichoice
+text: Where do you find a ball and socket joint?
+@answer
+text: Shoulders
+correct: true
+@answer
+text: Hips
+correct: true
+@answer
+text: Elbows
+correct: false
+@answer
+text: Knees
+correct: false
+@answer
+text: Neck
+correct: false
+@answer
+text: Arms
+correct: false
+
+
+
+% multichoice
+text: How many muscles are in your body?
+@answer
+text: Over 650
+correct: true
+@answer
+text: 206
+correct: false
+@answer
+text: About 450
+correct: false
+@answer
+text: Over 1000
+correct: false
+
+% multichoice
+text: Where do you find skeletal muscles?
+@answer
+text: Attached to bones
+correct: true
+@answer
+text: In the heart
+correct: false
+@answer
+text: Inside bones
+correct: false
+@answer
+text: In your intestines and blood vessels
+correct: false
+
+% multichoice
+text: Where do you find smooth muscles?
+@answer
+text: Attached to bones
+correct: false
+@answer
+text: In the heart
+correct: false
+@answer
+text: Inside bones
+correct: false
+@answer
+text: In your intestines and blood vessels
+correct: true
+
+% multichoice
+text: Where do you find cardiac muscle?
+@answer
+text: Attached to bones
+correct: false
+@answer
+text: In the heart
+correct: true
+@answer
+text: Inside bones
+correct: false
+@answer
+text: In your intestines and blood vessels
+correct: false
+
+% multichoice
+text: Which kinds of muscles can we control consciously?
+@answer
+text: Skeletal
+correct: true
+@answer
+text: Cardiac
+correct: false
+@answer
+text: Smooth
+correct: false
+
+% multichoice
+text: How much of our body heat comes from muscles?
+@answer
+text: Around 85%
+correct: true
+@answer
+text: Around 20%
+correct: false
+@answer
+text: Around 60%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: Which of these is a real kind of muscle?
+@answer
+text:Skeletal
+correct: true
+@answer
+text:Smooth
+correct: true
+@answer
+text:Cardiac
+correct: true
+@answer
+text:Huge
+correct: false
+
+
+
+% multichoice
+text: What is the scientific name for your windpipe?
+@answer
+text: Trachea
+correct: true
+@answer
+text: Bronchi
+correct: false
+@answer
+text: Nasal cavity
+correct: false
+@answer
+text: Pharynx
+correct: false
+
+% multichoice
+text: What does the nasal cavity do to the air we breathe?
+@answer
+text: Warms it
+correct: true
+@answer
+text: Filters it
+correct: true
+@answer
+text: Humidifies it
+correct: true
+@answer
+text: Decomposes it
+correct: false
+
+% multichoice
+text: What are the bubbles in our lungs called?
+@answer
+text: Alveoli
+correct: true
+@answer
+text: Epiglottis
+correct: false
+@answer
+text: Balloons
+correct: false
+@answer
+text: Bronchoiles
+correct: false
+
+% multichoice
+text: Which gas goes into our blood in the lungs?
+@answer
+text: Oxygen
+correct: true
+@answer
+text: Carbon dioxide
+correct: false
+@answer
+text: Nitrogen
+correct: false
+@answer
+text: Helium
+correct: false
+
+% multichoice
+text: Which gas comes out of our blood in the lungs?
+@answer
+text: Carbon dioxide
+correct: true
+@answer
+text: Oxygen
+correct: false
+@answer
+text: Nitrogen
+correct: false
+@answer
+text: Helium
+correct: false
+
+
