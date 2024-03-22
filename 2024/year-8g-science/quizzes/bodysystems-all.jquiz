@@ -615,4 +615,486 @@ correct: false
 text: Helium
 correct: false
 
+% multichoice
+text:Which of these is part of the circulatory system?
+@answer
+text: Heart
+correct: true
+@answer
+text: Arteries
+correct: true
+@answer
+text: Veins
+correct: true
+@answer
+text: blood
+correct: true
+
+% multichoice
+text:What does the circulatory system do?
+@answer
+text:Move nutrients from your food around your body
+correct: true
+@answer
+text:Take carbon dioxide from your body to your lungs
+correct: true
+@answer
+text:Transport oxygen from your lungs to the rest of your body
+correct: true
+@answer
+text:Create food for vampires
+correct: false
+
+% multichoice
+text:What colours can blood be?
+@answer
+text: dark red
+correct: true
+@answer
+text: bright red
+correct: true
+@answer
+text: blue
+correct: false
+@answer
+text: green
+correct: false
+
+% multichoice
+text:Which blood vessels are often drawn in blue in diagrams?
+@answer
+text:veins
+correct: true
+@answer
+text:arteries
+correct: false
+@answer
+text:capillaries
+correct: false
+
+% multichoice
+text:Which of these things is a part of blood?
+@answer
+text:plasma
+correct: true
+@answer
+text:red blood cells
+correct: true
+@answer
+text:white blood cells
+correct: true
+@answer
+text:platelets
+correct: true
+@answer
+text:green blood cells
+correct: false
+@answer
+text:spoonlets
+correct: false
+
+% multichoice
+text: Which side of the heart pumps the low oxygen blood?
+@answer
+text:right
+correct: true
+@answer
+text:left
+correct: false
+
+% multichoice
+text: Which side of the heart pumps the high oxygen blood?
+@answer
+text:left
+correct: true
+@answer
+text:right
+correct: false
+
+% multichoice
+text:Which of these is true about arteries
+@answer
+text:Carry blood away from the heart
+correct: true
+@answer
+text:Carry blood to the heart
+correct: false
+@answer
+text:Carry high oxygen blood
+correct: false
+@answer
+text:Carry low oxygen blood
+correct: false
+
+% multichoice
+text:Which of these is true about veins
+@answer
+text:Carry blood to the heart
+correct: true
+@answer
+text:Carry blood away from the heart
+correct: false
+@answer
+text:Carry high oxygen blood
+correct: false
+@answer
+text:Carry low oxygen blood
+correct: false
+
+% multichoice
+text:What is a capillary?
+@answer
+text:A small blood vessel
+correct: true
+@answer
+text:A part of the blood
+correct: false
+@answer
+text:Another name for a red blood cell
+correct: false
+@answer
+text:A disease of the blood
+correct: false
+
+% multichoice
+text: Which path does blood follow when going through the heart?
+@answer
+text:Vein, Atrium, Ventricle, Artery
+correct: true
+@answer
+text: Artery, Atrium, Ventricle, Vein
+correct: false
+@answer
+text: Atrium, Artery, Ventricle, Vein
+correct: false
+@answer
+text: Vein, Ventricle, Atrium, Artery
+correct: false
+
+% multichoice
+text: Which part of the heart makes sure that blood flows in the right direction?
+@answer
+text: Valves
+correct: true
+@answer
+text: Atriums
+correct: false
+@answer
+text: Ventricles
+correct: false
+
+% multichoice
+text: Which part of the heart pumps more strongly?
+@answer
+text:Ventricle
+correct: true
+@answer
+text:Atrium
+correct: false
+
+% multichoice
+text: Which side of the heart pumps blood to the lungs
+@answer
+text: right
+correct: true
+@answer
+text: left
+correct: false
+
+% multichoice
+text: What does the digestive system do?
+@answer
+text: Cut your food into small pieces
+correct: true
+@answer
+text: Turn your food into a liquid
+correct: true
+@answer
+text: Kill bacteria in your food
+correct: true
+@answer
+text: Absorb food nutrients into your body
+correct: true
+
+% multichoice
+text: Where does digestion begin?
+@answer
+text: Mouth
+correct: true
+@answer
+text: Stomach
+correct: false
+@answer
+text: Small intestine
+correct: false
+@answer
+text: Large intestine
+correct: false
+
+% multichoice
+text: What is the name of the tube that connects your mouth and stomach?
+@answer
+text: oesophagus
+correct: true
+@answer
+text: small intestine
+correct: false
+@answer
+text: trachea
+correct: false
+@answer
+text: vena cava
+correct: false
+
+% multichoice
+text: How is food moved down your oesophagus?
+@answer
+text: Muscles in the oesphagus push it down
+correct: true
+@answer
+text: It falls by gravity
+correct: false
+@answer
+text: The tongue pushes it
+correct: false
+@answer
+text: There's a vacuum in your stomach to suck it down
+correct: false
+
+% multichoice
+text: What does saliva do?
+@answer
+text: Begins digesting food
+correct: true
+@answer
+text: Makes food softer
+correct: true
+@answer
+text: Washes food down your throat
+correct: false
+@answer
+text: Kills bacteria
+correct: false
+
+% multichoice
+text: What is the name of the flap that stops food from going to your lungs?
+@answer
+text: Epiglottis
+correct: true
+@answer
+text: Glottis
+correct: false
+@answer
+text: Trachea
+correct: false
+@answer
+text: Oesophagus
+correct: false
+
+% multichoice
+text: What do enzymes in the stomach do?
+@answer
+text: Break food down
+correct: true
+@answer
+text: Make food slippery
+correct: false
+@answer
+text: Remove all the bad things from junk food
+correct: false
+@answer
+text: Make you vomit
+correct: false
+
+% multichoice
+text: What is your food called as it leaves the stomach?
+@answer
+text: Chyme
+correct: true
+@answer
+text: Porridge
+correct: false
+@answer
+text: Foodslop
+correct: false
+@answer
+text: Nutrislurry
+correct: false
+
+% multichoice
+text: What are the little bumps on the inside of your small intestine called?
+@answer
+text: Villi
+correct: true
+@answer
+text: Bumplets
+correct: false
+@answer
+text: Fingerlings
+correct: false
+@answer
+text: Nodes
+correct: false
+
+% multichoice
+text: Where are the nutrients from your food absorbed into your body?
+@answer
+text: Small intestine
+correct: true
+@answer
+text: Large intestine
+correct: false
+@answer
+text: Stomach
+correct: false
+@answer
+text: Rectum
+correct: false
+
+% multichoice
+text: Where is the food waste stored before it is pooed out?
+@answer
+text: Rectum
+correct: true
+@answer
+text: Large intestine
+correct: false
+@answer
+text: Small intestine
+correct: false
+@answer
+text: Gut
+correct: false
+
+% multichoice
+text: Which body organ is shaped like a bean?
+@answer
+text: kidney
+correct: true
+@answer
+text: heart
+correct: false
+@answer
+text: lungs
+correct: false
+@answer
+text:intestines
+correct: false
+
+% multichoice
+text: The main role of the kidneys is to
+@answer
+text: Get rid of waste from your body
+correct: true
+@answer
+text: Produce hormones
+correct: false
+@answer
+text: Process food
+correct: false
+@answer
+text: Sense the world
+correct: false
+
+% multichoice
+text: How many times does your blood go through your kidneys each day?
+@answer
+text: 20-25 times
+correct: true
+@answer
+text: 1-2 times
+correct: false
+@answer
+text: 100-120 times
+correct: false
+@answer
+text: 1000 times
+correct: false
+
+% multichoice
+text: What are the parts in a kidney called?
+@answer
+text: nephrons
+correct: true
+@answer
+text: capillaries
+correct: false
+@answer
+text: alveoli
+correct: false
+@answer
+text: villi
+correct: false
+
+% multichoice
+text: What are the two parts of a nephron?
+@answer
+text: glomerulus and tubule
+correct: true
+@answer
+text: glomerulus and bladder
+correct: false
+@answer
+text: tibia and fibula
+correct: false
+@answer
+text: axon and dendrite
+correct: false
+
+% multichoice
+text: The kidneys filter out vitamins and minerals and then re-absorb the ones you still need
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Waste products like urea are removed from the blood by the kidneys
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: What does urine travel through from your kidneys to your bladder?
+@answer
+text: ureters
+correct: true
+@answer
+text: canals
+correct: false
+@answer
+text: arteries
+correct: false
+@answer
+text: tubules
+correct: false
+
+% multichoice
+text: The kidneys control the amount of water in your body
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: How many kidneys do you have
+@answer
+text: 2
+correct: true
+@answer
+text: 1
+correct: false
+@answer
+text: 3
+correct: false
+@answer
+text: 0
+correct: false
 
