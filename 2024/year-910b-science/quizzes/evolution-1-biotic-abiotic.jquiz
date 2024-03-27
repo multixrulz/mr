@@ -1,0 +1,73 @@
+% jquiz
+% multichoice
+text: A/An _______ factor is something that is, or used to be, alive
+@answer
+text: biotic
+correct: true
+@answer
+text: abiotic
+correct: false
+@answer
+text: life
+correct: false
+@answer
+text: selection
+correct: false
+
+% multichoice
+text: A/An ______ factor is something that never was alive
+@answer
+text: biotic
+correct: false
+@answer
+text: health
+correct: false
+@answer
+text: survival
+correct: false
+@answer
+text: abiotic
+correct: true
+
+% multichoice
+text: Which of these is a biotic factor?
+@answer
+text: food available
+correct: true
+@answer
+text: population size
+correct: true
+@answer
+text: parasites
+correct: true
+@answer
+text: competing species
+correct: true
+@answer
+text: climate
+correct: false
+@answer
+text: soil type
+correct: false
+
+% multichoice
+text: Which of these is an abiotic factor?
+@answer
+text: temperature
+correct: true
+@answer
+text: amount of light
+correct: true
+@answer
+text: climate
+correct: true
+@answer
+text: soil type
+correct: true
+@answer
+text: competing species
+correct: false
+@answer
+text: parasites
+correct: false
+
