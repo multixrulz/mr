@@ -1,0 +1,92 @@
+% jquiz
+% multichoice
+text: What is made of DNA, and controls one inherited trait?
+@answer
+text: gene
+correct: true
+@answer
+text: zygote
+correct: false
+@answer
+text: chromosome
+correct: false
+@answer
+text: genotype
+correct: false
+
+% multichoice
+text: What is a long molecule that contains the instructions for life?
+@answer
+text: DNA
+correct: true
+@answer
+text: chromosome
+correct: false
+@answer
+text: gene
+correct: false
+@answer
+text: phenotype
+correct: false
+
+% multichoice
+text: What is a collection of genes
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+
