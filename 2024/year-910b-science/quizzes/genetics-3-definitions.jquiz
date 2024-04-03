@@ -30,63 +30,78 @@ text: phenotype
 correct: false
 
 % multichoice
-text: What is a collection of genes
+text: What is a collection of genes that is big enough to see using a microscope?
 @answer
-text:
+text: chromosome
 correct: true
 @answer
-text:
+text: genotype
 correct: false
 @answer
-text:
+text: phenotype
 correct: false
 @answer
-text:
+text: DNA
 correct: false
 
 % multichoice
-text:
+text: What is the set of genes for a particular trait?
 @answer
-text:
+text: genotype
 correct: true
 @answer
-text:
+text: phenotype
 correct: false
 @answer
-text:
+text: chromosome
 correct: false
 @answer
-text:
+text: homozygous
 correct: false
 
 % multichoice
-text:
+text: What is the trait that can be seen in a living thing?
 @answer
-text:
+text: phenotype
 correct: true
 @answer
-text:
+text: genotype
 correct: false
 @answer
-text:
+text: DNA
 correct: false
 @answer
-text:
+text: heterozygous
 correct: false
 
 % multichoice
-text:
+text: What means “has different alleles for a trait”?
 @answer
-text:
+text: heterozygous
 correct: true
 @answer
-text:
+text: homozygous
 correct: false
 @answer
-text:
+text: genotype
 correct: false
 @answer
-text:
+text: chromosome
+correct: false
+
+% multichoice
+text: What means “has the same alleles for a trait”?
+@answer
+text: homozygous
+correct: true
+@answer
+text: heterozygous
+correct: false
+@answer
+text: phenotype
+correct: false
+@answer
+text: gene
 correct: false
 
 
