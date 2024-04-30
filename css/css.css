@@ -42,22 +42,33 @@ padding: 0;
 }
 
 #head {
-height: 7em;
+display: inline-flex;
+width: 100%;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
 background: linear-gradient(-27deg, rgba(2,0,36,0.5) 0%, rgba(54,54,54,0.4) 35%, rgba(255,255,255,0) 100%), rgba(255,122,22,1);
 }
 #head p {
-position: absolute;
 font-size: 250%;
 font-weight: 900;
 padding: 0;
-margin: 0.5em 0 0 1em;
+margin: 0;
+margin-left: 1em;
 color: #f5f8f9;
 text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.3);
 }
-#headimg img{
-float: right;
+#head a {
+text-decoration: none;
+margin: 0;
+padding: 0;
+display: contents;
+}
+#head img{
 content: url(/img/mrhenley.svg);
 height: 7em; /* same as #head */
+margin-right: 1ex;
 }
 
 #content {
@@ -157,6 +168,12 @@ margin: 1em 3em 1em 3em;
 padding: 0 0 0 1em;
 border-left: solid 3px #006587;
 }
+hr {
+width: 80%;
+height: 0;
+border: none;
+border-top: solid 1px #ddd;
+}
 
 /* Point to the targetted id */
 :target {
@@ -167,11 +184,15 @@ color: #FF7A16;
 .bigbutton ul {
 list-style: none;
 text-align: center;
+padding: 0;
 }
 
 .bigbutton ul li {
 position: relative;
-display: inline-block;
+vertical-align: middle;
+display: inline-flex;
+flex-direction: column;
+justify-content: space-around;
 margin: 3vh;
 background: #eee;
 border: solid #999 0.5vh;
@@ -180,7 +201,7 @@ padding: 5vh;
 width: 25vh;
 height: 25vh;
 box-shadow: 1vh 1vh 0.85vh rgba(0,0,0,0.1);
-vertical-align: top;
+font-size: 2.5vh;
 }
 
 .bigbutton ul li:hover {
@@ -190,8 +211,21 @@ box-shadow: 1vh 1vh 1vh rgba(0,20,30,0.15);
 }
 
 .bigbutton img {
-height: 20vh;
+max-height: 20vh;
 max-width: 20vh !important;
+padding-bottom: 1ex;
+}
+
+/* Credits pages */
+
+.credits img {
+height: 4em;
+}
+
+/* Rounded corners - specifically for jpg icons*/
+
+.roundcorners {
+border-radius: 15%;
 }
 
 /* Blog */
@@ -220,13 +254,14 @@ padding-top: 0.5em;
 }
 .contents ul li {
 list-style-type: none;
-bullet-style: none;
+list-style: none;
 padding-top: 0.3em;
 padding-bottom: 0.3em;
 text-indent: -2em;
 }
 
 /* List of activites - show it's been done */
+
 .lessonoutline {
 font-size: 200%;
 }
@@ -255,6 +290,30 @@ padding: 1em 0;
 }
 .icon img {
 height: 10vh;
+}
+
+/* Behaviour for Learning pages */
+.b4l {
+font-size: 200%;
+}
+.b4l .speech {
+font-size: 90%;
+}
+.b4l .speech img{
+font-size: 75%;
+}
+.icondef {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-top: 1ex;
+}
+.icondef .icon {
+height: 5em;
+}
+.icondef h1 {
+bottom: 0;
 }
 
 /* Google etc. */
