@@ -1,0 +1,154 @@
+% jquiz
+% multichoice
+text: What do we call an organism that produces its own food using sunlight?
+@answer
+text: Producer
+correct: true
+@answer
+text: Consumer
+correct: false
+@answer
+text: Decomposer
+correct: false
+@answer
+text: Ecosystem
+correct: false
+
+% multichoice
+text: Which of these is a producer?
+@answer
+text: Grass
+correct: true
+@answer
+text: Trees
+correct: true
+@answer
+text: Vegetables
+correct: true
+@answer
+text: Sheep
+correct: false
+@answer
+text: Insects
+correct: false
+@answer
+text: Soil
+correct: false
+
+% multichoice
+text: What do we call an organism that needs to get its food from another living thing?
+@answer
+text: Consumer
+correct: true
+@answer
+text: Producer
+correct: false
+@answer
+text: Decomposer
+correct: false
+@answer
+text: Ecosystem
+correct: false
+
+
+% multichoice
+text: Which of these is a consumer?
+@answer
+text: People
+correct: true
+@answer
+text: Sheep
+correct: true
+@answer
+text: Insects
+correct: true
+@answer
+text: Grass
+correct: false
+@answer
+text: Trees
+correct: false
+@answer
+text: Soil
+correct: false
+
+% multichoice
+text: What do we call an animal that eats only plants?
+@answer
+text: Herbivore
+correct: true
+@answer
+text: Carnivore
+correct: false
+@answer
+text:Omnivore
+correct: false
+
+% multichoice
+text: What do we call an animal that eats only animals?
+@answer
+text: Carnivore
+correct: true
+@answer
+text: Herbivore
+correct: false
+@answer
+text:Omnivore
+correct: false
+
+% multichoice
+text: What do we call an animal that eats both plants and animals?
+@answer
+text:Omnivore
+correct: true
+@answer
+text: Carnivore
+correct: false
+@answer
+text: Herbivore
+correct: false
+
+% multichoice
+text: What do we call an organism that mainly eats things that have died, or their waste?
+@answer
+text: Decomposer
+correct: true
+@answer
+text: Producer
+correct: false
+@answer
+text: Consumer
+correct: false
+@answer
+text: Ecosystem
+correct: false
+
+% multichoice
+text: What does a food web show?
+@answer
+text: The animals in an ecosystem and what they eat
+correct: true
+@answer
+text: How energy flows through an ecosystem
+correct: true
+@answer
+text: Which animals are herbivores, omnivores and carnivores
+correct: true
+@answer
+text: Which animals are the best
+correct: false
+
+% multichoice
+text: What is the original source of energy in a food web or ecosystem
+@answer
+text: The sun
+correct: true
+@answer
+text: Producers
+correct: false
+@answer
+text: Consumers
+correct: false
+@answer
+text: Decomposers
+correct: false
