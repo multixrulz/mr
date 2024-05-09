@@ -51,7 +51,9 @@ function jquiz_quit() {
 function jquiz_start_button() {
     console.log("JQuiz: Creating a start button for quiz");
     title = quiz_data['title'];
+    num_questions = quiz_data['num_questions']
         html = `<h1 class="jquiz-contrast-with-bg jquiz-title">${title}</h1>
+    <p class="jquiz-contrast-with-bg jquiz-title">${num_questions} Questions</p>
     <input type="button" value="Start the quiz" onclick="jquiz_start();" />
     <div id="jquiz-credits">
         <p><a href="credits.html">JQuiz Credits</a></p>
@@ -266,6 +268,7 @@ function jquiz_next_question() {
     question = quiz_data['quiz'][q_index];
 
     question_html = jquiz_question_html(question);
+    console.log(question)
     answer_html = jquiz_answer_html(question);
 
     // Increment the question number and check if the quiz will be completed with this question

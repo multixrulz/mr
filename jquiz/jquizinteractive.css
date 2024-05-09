@@ -47,6 +47,7 @@ height: 100%;
 .jquiz-container {
     padding: 1em;
     text-align: center;
+    font-size: 3vmin;
 }
 
 #jquiz-credits {

@@ -35,7 +35,7 @@ font-size: 19px;
 /* Layout */
 #width {
 min-width: 35em;
-max-width: 60em;
+max-width: 75em;
 overflow: auto;
 margin: 0 auto 0 auto;
 padding: 0;
