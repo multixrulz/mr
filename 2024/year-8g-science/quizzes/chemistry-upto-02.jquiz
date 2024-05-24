@@ -1,0 +1,179 @@
+% jquiz
+
+% multichoice
+text: A chemical change always involves ...
+@answer
+text: explosions
+correct: false
+@answer
+text: creation of new substances
+correct: true
+@answer
+text: heating
+correct: false
+@answer
+text: substances that cause cancer
+correct: false
+
+% multichoice
+text: A chemical change always creates new substances. Which of these things could also be a sign of a chemical change?
+@answer
+text: Change in temperature
+correct: true
+@answer
+text: Change in colour
+correct: true
+@answer
+text: Bubbles
+correct: true
+@answer
+text: Emits light
+correct: true
+@answer
+text: Makes a precipitate
+correct: true
+@answer
+text: Breaks into smaller pieces
+correct: false
+
+% multichoice
+text: Do chemical reactions always cause chemical changes?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Are physical changes difficult to reverse?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% multichoice
+text: Are chemical changes difficult to reverse?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Is there a chemical change when you cut wood?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% multichoice
+text: Is there a chemical change when you burn fuel in a car engine?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Is there a chemical change when you fry an egg?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Is there a chemical change when you dent a car?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% multichoice
+text: Is there a chemical change when you make a cake?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: What is the atomic number of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: true
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: false
+
+% multichoice
+text: What is the chemical symbol of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: false
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: true
+
+% multichoice
+text: What is the atomic mass of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: false
+@answer
+text: 14.01
+correct: true
+@answer
+text: N
+correct: false
+
+% multichoice
+text: How many different types of atom are found in nature?
+@answer
+text: 27
+correct: false
+@answer
+text: 92
+correct: true
+@answer
+text: about 32 million
+correct: false
+@answer
+text: an infinite number
+correct: false
+
+% multichoice
+text: What do we call the list of all the elements?
+@answer
+text: the periodic table
+correct: true
+@answer
+text: the list of elements
+correct: false
+@answer
+text: the chemist's handbook
+correct: false
+@answer
+text: a conspiracy theory
+correct: false
+
