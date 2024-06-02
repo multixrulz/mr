@@ -1,0 +1,121 @@
+% jquiz
+
+% multichoice
+text: What does MRS GREN help us to remember?
+@answer
+text: The name of the canteen lady
+correct: false
+@answer
+text: How to write a lab report
+correct: false
+@answer
+text: The 7 things that living things do
+correct: true
+@answer
+text: The different kinds of rocks
+correct: false
+
+% multichoice
+text: What does the M in MRS GREN stand for?
+@answer
+text: Muscles
+correct: false
+@answer
+text: Movement
+correct: true
+@answer
+text: Mountains
+correct: false
+@answer
+text: Messy
+correct: false
+
+% multichoice
+text: What does the first R in MRS GREN stand for?
+@answer
+text: Respiration
+correct: true
+@answer
+text: Relaxation
+correct: false
+@answer
+text: Ridiculous
+correct: false
+@answer
+text: Randomness
+correct: false
+
+% multichoice
+text: What does the S in MRS GREN stand for?
+@answer
+text: Sitting
+correct: false
+@answer
+text: Stingers
+correct: false
+@answer
+text: Selecting
+correct: false
+@answer
+text: Sensitivity
+correct: true
+
+% multichoice
+text: What does the G in MRS GREN stand for?
+@answer
+text: Green
+correct: false
+@answer
+text: Grit
+correct: false
+@answer
+text: Growth
+correct: true
+@answer
+text: Garbage
+correct: false
+
+% multichoice
+text: What does the second R in MRS GREN stand for?
+@answer
+text: Reproduction
+correct: true
+@answer
+text: Releasing
+correct: false
+@answer
+text: Relevant
+correct: false
+@answer
+text: Restricting
+correct: false
+
+% multichoice
+text: What does the E in MRS GREN stand for?
+@answer
+text: Equipment
+correct: false
+@answer
+text: Evidence
+correct: false
+@answer
+text: Excretion
+correct: true
+@answer
+text: Excellence
+correct: false
+
+% multichoice
+text: What does the N in MRS GREN stand for?
+@answer
+text: Nothing
+correct: false
+@answer
+text: Nutrition
+correct: true
+@answer
+text: Neverland
+correct: false
+@answer
+text: Nation
+correct: false
