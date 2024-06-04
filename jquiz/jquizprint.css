@@ -72,6 +72,10 @@ body {
     vertical-align: top;
 }
 
+.jquiz-answer sub {
+    vertical-align: revert;
+}
+
 .jquiz-answer input {
     display: block;
     height: 1em;

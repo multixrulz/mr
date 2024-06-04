@@ -1,0 +1,105 @@
+% jquiz
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: H<sub>2</sub> + F<sub>2</sub> → 2HF
+correct: true
+@answer
+text: H<sub>2</sub> + F<sub>2</sub> → HF
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: N<sub>2</sub> + 2O<sub>2</sub> → 2NO<sub>2</sub>
+correct: true
+@answer
+text: N<sub>2</sub> + 2O<sub>2</sub> → NO<sub>2</sub>
+correct: false
+@answer
+text: N<sub>2</sub> + O<sub>2</sub> → 2NO<sub>2</sub>
+correct: false
+@answer
+text: N<sub>2</sub> + O<sub>2</sub> → NO<sub>2</sub>
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: Ca + O<sub>2</sub> → CaO<sub>2</sub>
+correct: true
+@answer
+text: 2Ca + O<sub>2</sub> → 2CaO<sub>2</sub>
+correct: false
+@answer
+text: Ca + 2O<sub>2</sub> → 2CaO<sub>2</sub>
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: 4Al + 3O<sub>2</sub> → 2Al<sub>2</sub>O<sub>3</sub>
+correct: true
+@answer
+text: 2Al + 1.5O<sub>2</sub> → Al<sub>2</sub>O<sub>3</sub>
+correct: false
+@answer
+text: Al + O<sub>2</sub> → Al<sub>2</sub>O<sub>3</sub>
+correct: false
+@answer
+text: 2Al + 3O<sub>2</sub> → Al<sub>2</sub>O<sub>3</sub>
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: C + 2Cl<sub>2</sub> → CCl<sub>4</sub>
+correct: true
+@answer
+text: C + Cl<sub>2</sub> → CCl<sub>4</sub>
+correct: false
+@answer
+text: 2C + Cl<sub>2</sub> → CCl<sub>4</sub>
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: HCl + NaOH → NaCl + H<sub>2</sub>O
+correct: true
+@answer
+text: 2HCl + 2NaOH → 2NaCl + H<sub>2</sub>O
+correct: false
+@answer
+text: HCl + 2NaOH → 2NaCl + H<sub>2</sub>O
+correct: false
+@answer
+text: 2HCl + 2NaOH → NaCl + H<sub>2</sub>O
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: Mg + H<sub>2</sub>SO<sub>4</sub> → MgSO<sub>4</sub> + H<sub>2</sub>
+correct: true
+@answer
+text: 2Mg + H<sub>2</sub>SO<sub>4</sub> → 2MgSO<sub>4</sub> + H<sub>2</sub>
+correct: false
+@answer
+text: Mg + 2H<sub>2</sub>SO<sub>4</sub> → MgSO<sub>4</sub> + 2H<sub>2</sub>
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: Pb(OH)<sub>2</sub> → PbO + H<sub>2</sub>O
+correct: true
+@answer
+text: 2Pb(OH)<sub>2</sub> → 2PbO + H<sub>2</sub>O
+correct: false
+@answer
+text: Pb(OH)<sub>2</sub> → PbO + 2H<sub>2</sub>O
+correct: false
+
+
