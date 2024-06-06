@@ -1,0 +1,181 @@
+% jquiz
+
+% multichoice
+text: Which organelle contains the DNA, which is instructions for the cell?
+@answer
+text: Nucleus
+correct: true
+@answer
+text: Cell membrane
+correct: false
+@answer
+text: Golgi apparatus
+correct: false
+@answer
+text: Vacuole
+correct: false
+
+% multichoice
+text: Which organelle controls what goes into and out of the cell?
+@answer
+text: Cell membrane
+correct: true
+@answer
+text: Mitochondria
+correct: false
+@answer
+text: Endoplasmic reticulum
+correct: false
+@answer
+text:Chloroplasts
+correct: false
+
+% multichoice
+text: Which organelle makes energy for the cell?
+@answer
+text:Mitochondria
+correct: true
+@answer
+text:Ribosomes
+correct: false
+@answer
+text:Nucleus
+correct: false
+@answer
+text:Cell wall
+correct: false
+
+% multichoice
+text: Which organelle is found only in plant cells, and uses sunlight to make food for the plant?
+@answer
+text:Chloroplasts
+correct: true
+@answer
+text:Mitochondria
+correct: false
+@answer
+text:Golgi apparatus
+correct: false
+@answer
+text:Lysosomes
+correct: false
+
+% multichoice
+text: What is the green substance inside chloroplasts?
+@answer
+text:Chlorophyll
+correct: true
+@answer
+text:Panadol
+correct: false
+@answer
+text:Salt
+correct: false
+@answer
+text:Gems
+correct: false
+
+% multichoice
+text: Which organelle helps to transport things around the cell?
+@answer
+text:Endoplasmic reticulum
+correct: true
+@answer
+text:Cell membrane
+correct: false
+@answer
+text:Vacuole
+correct: false
+@answer
+text:Mitochondria
+correct: false
+
+% multichoice
+text:Which organelle packages materials to send around the cell?
+@answer
+text:Golgi apparatus
+correct: true
+@answer
+text:Endoplasmic reticulum
+correct: false
+@answer
+text:Nucleus
+correct: false
+@answer
+text:Cell membrane
+correct: false
+
+% multichoice
+text: Which organelle breaks down waste material in the cell?
+@answer
+text:Lysosomes
+correct: true
+@answer
+text:Ribosomes
+correct: false
+@answer
+text:Chloroplasts
+correct: false
+@answer
+text:Vacuole
+correct: false
+
+% multichoice
+text:Which organelles make proteins for the cell?
+@answer
+text:Ribosomes
+correct: true
+@answer
+text:Golgi apparatus
+correct: false
+@answer
+text:Mitochondria
+correct: false
+@answer
+text:Nucleus
+correct: false
+
+% multichoice
+text: Which organelle is a bag that stores food, water, and other materials?
+@answer
+text:Vacuole
+correct: true
+@answer
+text:Cell wall
+correct: false
+@answer
+text:Endoplasmic reticulum
+correct: false
+@answer
+text:Chloroplasts
+correct: false
+
+% multichoice
+text:What rigid organelle surrounds plant cells but not animal cells?
+@answer
+text:Cell wall
+correct: true
+@answer
+text:Cell membrane
+correct: false
+@answer
+text:Mitochondria
+correct: false
+@answer
+text:Golgi apparatus
+correct: false
+
+% multichoice
+text: What is the gooey liquid inside a cell?
+@answer
+text:Cytoplasm
+correct: true
+@answer
+text:Cell membrane
+correct: false
+@answer
+text:Mitochondria
+correct: false
+@answer
+text:Golgi apparatus
+correct: false

@@ -1,0 +1,58 @@
+% jquiz
+
+% multichoice
+text: Who first discovered cells?
+@answer
+text: Robert Hooke
+correct: true
+@answer
+text: Albert Einstein
+correct: false
+@answer
+text: Mr Henley
+correct: false
+@answer
+text: Aristotle
+correct: false
+
+% multichoice
+text: What is the smallest unit of life?
+@answer
+text: a cell
+correct: true
+@answer
+text: an atom
+correct: false
+@answer
+text: a molecule
+correct: false
+@answer
+text: an organelle
+correct: false
+
+% multichoice
+text: Where do cells come from?
+@answer
+text: other cells
+correct: true
+@answer
+text: they just come
+correct: false
+@answer
+text: space
+correct: false
+
+% multichoice
+text: How many living things are made of cells?
+@answer
+text: All living things
+correct: true
+@answer
+text: All animals
+correct: false
+@answer
+text: All plants
+correct: false
+@answer
+text: Only microbes
+correct: false
