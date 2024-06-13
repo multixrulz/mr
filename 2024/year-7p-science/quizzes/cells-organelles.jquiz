@@ -16,6 +16,21 @@ text: Vacuole
 correct: false
 
 % multichoice
+text: Which organelle is in the nucleus and makes ribosomes?
+@answer
+text: Nucleolus
+correct: true
+@answer
+text: Cell membrane
+correct: false
+@answer
+text: Golgi apparatus
+correct: false
+@answer
+text: Vacuole
+correct: false
+
+% multichoice
 text: Which organelle controls what goes into and out of the cell?
 @answer
 text: Cell membrane
