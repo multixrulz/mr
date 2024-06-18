@@ -1,0 +1,148 @@
+% jquiz
+
+% multichoice
+text: Which term means "shiny"?
+@answer
+text: lustrous
+correct: true
+@answer
+text: ductile
+correct: false
+@answer
+text: malleable
+correct: false
+@answer
+text: electrical conductor
+correct: false
+
+% multichoice
+text: Which term means "bends, can be shaped"?
+@answer
+text: malleable
+correct: true
+@answer
+text: ductile
+correct: false
+@answer
+text: sonorous
+correct: false
+@answer
+text: electrical conductor
+correct: false
+
+% multichoice
+text: Which term means "can be pulled into a wire"?
+@answer
+text: ductile
+correct: true
+@answer
+text: flexible
+correct: false
+@answer
+text: sonorous
+correct: false
+@answer
+text: electrical conductor
+correct: false
+
+% multichoice
+text: Which term means "shatters into small pieces when hit"?
+@answer
+text: brittle
+correct: true
+@answer
+text: flexible
+correct: false
+@answer
+text: sonorous
+correct: false
+@answer
+text: electrical conductor
+correct: false
+
+% multichoice
+text: Which term means "rings like a bell when hit"?
+@answer
+text: sonorous
+correct: true
+@answer
+text: flexible
+correct: false
+@answer
+text: malleable
+correct: false
+@answer
+text: thermal conductor
+correct: false
+
+% multichoice
+text: Which term means "allows electricity to go through it"?
+@answer
+text: electrical conductor
+correct: true
+@answer
+text: flexible
+correct: false
+@answer
+text: malleable
+correct: false
+@answer
+text: thermal conductor
+correct: false
+
+% multichoice
+text: Which term means "allows heat to go through it"?
+@answer
+text: thermal conductor
+correct: true
+@answer
+text: sonorous
+correct: false
+@answer
+text: malleable
+correct: false
+@answer
+text: electrical conductor
+correct: false
+
+% multichoice
+text: Which of these things is a property of most metals?
+@answer
+text: ductile
+correct: true
+@answer
+text: malleable
+correct: true
+@answer
+text: brittle
+correct: false
+@answer
+text: strong
+correct: true
+@answer
+text: soft
+correct: false
+@answer
+text: electrical insulators
+correct: false
+
+% multichoice
+text: Which of these things is a property of most metals?
+@answer
+text: hard
+correct: true
+@answer
+text: shiny
+correct: true
+@answer
+text: conduct electricity
+correct: true
+@answer
+text: conduct heat
+correct: true
+@answer
+text: low melting point
+correct: false
+@answer
+text: low density
+correct: false

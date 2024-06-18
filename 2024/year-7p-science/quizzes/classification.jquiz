@@ -1,0 +1,92 @@
+% jquiz
+% multichoice
+text: Which kingdom includes people, dogs, cats, and snakes?
+@answer
+text: animals
+correct: true
+@answer
+text: plants
+correct: false
+@answer
+text: protists
+correct: false
+@answer
+text: bacteria
+correct: false
+@answer
+text: fungi
+correct: false
+
+% multichoice
+text: Which kingdom includes trees, grass, potatoes and broccoli?
+@answer
+text: animals
+correct: false
+@answer
+text: plants
+correct: true
+@answer
+text: protists
+correct: false
+@answer
+text: bacteria
+correct: false
+@answer
+text: fungi
+correct: false
+
+% multichoice
+text: Which kingdom includes mushrooms and tinea (toey)?
+@answer
+text: animals
+correct: false
+@answer
+text: plants
+correct: false
+@answer
+text: protists
+correct: false
+@answer
+text: bacteria
+correct: false
+@answer
+text: fungi
+correct: true
+
+% multichoice
+text: Which kingdom includes E.Coli, Salmonella, and Golden Staph?
+@answer
+text: animals
+correct: false
+@answer
+text: plants
+correct: false
+@answer
+text: protists
+correct: false
+@answer
+text: bacteria
+correct: true
+@answer
+text: fungi
+correct: false
+
+% multichoice
+text: Which kingdom includes amoeba, paramecium and diatoms?
+@answer
+text: animals
+correct: false
+@answer
+text: plants
+correct: false
+@answer
+text: protists
+correct: true
+@answer
+text: bacteria
+correct: false
+@answer
+text: fungi
+correct: false
+
+
