@@ -1,0 +1,93 @@
+% jquiz
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+
