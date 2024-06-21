@@ -1,93 +1,132 @@
 % jquiz
 
 % multichoice
-text:
+text: Polymers are small molecules
 @answer
-text:
+text: False
 correct: true
 @answer
-text:
-correct: false
-@answer
-text:
-correct: false
-@answer
-text:
+text: True
 correct: false
 
 % multichoice
-text:
+text: What is the repeating part of a polymer called?
 @answer
-text:
+text: Monomer
 correct: true
 @answer
-text:
+text: Clone
 correct: false
 @answer
-text:
+text: Pattern
 correct: false
 @answer
-text:
+text: Meros
 correct: false
 
 % multichoice
-text:
+text: What is the monomer that makes polyethylene probably called?
 @answer
-text:
+text: Ethylene
 correct: true
 @answer
-text:
+text: Polyethyl
 correct: false
 @answer
-text:
-correct: false
-@answer
-text:
+text: Thylene
 correct: false
 
 % multichoice
-text:
+text: What is the monomer that makes polyester probably called?
 @answer
-text:
+text: Ester
 correct: true
 @answer
-text:
+text: Yester
 correct: false
 @answer
-text:
-correct: false
-@answer
-text:
+text: Polyest
 correct: false
 
 % multichoice
-text:
+text: All polymers are also plastics
 @answer
-text:
+text: False
 correct: true
 @answer
-text:
-correct: false
-@answer
-text:
-correct: false
-@answer
-text:
+text: True
 correct: false
 
 % multichoice
-text:
+text: All plastics are also polymers
 @answer
-text:
+text: True
 correct: true
 @answer
-text:
+text: False
+correct: false
+
+% multichoice
+text: Plastics are synthetic polymers
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: All polymers are synthetic (made by people)
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: What effect does cross-linking have on a polymer?
+@answer
+text: Makes it stiffer
+correct: true
+@answer
+text: Makes it harder
+correct: true
+@answer
+text: Makes it transparent
 correct: false
 @answer
-text:
+text: Makes it lighter
 correct: false
+
+% multichoice
+text: Which of these things affects the properties of a polymer?
 @answer
-text:
+text: Monomer used
+correct: true
+@answer
+text: Chain length
+correct: true
+@answer
+text: Time taken to cool
+correct: true
+@answer
+text: Country of origin
+correct: false
+
+% multichoice
+text: Which of these things affects the properties of a polymer?
+@answer
+text: Branching
+correct: true
+@answer
+text: Cross-linking
+correct: true
+@answer
+text: Other chemicals added
+correct: true
+@answer
+text: Season that it's made in
 correct: false
 
 
