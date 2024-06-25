@@ -1,0 +1,603 @@
+% jquiz
+% multichoice
+text: Which of these body parts are in a female?
+@answer
+text: Ovary
+correct: true
+@answer
+text: Fallopian tube
+correct: true
+@answer
+text: Cervix
+correct: true
+@answer
+text: Testes
+correct: false
+@answer
+text: Scrotum
+correct: false
+@answer
+text: Sperm duct
+correct: false
+
+% multichoice
+text: Which of these body parts are in a male?
+@answer
+text: Ovary
+correct: false
+@answer
+text: Fallopian tube
+correct: false
+@answer
+text: Uterus
+correct: false
+@answer
+text: Testes
+correct: true
+@answer
+text: Scrotum
+correct: true
+@answer
+text: Sperm duct
+correct: true
+
+% multichoice
+text: What do the testes produce?
+@answer
+text: Sperm
+correct: true
+@answer
+text: Testosterone
+correct: true
+@answer
+text: Oestrogen
+correct: false
+@answer
+text: Ova
+correct: false
+
+% multichoice
+text: What are ova (one is called an ovum)?
+@answer
+text: Eggs
+correct: true
+@answer
+text: A type of contraceptive
+correct: false
+@answer
+text: Where eggs travel to the uterus
+correct: false
+@answer
+text: Hormones
+correct: false
+
+% multichoice
+text: How long is gestation in humans?
+@answer
+text: About 40 weeks
+correct: true
+@answer
+text: About 9 months
+correct: true
+@answer
+text: About 6 months
+correct: false
+@answer
+text: About 40 days
+correct: false
+
+% multichoice
+text: What is the purpose of the menstrual cycle?
+@answer
+text: To prepare for a pregnancy
+correct: true
+@answer
+text: To make a mess
+correct: false
+@answer
+text: To give men something to tease women about
+correct: false
+@answer
+text: To prevent pregnancy
+correct: false
+
+% multichoice
+text: Which of these is true about Gregor Mendel?
+@answer
+text: He was an Austrian monk
+correct: true
+@answer
+text: He discovered basic laws of genetics
+correct: true
+@answer
+text: He bred a lot of pea plants
+correct: true
+@answer
+text: He won a Nobel prize
+correct: false
+
+% multichoice
+text: Fur colour, leaf shape, ability to roll tongue, and colour blindness are examples of …
+@answer
+text: Traits
+correct: true
+@answer
+text: Genes
+correct: false
+@answer
+text: Alleles
+correct: false
+@answer
+text: Dominant genes
+correct: false
+
+% multichoice
+text: What is the physical thing that allows traits to be inherited?
+@answer
+text: Gene
+correct: true
+@answer
+text: Heredity
+correct: false
+@answer
+text: Dominant
+correct: false
+@answer
+text: Recessive
+correct: false
+
+% multichoice
+text: What is the science of heredity called?
+@answer
+text: Genetics
+correct: true
+@answer
+text: Alleles
+correct: false
+@answer
+text: Traits
+correct: false
+@answer
+text: Genes
+correct: false
+
+% multichoice
+text: What do we call the passing down of traits through a family of living things?
+@answer
+text: Heredity
+correct: true
+@answer
+text: Genetics
+correct: false
+@answer
+text: Dominancy
+correct: false
+@answer
+text: Recessivity
+correct: false
+
+% multichoice
+text: Genes come in pairs
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Different variations of a gene are called …
+@answer
+text: Alleles
+correct: true
+@answer
+text: Dominant genes
+correct: false
+@answer
+text: Recessive genes
+correct: false
+@answer
+text: Traits
+correct: false
+
+% multichoice
+text: When an organism has both a dominant allele and a recessive allele, which allele controls the trait that is seen in the organism?
+@answer
+text: Dominant allele
+correct: true
+@answer
+text: Recessive allele
+correct: false
+
+% multichoice
+text: Which allele is dominant in this punnett square?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: A
+correct: true
+@answer
+text: AA
+correct: false
+@answer
+text: a
+correct: false
+@answer
+text: Aa
+correct: false
+
+% multichoice
+text: Which allele is recessive in this punnett square?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: a
+correct: true
+@answer
+text: AA
+correct: false
+@answer
+text: A
+correct: false
+@answer
+text: Aa
+correct: false
+
+% multichoice
+text: What are the genotypes of the parents in this punnett square?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: AA and Aa
+correct: true
+@answer
+text: A and a
+correct: false
+@answer
+text: A, A and b
+correct: false
+@answer
+text: AA, AA, Aa and Aa
+correct: false
+
+% multichoice
+text: The A allele produces airy sponges while the a allele produces dense sponges. What phenotype does the Aa genotype produce
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: Airy
+correct: true
+@answer
+text: Dense
+correct: false
+@answer
+text: Mostly airy
+correct: false
+@answer
+text: Mostly dense
+correct: false
+
+% multichoice
+text: What genotype should be in the empty square?
+image: genetics/punnett-Bb-bb-incomplete.svg
+@answer
+text: Bb
+correct: true
+@answer
+text: BB
+correct: false
+@answer
+text: bb
+correct: false
+@answer
+text: 2b
+correct: false
+
+% multichoice
+text: What genotype should be in the empty square?
+image: genetics/punnett-Aa-Aa-incomplete.svg
+@answer
+text: aa
+correct: true
+@answer
+text: AA
+correct: false
+@answer
+text: Aa
+correct: false
+@answer
+text: aA
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype AA?
+image: genetics/punnett-Aa-Aa-complete.svg
+@answer
+text: 25%
+correct: true
+@answer
+text: 50%
+correct: false
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype aa?
+image: genetics/punnett-Aa-Aa-complete.svg
+@answer
+text: 25%
+correct: true
+@answer
+text: 50%
+correct: false
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype Aa?
+image: genetics/punnett-Aa-Aa-complete.svg
+@answer
+text: 25%
+correct: false
+@answer
+text: 50%
+correct: true
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype AA?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: 50%
+correct: true
+@answer
+text: 0%
+correct: false
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype Aa?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: 50%
+correct: true
+@answer
+text: 0%
+correct: false
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype aa?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: 50%
+correct: false
+@answer
+text: 0%
+correct: true
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What allele should be in the empty square?
+image: genetics/punnett-CC-cc-incomplete.svg
+@answer
+text: c
+correct: true
+@answer
+text: C
+correct: false
+
+% multichoice
+text: The dominant allele R produces a tongue that can roll, and the recessive allele r produces a tongue that cannot roll. What genotypes can produce a tongue-rolling phenotype?
+@answer
+text: RR
+correct: true
+@answer
+text: Rr
+correct: true
+@answer
+text: rr
+correct: false
+
+% multichoice
+text: What is made of DNA, and controls one inherited trait?
+@answer
+text: gene
+correct: true
+@answer
+text: zygote
+correct: false
+@answer
+text: chromosome
+correct: false
+@answer
+text: genotype
+correct: false
+
+% multichoice
+text: What is a long molecule that contains the instructions for life?
+@answer
+text: DNA
+correct: true
+@answer
+text: chromosome
+correct: false
+@answer
+text: gene
+correct: false
+@answer
+text: phenotype
+correct: false
+
+% multichoice
+text: What is a collection of genes that is big enough to see using a microscope?
+@answer
+text: chromosome
+correct: true
+@answer
+text: genotype
+correct: false
+@answer
+text: phenotype
+correct: false
+@answer
+text: DNA
+correct: false
+
+% multichoice
+text: What is the set of genes for a particular trait?
+@answer
+text: genotype
+correct: true
+@answer
+text: phenotype
+correct: false
+@answer
+text: chromosome
+correct: false
+@answer
+text: homozygous
+correct: false
+
+% multichoice
+text: What is the trait that can be seen in a living thing?
+@answer
+text: phenotype
+correct: true
+@answer
+text: genotype
+correct: false
+@answer
+text: DNA
+correct: false
+@answer
+text: heterozygous
+correct: false
+
+% multichoice
+text: What means “has different alleles for a trait”?
+@answer
+text: heterozygous
+correct: true
+@answer
+text: homozygous
+correct: false
+@answer
+text: genotype
+correct: false
+@answer
+text: chromosome
+correct: false
+
+% multichoice
+text: What means “has the same alleles for a trait”?
+@answer
+text: homozygous
+correct: true
+@answer
+text: heterozygous
+correct: false
+@answer
+text: phenotype
+correct: false
+@answer
+text: gene
+correct: false
+
+% multichoice
+text: A/An _______ factor is something that is, or used to be, alive
+@answer
+text: biotic
+correct: true
+@answer
+text: abiotic
+correct: false
+@answer
+text: life
+correct: false
+@answer
+text: selection
+correct: false
+
+% multichoice
+text: A/An ______ factor is something that never was alive
+@answer
+text: biotic
+correct: false
+@answer
+text: health
+correct: false
+@answer
+text: survival
+correct: false
+@answer
+text: abiotic
+correct: true
+
+% multichoice
+text: Which of these is a biotic factor?
+@answer
+text: food available
+correct: true
+@answer
+text: population size
+correct: true
+@answer
+text: parasites
+correct: true
+@answer
+text: competing species
+correct: true
+@answer
+text: climate
+correct: false
+@answer
+text: soil type
+correct: false
+
+% multichoice
+text: Which of these is an abiotic factor?
+@answer
+text: temperature
+correct: true
+@answer
+text: amount of light
+correct: true
+@answer
+text: climate
+correct: true
+@answer
+text: soil type
+correct: true
+@answer
+text: competing species
+correct: false
+@answer
+text: parasites
+correct: false
+
+
