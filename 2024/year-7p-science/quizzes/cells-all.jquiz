@@ -1,0 +1,373 @@
+% jquiz
+
+% multichoice
+text: What does MRS GREN help us to remember?
+@answer
+text: The name of the canteen lady
+correct: false
+@answer
+text: How to write a lab report
+correct: false
+@answer
+text: The 7 things that living things do
+correct: true
+@answer
+text: The different kinds of rocks
+correct: false
+
+% multichoice
+text: What does the M in MRS GREN stand for?
+@answer
+text: Muscles
+correct: false
+@answer
+text: Movement
+correct: true
+@answer
+text: Mountains
+correct: false
+@answer
+text: Messy
+correct: false
+
+% multichoice
+text: What does the first R in MRS GREN stand for?
+@answer
+text: Respiration
+correct: true
+@answer
+text: Relaxation
+correct: false
+@answer
+text: Ridiculous
+correct: false
+@answer
+text: Randomness
+correct: false
+
+% multichoice
+text: What does the S in MRS GREN stand for?
+@answer
+text: Sitting
+correct: false
+@answer
+text: Stingers
+correct: false
+@answer
+text: Selecting
+correct: false
+@answer
+text: Sensitivity
+correct: true
+
+% multichoice
+text: What does the G in MRS GREN stand for?
+@answer
+text: Green
+correct: false
+@answer
+text: Grit
+correct: false
+@answer
+text: Growth
+correct: true
+@answer
+text: Garbage
+correct: false
+
+% multichoice
+text: What does the second R in MRS GREN stand for?
+@answer
+text: Reproduction
+correct: true
+@answer
+text: Releasing
+correct: false
+@answer
+text: Relevant
+correct: false
+@answer
+text: Restricting
+correct: false
+
+% multichoice
+text: What does the E in MRS GREN stand for?
+@answer
+text: Equipment
+correct: false
+@answer
+text: Evidence
+correct: false
+@answer
+text: Excretion
+correct: true
+@answer
+text: Excellence
+correct: false
+
+% multichoice
+text: What does the N in MRS GREN stand for?
+@answer
+text: Nothing
+correct: false
+@answer
+text: Nutrition
+correct: true
+@answer
+text: Neverland
+correct: false
+@answer
+text: Nation
+correct: false
+
+% multichoice
+text: Which organelle contains the DNA, which is instructions for the cell?
+@answer
+text: Nucleus
+correct: true
+@answer
+text: Cell membrane
+correct: false
+@answer
+text: Golgi apparatus
+correct: false
+@answer
+text: Vacuole
+correct: false
+
+% multichoice
+text: Which organelle is in the nucleus and makes ribosomes?
+@answer
+text: Nucleolus
+correct: true
+@answer
+text: Cell membrane
+correct: false
+@answer
+text: Golgi apparatus
+correct: false
+@answer
+text: Vacuole
+correct: false
+
+% multichoice
+text: Which organelle controls what goes into and out of the cell?
+@answer
+text: Cell membrane
+correct: true
+@answer
+text: Mitochondria
+correct: false
+@answer
+text: Endoplasmic reticulum
+correct: false
+@answer
+text:Chloroplasts
+correct: false
+
+% multichoice
+text: Which organelle makes energy for the cell?
+@answer
+text:Mitochondria
+correct: true
+@answer
+text:Ribosomes
+correct: false
+@answer
+text:Nucleus
+correct: false
+@answer
+text:Cell wall
+correct: false
+
+% multichoice
+text: Which organelle is found only in plant cells, and uses sunlight to make food for the plant?
+@answer
+text:Chloroplasts
+correct: true
+@answer
+text:Mitochondria
+correct: false
+@answer
+text:Golgi apparatus
+correct: false
+@answer
+text:Lysosomes
+correct: false
+
+% multichoice
+text: What is the green substance inside chloroplasts?
+@answer
+text:Chlorophyll
+correct: true
+@answer
+text:Panadol
+correct: false
+@answer
+text:Salt
+correct: false
+@answer
+text:Gems
+correct: false
+
+% multichoice
+text: Which organelle helps to transport things around the cell?
+@answer
+text:Endoplasmic reticulum
+correct: true
+@answer
+text:Cell membrane
+correct: false
+@answer
+text:Vacuole
+correct: false
+@answer
+text:Mitochondria
+correct: false
+
+% multichoice
+text:Which organelle packages materials to send around the cell?
+@answer
+text:Golgi apparatus
+correct: true
+@answer
+text:Endoplasmic reticulum
+correct: false
+@answer
+text:Nucleus
+correct: false
+@answer
+text:Cell membrane
+correct: false
+
+% multichoice
+text: Which organelle breaks down waste material in the cell?
+@answer
+text:Lysosomes
+correct: true
+@answer
+text:Ribosomes
+correct: false
+@answer
+text:Chloroplasts
+correct: false
+@answer
+text:Vacuole
+correct: false
+
+% multichoice
+text:Which organelles make proteins for the cell?
+@answer
+text:Ribosomes
+correct: true
+@answer
+text:Golgi apparatus
+correct: false
+@answer
+text:Mitochondria
+correct: false
+@answer
+text:Nucleus
+correct: false
+
+% multichoice
+text: Which organelle is a bag that stores food, water, and other materials?
+@answer
+text:Vacuole
+correct: true
+@answer
+text:Cell wall
+correct: false
+@answer
+text:Endoplasmic reticulum
+correct: false
+@answer
+text:Chloroplasts
+correct: false
+
+% multichoice
+text:What rigid organelle surrounds plant cells but not animal cells?
+@answer
+text:Cell wall
+correct: true
+@answer
+text:Cell membrane
+correct: false
+@answer
+text:Mitochondria
+correct: false
+@answer
+text:Golgi apparatus
+correct: false
+
+% multichoice
+text: What is the gooey liquid inside a cell?
+@answer
+text:Cytoplasm
+correct: true
+@answer
+text:Cell membrane
+correct: false
+@answer
+text:Mitochondria
+correct: false
+@answer
+text:Golgi apparatus
+correct: false
+
+% multichoice
+text: Who first discovered cells?
+@answer
+text: Robert Hooke
+correct: true
+@answer
+text: Albert Einstein
+correct: false
+@answer
+text: Mr Henley
+correct: false
+@answer
+text: Aristotle
+correct: false
+
+% multichoice
+text: What is the smallest unit of life?
+@answer
+text: a cell
+correct: true
+@answer
+text: an atom
+correct: false
+@answer
+text: a molecule
+correct: false
+@answer
+text: an organelle
+correct: false
+
+% multichoice
+text: Where do cells come from?
+@answer
+text: other cells
+correct: true
+@answer
+text: they just come
+correct: false
+@answer
+text: space
+correct: false
+
+% multichoice
+text: How many living things are made of cells?
+@answer
+text: All living things
+correct: true
+@answer
+text: All animals
+correct: false
+@answer
+text: All plants
+correct: false
+@answer
+text: Only microbes
+correct: false
