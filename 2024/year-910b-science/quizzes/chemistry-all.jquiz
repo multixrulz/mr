@@ -1,0 +1,562 @@
+% jquiz
+
+% multichoice
+text: What is the name of the compound KBr?
+@answer
+text: Potassium bromide
+correct: true
+@answer
+text: Potassium bromine
+correct: false
+@answer
+text: Potassium monobromide
+correct: false
+@answer
+text: Bromine potasside
+correct: false
+
+% multichoice
+text: What is the name of the compound FeCl<sub>3</sub>?
+@answer
+text: Iron chloride
+correct: true
+@answer
+text: Iron chlorine
+correct: false
+@answer
+text: Iron trichloride
+correct: false
+@answer
+text: Chlorine Ironide
+correct: false
+
+% multichoice
+text: What is the name of the compound AgI?
+@answer
+text: Silver iodide
+correct: true
+@answer
+text: Silver iodine
+correct: false
+@answer
+text: Silver monoiodide
+correct: false
+@answer
+text: Iodine Silvide
+correct: false
+
+% multichoice
+text: What is the name of the compound ZnS?
+@answer
+text: Zinc sulfide
+correct: true
+@answer
+text: Zinc sulfur
+correct: false
+@answer
+text: Zinc monosulfide
+correct: false
+@answer
+text: Zincide sulfur
+correct: false
+
+% multichoice
+text: What is the name of the compound Na<sub>2</sub>CO<sub>3</sub>?
+@answer
+text: Sodium carbonate
+correct: true
+@answer
+text: Sodium carbon trioxide
+correct: false
+@answer
+text: Disodium carbonate
+correct: false
+@answer
+text: Disodium carbon trioxide
+correct: false
+
+% multichoice
+text: What is the name of the compound Mg(NO<sub>3</sub>)<sub>2</sub>?
+@answer
+text: Magnesium nitrate
+correct: true
+@answer
+text: Magnesium dinitrogen trioxide
+correct: false
+@answer
+text: Magnesium nitrogen trioxide
+correct: false
+@answer
+text: Magnesium dinitrate
+correct: false
+
+% multichoice
+text: What is the name of the compound MgSO<sub>3</sub>?
+@answer
+text: Magnesium sulfite
+correct: true
+@answer
+text: Magnesium sulfur oxide
+correct: false
+@answer
+text: Magnesium sulfate
+correct: false
+@answer
+text:Magnesium sulfur trioxide
+correct: false
+
+% multichoice
+text: What is the name of the compound LiHSO<sub>4</sub>?
+@answer
+text: Lithium hydrogen sulfate
+correct: true
+@answer
+text: Lithium hydrogen sulfur tetraoxide
+correct: false
+@answer
+text: Lithium hydrogen sulfite
+correct: false
+@answer
+text: Lithium hydrosulfite
+correct: false
+
+% multichoice
+text: What is the name of the compound Al(OH)<sub>3</sub>?
+@answer
+text: Aluminium hydroxide
+correct: true
+@answer
+text: Aluminium trihydroxide
+correct: false
+@answer
+text: Aluminium trioxygen hydride
+correct: false
+@answer
+text: Aluminium trioxygen trihydride
+correct: false
+
+% multichoice
+text: What is the name of the compound HCl?
+@answer
+text: Hydrogen chloride
+correct: true
+@answer
+text: Hydrogen monochloride
+correct: false
+@answer
+text: Hydrogen chlorine
+correct: false
+@answer
+text: Monohydrogen monochloride
+correct: false
+
+% multichoice
+text: What is the name of the compound N<sub>2</sub>O<sub>5</sub>?
+@answer
+text: Dinitrogen pentoxide
+correct: true
+@answer
+text: Nitrogen oxide
+correct: false
+@answer
+text: Nitrogen pentoxide
+correct: false
+@answer
+text: Nitrogen oxygen
+correct: false
+
+% multichoice
+text: What is the name of the compound CCl<sub>4</sub>?
+@answer
+text: Carbon tetrachloride
+correct: true
+@answer
+text: Carbon chlorine
+correct: false
+@answer
+text: Monocarbon tetrachloride
+correct: false
+@answer
+text: Carbon chloride
+correct: false
+
+% multichoice
+text: What is the name of the compound CO?
+@answer
+text: Carbon monoxide
+correct: true
+@answer
+text: Carbon oxygen
+correct: false
+@answer
+text: Monocarbon monoxide
+correct: false
+@answer
+text: Carboxygen
+correct: false
+
+% multichoice
+text: What is the name of the compound PI<sub>5</sub>?
+@answer
+text: Phosphorus pentaiodide
+correct: true
+@answer
+text: Phosphorus iodide
+correct: false
+@answer
+text: Monophosporus iodide
+correct: false
+@answer
+text: Monophosporus pentaiodide
+correct: false
+
+% multichoice
+text: What is the name of the CO<sub>3</sub> radical?
+@answer
+text: Carbonate
+correct: true
+@answer
+text: Carbonite
+correct: false
+@answer
+text: Carboxide
+correct: false
+@answer
+text: Chlorate
+correct: false
+
+% multichoice
+text: What is the name of the SO<sub>4</sub> radical?
+@answer
+text: Sulfate
+correct: true
+@answer
+text: Sulfite
+correct: false
+@answer
+text: Sulfoxygen
+correct: false
+@answer
+text: Sulfoxide
+correct: false
+
+% multichoice
+text: What is the name of the SO<sub>3</sub> radical?
+@answer
+text: Sulfite
+correct: true
+@answer
+text: Sulfate
+correct: false
+@answer
+text: Sulfur trioxide
+correct: false
+@answer
+text: Sulfoxide
+correct: false
+
+% multichoice
+text: What is the name of the NO<sub>3</sub> radical?
+@answer
+text: Nitrate
+correct: true
+@answer
+text: Nitrite
+correct: false
+@answer
+text: Nitrile
+correct: false
+@answer
+text: Nitro
+correct: false
+
+% multichoice
+text: What is the name of the HCO<sub>3</sub> radical?
+@answer
+text: Hydrogen carbonate
+correct: true
+@answer
+text: Hydrocarbonate
+correct: false
+@answer
+text: Hydrocarbon trioxide
+correct: false
+@answer
+text: Hydrogen carboxide
+correct: false
+
+% multichoice
+text: What is the name of the HSO<sub>4</sub> radical?
+@answer
+text: Hydrogen sulfate
+correct: true
+@answer
+text: Hydrogen sulfoxide
+correct: false
+@answer
+text: Hydrogen sulfite
+correct: false
+@answer
+text: Hydrogen sulfur tetraoxide
+correct: false
+
+% multichoice
+text: What is the name of the HSO<sub>3</sub> radical?
+@answer
+text: Hydrogen sulfite
+correct: true
+@answer
+text: Hydrogen sulfoxide
+correct: false
+@answer
+text: Hydrogen sulfate
+correct: false
+@answer
+text: Hydrogen sulfur trioxide
+correct: false
+
+% multichoice
+text: What is the name of the OH radical?
+@answer
+text: Hydroxide
+correct: true
+@answer
+text: Oxygen hydrogen
+correct: false
+@answer
+text: Oxyhydride
+correct: false
+@answer
+text: Monoxygen monohydride
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: H<sub>2</sub> + F<sub>2</sub> → 2HF
+correct: true
+@answer
+text: H<sub>2</sub> + F<sub>2</sub> → HF
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: N<sub>2</sub> + 2O<sub>2</sub> → 2NO<sub>2</sub>
+correct: true
+@answer
+text: N<sub>2</sub> + 2O<sub>2</sub> → NO<sub>2</sub>
+correct: false
+@answer
+text: N<sub>2</sub> + O<sub>2</sub> → 2NO<sub>2</sub>
+correct: false
+@answer
+text: N<sub>2</sub> + O<sub>2</sub> → NO<sub>2</sub>
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: Ca + O<sub>2</sub> → CaO<sub>2</sub>
+correct: true
+@answer
+text: 2Ca + O<sub>2</sub> → 2CaO<sub>2</sub>
+correct: false
+@answer
+text: Ca + 2O<sub>2</sub> → 2CaO<sub>2</sub>
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: 4Al + 3O<sub>2</sub> → 2Al<sub>2</sub>O<sub>3</sub>
+correct: true
+@answer
+text: 2Al + 1.5O<sub>2</sub> → Al<sub>2</sub>O<sub>3</sub>
+correct: false
+@answer
+text: Al + O<sub>2</sub> → Al<sub>2</sub>O<sub>3</sub>
+correct: false
+@answer
+text: 2Al + 3O<sub>2</sub> → Al<sub>2</sub>O<sub>3</sub>
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: C + 2Cl<sub>2</sub> → CCl<sub>4</sub>
+correct: true
+@answer
+text: C + Cl<sub>2</sub> → CCl<sub>4</sub>
+correct: false
+@answer
+text: 2C + Cl<sub>2</sub> → CCl<sub>4</sub>
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: HCl + NaOH → NaCl + H<sub>2</sub>O
+correct: true
+@answer
+text: 2HCl + 2NaOH → 2NaCl + H<sub>2</sub>O
+correct: false
+@answer
+text: HCl + 2NaOH → 2NaCl + H<sub>2</sub>O
+correct: false
+@answer
+text: 2HCl + 2NaOH → NaCl + H<sub>2</sub>O
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: Mg + H<sub>2</sub>SO<sub>4</sub> → MgSO<sub>4</sub> + H<sub>2</sub>
+correct: true
+@answer
+text: 2Mg + H<sub>2</sub>SO<sub>4</sub> → 2MgSO<sub>4</sub> + H<sub>2</sub>
+correct: false
+@answer
+text: Mg + 2H<sub>2</sub>SO<sub>4</sub> → MgSO<sub>4</sub> + 2H<sub>2</sub>
+correct: false
+
+% multichoice
+text: Which of these equations is balanced?
+@answer
+text: Pb(OH)<sub>2</sub> → PbO + H<sub>2</sub>O
+correct: true
+@answer
+text: 2Pb(OH)<sub>2</sub> → 2PbO + H<sub>2</sub>O
+correct: false
+@answer
+text: Pb(OH)<sub>2</sub> → PbO + 2H<sub>2</sub>O
+correct: false
+
+% multichoice
+text: Polymers are small molecules
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: What is the repeating part of a polymer called?
+@answer
+text: Monomer
+correct: true
+@answer
+text: Clone
+correct: false
+@answer
+text: Pattern
+correct: false
+@answer
+text: Meros
+correct: false
+
+% multichoice
+text: What is the monomer that makes polyethylene probably called?
+@answer
+text: Ethylene
+correct: true
+@answer
+text: Polyethyl
+correct: false
+@answer
+text: Thylene
+correct: false
+
+% multichoice
+text: What is the monomer that makes polyester probably called?
+@answer
+text: Ester
+correct: true
+@answer
+text: Yester
+correct: false
+@answer
+text: Polyest
+correct: false
+
+% multichoice
+text: All polymers are also plastics
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: All plastics are also polymers
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Plastics are synthetic polymers
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: All polymers are synthetic (made by people)
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: What effect does cross-linking have on a polymer?
+@answer
+text: Makes it stiffer
+correct: true
+@answer
+text: Makes it harder
+correct: true
+@answer
+text: Makes it transparent
+correct: false
+@answer
+text: Makes it lighter
+correct: false
+
+% multichoice
+text: Which of these things affects the properties of a polymer?
+@answer
+text: Monomer used
+correct: true
+@answer
+text: Chain length
+correct: true
+@answer
+text: Time taken to cool
+correct: true
+@answer
+text: Country of origin
+correct: false
+
+% multichoice
+text: Which of these things affects the properties of a polymer?
+@answer
+text: Branching
+correct: true
+@answer
+text: Cross-linking
+correct: true
+@answer
+text: Other chemicals added
+correct: true
+@answer
+text: Season that it's made in
+correct: false

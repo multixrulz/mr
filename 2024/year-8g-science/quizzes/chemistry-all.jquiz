@@ -1,0 +1,453 @@
+% jquiz
+
+% multichoice
+text: A chemical change always involves ...
+@answer
+text: explosions
+correct: false
+@answer
+text: creation of new substances
+correct: true
+@answer
+text: heating
+correct: false
+@answer
+text: substances that cause cancer
+correct: false
+
+% multichoice
+text: A chemical change always creates new substances. Which of these things could also be a sign of a chemical change?
+@answer
+text: Change in temperature
+correct: true
+@answer
+text: Change in colour
+correct: true
+@answer
+text: Bubbles
+correct: true
+@answer
+text: Emits light
+correct: true
+@answer
+text: Makes a precipitate
+correct: true
+@answer
+text: Breaks into smaller pieces
+correct: false
+
+% multichoice
+text: Do chemical reactions always cause chemical changes?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Are physical changes difficult to reverse?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% multichoice
+text: Are chemical changes difficult to reverse?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Is there a chemical change when you cut wood?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% multichoice
+text: Is there a chemical change when you burn fuel in a car engine?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Is there a chemical change when you fry an egg?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: Is there a chemical change when you dent a car?
+@answer
+text: Yes
+correct: false
+@answer
+text: No
+correct: true
+
+% multichoice
+text: Is there a chemical change when you make a cake?
+@answer
+text: Yes
+correct: true
+@answer
+text: No
+correct: false
+
+% multichoice
+text: What is the atomic number of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: true
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: false
+
+% multichoice
+text: What is the chemical symbol of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: false
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: true
+
+% multichoice
+text: What is the atomic mass of nitrogen?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: false
+@answer
+text: 14.01
+correct: true
+@answer
+text: N
+correct: false
+
+% multichoice
+text: How many different types of atom are found in nature?
+@answer
+text: 27
+correct: false
+@answer
+text: 92
+correct: true
+@answer
+text: about 32 million
+correct: false
+@answer
+text: an infinite number
+correct: false
+
+% multichoice
+text: What do we call the list of all the elements?
+@answer
+text: the periodic table
+correct: true
+@answer
+text: the list of elements
+correct: false
+@answer
+text: the chemist's handbook
+correct: false
+@answer
+text: a conspiracy theory
+correct: false
+
+% multichoice
+text: Which term means "shiny"?
+@answer
+text: lustrous
+correct: true
+@answer
+text: ductile
+correct: false
+@answer
+text: malleable
+correct: false
+@answer
+text: electrical conductor
+correct: false
+
+% multichoice
+text: Which term means "bends, can be shaped"?
+@answer
+text: malleable
+correct: true
+@answer
+text: ductile
+correct: false
+@answer
+text: sonorous
+correct: false
+@answer
+text: electrical conductor
+correct: false
+
+% multichoice
+text: Which term means "can be pulled into a wire"?
+@answer
+text: ductile
+correct: true
+@answer
+text: flexible
+correct: false
+@answer
+text: sonorous
+correct: false
+@answer
+text: electrical conductor
+correct: false
+
+% multichoice
+text: Which term means "shatters into small pieces when hit"?
+@answer
+text: brittle
+correct: true
+@answer
+text: flexible
+correct: false
+@answer
+text: sonorous
+correct: false
+@answer
+text: electrical conductor
+correct: false
+
+% multichoice
+text: Which term means "rings like a bell when hit"?
+@answer
+text: sonorous
+correct: true
+@answer
+text: flexible
+correct: false
+@answer
+text: malleable
+correct: false
+@answer
+text: thermal conductor
+correct: false
+
+% multichoice
+text: Which term means "allows electricity to go through it"?
+@answer
+text: electrical conductor
+correct: true
+@answer
+text: flexible
+correct: false
+@answer
+text: malleable
+correct: false
+@answer
+text: thermal conductor
+correct: false
+
+% multichoice
+text: Which term means "allows heat to go through it"?
+@answer
+text: thermal conductor
+correct: true
+@answer
+text: sonorous
+correct: false
+@answer
+text: malleable
+correct: false
+@answer
+text: electrical conductor
+correct: false
+
+% multichoice
+text: Which of these things is a property of most metals?
+@answer
+text: ductile
+correct: true
+@answer
+text: malleable
+correct: true
+@answer
+text: brittle
+correct: false
+@answer
+text: strong
+correct: true
+@answer
+text: soft
+correct: false
+@answer
+text: electrical insulators
+correct: false
+
+% multichoice
+text: Which of these things is a property of most metals?
+@answer
+text: hard
+correct: true
+@answer
+text: shiny
+correct: true
+@answer
+text: conduct electricity
+correct: true
+@answer
+text: conduct heat
+correct: true
+@answer
+text: low melting point
+correct: false
+@answer
+text: low density
+correct: false
+
+% multichoice
+text: What is the smallest piece of an element?
+@answer
+text: a compound
+correct: false
+@answer
+text: a galaxy
+correct: false
+@answer
+text: an atom
+correct: true
+@answer
+text: a chunk
+correct: false
+
+% multichoice
+text: How many protons does a neutral atom of nitrogen have?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: true
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: false
+@answer
+text: It doesn’t say
+correct: false
+
+% multichoice
+text: How many electrons does a neutral atom of nitrogen have?
+image: chemistry/nitrogen.svg
+@answer
+text: 7
+correct: true
+@answer
+text: 14.01
+correct: false
+@answer
+text: N
+correct: false
+@answer
+text: It doesn’t say
+correct: false
+
+% multichoice
+text: Which of these things are parts of an atom?
+@answer
+text: Proton
+correct: true
+@answer
+text: Neutron
+correct: true
+@answer
+text: Electron
+correct: true
+@answer
+text: Photon
+correct: false
+@answer
+text: Positron
+correct: false
+@answer
+text: Krypton
+correct: false
+
+% multichoice
+text: Which particles orbit the nucleus of an atom?
+@answer
+text: Electrons
+correct: true
+@answer
+text: Protons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles make up the nucleus of an atom?
+@answer
+text: Protons
+correct: true
+@answer
+text: Neutrons
+correct: true
+@answer
+text: Electrons
+correct: false
+
+% multichoice
+text: Which particles have a negative electric charge?
+@answer
+text: Electrons
+correct: true
+@answer
+text: Protons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles have a positive electric charge?
+@answer
+text: Protons
+correct: true
+@answer
+text: Electrons
+correct: false
+@answer
+text: Neutrons
+correct: false
+
+% multichoice
+text: Which particles have no electric charge?
+@answer
+text: Neutrons
+correct: true
+@answer
+text: Electrons
+correct: false
+@answer
+text: Protons
+correct: false
