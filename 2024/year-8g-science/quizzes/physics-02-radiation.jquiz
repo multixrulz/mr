@@ -12,67 +12,96 @@ correct: true
 text: Radiation cannot travel through space
 correct: false
 @answer
-text:
+text: Radiation happens when you touch hot things
 correct: false
 
 % multichoice
-text:
+text: Radiation is a kind of light
 @answer
-text:
+text: True
 correct: true
 @answer
-text:
-correct: false
-@answer
-text:
-correct: false
-@answer
-text:
+text: False
 correct: false
 
 % multichoice
-text:
+text: What are the clumps of energy that carry energy in the thermal radiation process?
 @answer
-text:
+text: Photons
 correct: true
 @answer
-text:
+text: Protons
 correct: false
 @answer
-text:
+text: Electrons
 correct: false
 @answer
-text:
+text: Morons
 correct: false
 
 % multichoice
-text:
+text: Only hot things emit thermal radiation
 @answer
-text:
+text: False
 correct: true
 @answer
-text:
-correct: false
-@answer
-text:
-correct: false
-@answer
-text:
+text: True
 correct: false
 
 % multichoice
-text:
+text: Anything that is warmer than absolute zero emits thermal radiation
 @answer
-text:
+text: True
 correct: true
 @answer
-text:
-correct: false
-@answer
-text:
-correct: false
-@answer
-text:
+text: False
 correct: false
 
+% multichoice
+text: Hot things give off more radiation than cool things
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Some surfaces give off more radiation than others at the same temperature
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: What can happen when thermal radiation reaches an object?
+@answer
+text: Absorption (it goes into the object)
+correct: true
+@answer
+text: Transmission (it goes through the object)
+correct: true
+@answer
+text: Reflection (it bounces off the object)
+correct: true
+@answer
+text: Destruction (it destroys the object)
+correct: false
+
+% multichoice
+text: When thermal radiation is absorbed, what happens to the object?
+@answer
+text: It gets hotter
+correct: true
+@answer
+text: It gets colder
+correct: false
+@answer
+text: It becomes red
+correct: false
+@answer
+text: It blows up
+correct: false
 
