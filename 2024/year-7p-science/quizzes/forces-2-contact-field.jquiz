@@ -34,10 +34,10 @@ text: Drag (air resistance and water resistance)
 correct: true
 @answer
 text: Gravity
-correct: true
+correct: false
 @answer
 text: Magnetism
-correct: true
+correct: false
 
 % multichoice
 text: Which of these is a type of non-contact force?

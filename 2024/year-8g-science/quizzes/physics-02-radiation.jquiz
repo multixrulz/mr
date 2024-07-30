@@ -1,0 +1,78 @@
+% jquiz
+
+% multichoice
+text: What is true about thermal radiation
+@answer
+text: Thermal radiation is one way heat is transferred
+correct: true
+@answer
+text: Your skin can often feel radiation
+correct: true
+@answer
+text: Radiation cannot travel through space
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+% multichoice
+text:
+@answer
+text:
+correct: true
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+@answer
+text:
+correct: false
+
+
