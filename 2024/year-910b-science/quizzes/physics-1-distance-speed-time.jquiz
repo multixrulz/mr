@@ -1,0 +1,122 @@
+% jquiz
+
+% multichoice
+text: What is the science unit for measuring time?
+@answer
+text: second
+correct: true
+@answer
+text: minute
+correct: false
+@answer
+text: hour
+correct: false
+@answer
+text: day
+correct: false
+
+% multichoice
+text: What is the science unit for measuring distance?
+@answer
+text: metre
+correct: true
+@answer
+text: millimetre
+correct: false
+@answer
+text: kilometre
+correct: false
+@answer
+text: foot
+correct: false
+
+% multichoice
+text: What is the science unit for measuring speed?
+@answer
+text: metres per second
+correct: true
+@answer
+text: kilometres per hour
+correct: false
+@answer
+text: metres per minute
+correct: false
+@answer
+text: kilometres per second
+correct: false
+
+% multichoice
+text: What does the measurement prefix "kilo" mean?
+@answer
+text: 1,000
+correct: true
+@answer
+text: 100
+correct: false
+@answer
+text: 1,000,000
+correct: false
+@answer
+text: 1
+correct: false
+
+% multichoice
+text: What does the measurement prefix "centi" mean?
+@answer
+text: 0.01 (1/100)
+correct: true
+@answer
+text: 0.1 (1/10)
+correct: false
+@answer
+text: 0.001 (1/1000)
+correct: false
+@answer
+text: 100
+correct: false
+
+% multichoice
+text: What does the measurement prefix "milli" mean?
+@answer
+text: 0.001 (1/1000)
+correct: true
+@answer
+text: 0.1 (1/10)
+correct: false
+@answer
+text: 0.01 (1/100)
+correct: false
+@answer
+text: 100
+correct: false
+
+% multichoice
+text: How many seconds are in one minute?
+@answer
+text: 60
+correct: true
+@answer
+text: 10
+correct: false
+@answer
+text: 1000
+correct: false
+@answer
+text: 360
+correct: false
+
+% multichoice
+text: How many seconds are in one hour?
+@answer
+text: 3600
+correct: true
+@answer
+text: 360
+correct: false
+@answer
+text: 60
+correct: false
+@answer
+text: 1000
+correct: false
+
