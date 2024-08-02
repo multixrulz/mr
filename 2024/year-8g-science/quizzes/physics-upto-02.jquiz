@@ -1,0 +1,182 @@
+% jquiz
+
+% multichoice
+text: The seasons happen because
+@answer
+text: The earth's axis of rotation is tilted
+correct: true
+@answer
+text: The distance from the earth to the sun changes
+correct: false
+@answer
+text: The sun gets brighter and dimmer
+correct: false
+@answer
+text: Magic
+correct: false
+
+% multichoice
+text: When the southern hemisphere is tilted away from the sun ...
+@answer
+text: It's winter in Australia
+correct: true
+@answer
+text: Daytime is shorter in Australia
+correct: true
+@answer
+text: It's summer in Australia
+correct: false
+@answer
+text: It's always dark in Australia
+correct: false
+
+% multichoice
+text: In winter ...
+@answer
+text: The sun doesn't rise very high in the sky
+correct: true
+@answer
+text: The days are shorter
+correct: true
+@answer
+text: We get less heat from the sun
+correct: true
+@answer
+text: It's cold
+correct: true
+
+% multichoice
+text: When the sun is low in the sky, we get less heat because
+@answer
+text: The light from the sun has to spread out over a bigger area
+correct: true
+@answer
+text: The light has to shine through a lot of air
+correct: false
+@answer
+text: The sun puts out less heat
+correct: false
+@answer
+text: Other parts of the world get the heat before it gets to us
+correct: false
+
+% multichoice
+text: What happens at the winter solstice?
+@answer
+text: The earth's axis is tilted as far away as possible from the sun
+correct: true
+@answer
+text: It is the shortest day of the year
+correct: true
+@answer
+text: The sun is at its lowest point in the sky at midday
+correct: true
+@answer
+text: It is the coldest part of the year
+correct: false
+
+% multichoice
+text: What is true about thermal radiation
+@answer
+text: Thermal radiation is one way heat is transferred
+correct: true
+@answer
+text: Your skin can often feel radiation
+correct: true
+@answer
+text: Radiation cannot travel through space
+correct: false
+@answer
+text: Radiation happens when you touch hot things
+correct: false
+
+% multichoice
+text: Radiation is a kind of light
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: What are the clumps of energy that carry energy in the thermal radiation process?
+@answer
+text: Photons
+correct: true
+@answer
+text: Protons
+correct: false
+@answer
+text: Electrons
+correct: false
+@answer
+text: Morons
+correct: false
+
+% multichoice
+text: Only hot things emit thermal radiation
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: Anything that is warmer than absolute zero emits thermal radiation
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Hot things give off more radiation than cool things
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: Some surfaces give off more radiation than others at the same temperature
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: What can happen when thermal radiation reaches an object?
+@answer
+text: Absorption (it goes into the object)
+correct: true
+@answer
+text: Transmission (it goes through the object)
+correct: true
+@answer
+text: Reflection (it bounces off the object)
+correct: true
+@answer
+text: Destruction (it destroys the object)
+correct: false
+
+% multichoice
+text: When thermal radiation is absorbed, what happens to the object?
+@answer
+text: It gets hotter
+correct: true
+@answer
+text: It gets colder
+correct: false
+@answer
+text: It becomes red
+correct: false
+@answer
+text: It blows up
+correct: false
+
