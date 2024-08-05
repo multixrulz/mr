@@ -1,0 +1,153 @@
+% jquiz
+
+% multichoice
+text: A vector is
+@answer
+text: A quantity that has a direction and magnitude (size)
+correct: true
+@answer
+text: Something that transmits disease
+correct: false
+@answer
+text: A type of car
+correct: false
+@answer
+text: The name of a movie character
+correct: false
+
+% multichoice
+text: Which of these is a vector
+@answer
+text: Velocity
+correct: true
+@answer
+text: Acceleration
+correct: true
+@answer
+text: Displacement
+correct: true
+@answer
+text: Speed
+correct: false
+
+% multichoice
+text: Which of these is a vector?
+@answer
+text: Displacement
+correct: true
+@answer
+text: Distance
+correct: false
+@answer
+text: Speed
+correct: false
+@answer
+text: Time
+correct: false
+
+% multichoice
+text: What is the vector version of speed?
+@answer
+text: Velocity
+correct: true
+@answer
+text: Position
+correct: false
+@answer
+text: Displacement
+correct: false
+@answer
+text: Acceleration
+correct: false
+
+% multichoice
+text: What is the vector version of distance?
+@answer
+text: Displacement
+correct: true
+@answer
+text: Position
+correct: false
+@answer
+text: Velocity
+correct: false
+@answer
+text: Acceleration
+correct: false
+
+% multichoice
+text: What is acceleration?
+@answer
+text: How fast velocity changes
+correct: true
+@answer
+text: How fast speed changes
+correct: false
+@answer
+text: Going faster
+correct: false
+@answer
+text: Going slower
+correct: false
+
+% multichoice
+text: What is the rate that velocity changes?
+@answer
+text: Acceleration
+correct: true
+@answer
+text: Speed
+correct: false
+@answer
+text: Time
+correct: false
+@answer
+text: Mass
+correct: false
+
+% multichoice
+text: What is the rate that displacement changes?
+@answer
+text: Velocity
+correct: true
+@answer
+text: Speed
+correct: false
+@answer
+text: Mass
+correct: false
+@answer
+text: Distance
+correct: false
+
+% multichoice
+text: What is the rate that distance changes?
+@answer
+text: Speed
+correct: true
+@answer
+text: Velocity
+correct: false
+@answer
+text: Time
+correct: false
+@answer
+text: Displacement
+correct: false
+
+% multichoice
+text: What is the unit of acceleration?
+@answer
+text: m/s<sup>2</sup>
+correct: true
+@answer
+text: m/s
+correct: false
+@answer
+text: m
+correct: false
+@answer
+text: s
+correct: false
+
+
