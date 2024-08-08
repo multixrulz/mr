@@ -120,3 +120,15 @@ correct: false
 text: 1000
 correct: false
 
+% multichoice
+text: Which formula is correct?
+@answer
+text: distance = speed x time
+correct: true
+@answer
+text: time = distance x speed
+correct: false
+@answer
+text: speed = distance x time
+correct: false
+
