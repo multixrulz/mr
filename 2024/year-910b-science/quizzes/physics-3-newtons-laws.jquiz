@@ -1,0 +1,122 @@
+% jquiz
+
+% multichoice
+text: Which of Newton’s laws is this: An object’s motion will stay the same unless a net force acts on it
+@answer
+text: First Law
+correct: true
+@answer
+text: Second Law
+correct: false
+@answer
+text: Third Law
+correct: false
+
+% multichoice
+text: Which of Newton’s laws is this: The acceleration of an object depends on its mass and the force on it
+@answer
+text: First Law
+correct: false
+@answer
+text: Second Law
+correct: true
+@answer
+text: Third Law
+correct: false
+
+% multichoice
+text: Which of Newton’s laws is this: For every force there is an equal and opposite force
+@answer
+text: First Law
+correct: false
+@answer
+text: Second Law
+correct: false
+@answer
+text: Third Law
+correct: true
+
+% multichoice
+text: Which of Newton’s laws has the formula F=ma?
+@answer
+text: First Law
+correct: false
+@answer
+text: Second Law
+correct: true
+@answer
+text: Third Law
+correct: false
+
+% multichoice
+text: Which of Newton’s laws explains why you can pull a tablecloth out from under the dishes on the table?
+@answer
+text: First Law
+correct: true
+@answer
+text: Second Law
+correct: false
+@answer
+text: Third Law
+correct: false
+
+% multichoice
+text: Which of Newton’s laws explains why we need seatbelts?
+@answer
+text: First Law
+correct: true
+@answer
+text: Second Law
+correct: false
+@answer
+text: Third Law
+correct: false
+
+% multichoice
+text: Which of Newton’s laws explains why it’s harder to push a car than it is to push a bicycle?
+@answer
+text: First Law
+correct: false
+@answer
+text: Second Law
+correct: true
+@answer
+text: Third Law
+correct: false
+
+% multichoice
+text: Which of Newton’s laws do we use to work out the weight of an astronaut on the moon?
+@answer
+text: First Law
+correct: false
+@answer
+text: Second Law
+correct: true
+@answer
+text: Third Law
+correct: false
+
+% multichoice
+text: Which of Newton’s laws explains why jumping off a skateboard can end in physical pain
+@answer
+text: First Law
+correct: false
+@answer
+text: Second Law
+correct: false
+@answer
+text: Third Law
+correct: true
+
+% multichoice
+text: Which of Newton’s laws explains how rockets work?
+@answer
+text: First Law
+correct: false
+@answer
+text: Second Law
+correct: false
+@answer
+text: Third Law
+correct: true
+
