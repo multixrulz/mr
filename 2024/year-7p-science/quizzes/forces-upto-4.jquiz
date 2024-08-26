@@ -1,0 +1,335 @@
+% jquiz
+
+% multichoice
+text: Which of these makes a force on an object?
+@answer
+text: gravity
+correct: true
+@answer
+text: pushing it
+correct: true
+@answer
+text: pulling it
+correct: true
+@answer
+text: wind
+correct: true
+@answer
+text: friction
+correct: true
+@answer
+text: muscles
+correct: true
+
+% multichoice
+text: If you put a force on an object, does it always move?
+@answer
+text: No
+correct: true
+@answer
+text: Yes
+correct: false
+
+% multichoice
+text: When more than one force is applied to an object, what will make it move?
+@answer
+text: The forces are unbalanced
+correct: true
+@answer
+text: The forces are balanced
+correct: false
+@answer
+text: The forces are really big
+correct: false
+@answer
+text: The forces are very small
+correct: false
+
+% multichoice
+text: What is the force that slows things down?
+@answer
+text: friction
+correct: true
+@answer
+text: gravity
+correct: false
+@answer
+text: magnetism
+correct: false
+@answer
+text: natural
+correct: false
+
+% multichoice
+text: When an unbalanced force acts on an object, what happens?
+@answer
+text: Its speed or direction changes
+correct: true
+@answer
+text: It starts moving
+correct: false
+@answer
+text: It slows down
+correct: false
+@answer
+text: It moves at a constant speed
+correct: false
+
+
+% multichoice
+text: Which kind of force needs things to physically touch?
+@answer
+text: Contact force
+correct: true
+@answer
+text: Non-contact force
+correct: false
+
+% multichoice
+text: Which kind of force can work even when things do not physically touch?
+@answer
+text: Non-Contact forces
+correct: true
+@answer
+text: Contact forces
+correct: false
+
+% multichoice
+text: Which of these is a type of contact force?
+@answer
+text: Push and pull
+correct: true
+@answer
+text: Tension
+correct: true
+@answer
+text: Friction
+correct: true
+@answer
+text: Drag (air resistance and water resistance)
+correct: true
+@answer
+text: Gravity
+correct: false
+@answer
+text: Magnetism
+correct: false
+
+% multichoice
+text: Which of these is a type of non-contact force?
+@answer
+text: Gravity
+correct: true
+@answer
+text: Electricity
+correct: true
+@answer
+text: Magnetism
+correct: true
+@answer
+text: Push and pull
+correct: false
+@answer
+text: Friction
+correct: false
+@answer
+text: Tension
+correct: false
+
+% multichoice
+text: Which kind of force acts through a field?
+@answer
+text: Non-contact force
+correct: true
+@answer
+text: Contact force
+correct: false
+
+% multichoice
+text: What causes friction?
+@answer
+text: Two surfaces rubbing together
+correct: true
+@answer
+text: Monsters
+correct: false
+@answer
+text: Things sticking together
+correct: false
+@answer
+text: Things getting hot
+correct: false
+
+
+% multichoice
+text: What does friction do?
+@answer
+text: Slows things down
+correct: true
+@answer
+text: Makes heat
+correct: true
+@answer
+text: Wears things out
+correct: true
+@answer
+text: Makes things last forever
+correct: false
+
+
+% multichoice
+text: Which of these things affects friction?
+@answer
+text: Roughness of the surfaces
+correct: true
+@answer
+text: The force pushing the surfaces together
+correct: true
+@answer
+text: The speed of the surfaces moving past each other
+correct: false
+@answer
+text: The colour of the surfaces
+correct: false
+
+
+% multichoice
+text: How is friction useful?
+@answer
+text: It lets us stop when we want to
+correct: true
+@answer
+text: It lets us sit without sliding off the chair
+correct: true
+@answer
+text: It lets us push against the ground so we can walk
+correct: true
+@answer
+text: It wears out our shoes
+correct: false
+
+
+% multichoice
+text: When is friction unhelpful?
+@answer
+text: When we want to keep moving
+correct: true
+@answer
+text: When it creates too much heat
+correct: true
+@answer
+text: When it wears things out
+correct: true
+@answer
+text: When it lets us grip a football
+correct: false
+
+
+% multichoice
+text: How do we reduce friction?
+@answer
+text: By using oil or another lubricant to make the surfaces slippery
+correct: true
+@answer
+text: By using rollers and wheels so surfaces do not rub together
+correct: true
+@answer
+text: By making surfaces very smooth
+correct: true
+@answer
+text: By coating surfaces with rubber
+correct: false
+
+% multichoice
+text: Why do shoes have padding?
+@answer
+text: To reduce the force on your foot
+correct: true
+@answer
+text: To look great
+correct: false
+@answer
+text: To make your feet hurt
+correct: false
+@answer
+text: To make you jump higher
+correct: false
+
+% multichoice
+text: How does padding in a shoe reduce force on your foot?
+@answer
+text: Make the foot stop more slowly
+correct: true
+@answer
+text: Make you lighter
+correct: false
+@answer
+text: Make the foot stop faster
+correct: false
+
+% multichoice
+text: Why do shoes need high friction soles?
+@answer
+text: To help you push off the ground to walk and run
+correct: true
+@answer
+text: To help you grip the ground to slow down
+correct: true
+@answer
+text: To stop you from slipping over
+correct: false
+@answer
+text: To look great
+correct: false
+
+% multichoice
+text: How does a car seatbelt keep you safe?
+@answer
+text: Stops you from moving forward when the car stops
+correct: true
+@answer
+text: Stops you from falling out the open door
+correct: false
+@answer
+text: Keeps you in your seat when the car goes faster
+correct: false
+
+% multichoice
+text: How do car airbags keep you safe?
+@answer
+text: Stop you from hitting your head on hard car parts
+correct: true
+@answer
+text: Slow down your head as it moves forward
+correct: true
+@answer
+text: Make you jump back when they go off
+correct: false
+
+% multichoice
+text: Why do cars have crumple zones?
+@answer
+text: So the car stops more slowly in a crash to keep you safe
+correct: true
+@answer
+text: To make even a small crash destroy the car
+correct: false
+@answer
+text: So you can play demlotion derby in the carpark
+correct: false
+
+% multichoice
+text: What are the safety features in a car?
+@answer
+text: Seatbelts
+correct: true
+@answer
+text: Airbags
+correct: true
+@answer
+text: Crumple zones
+correct: true
+@answer
+text: Windows
+correct: false
+
