@@ -1,0 +1,6 @@
+https://github.com/timotiousPrime/MatrixBackground
+
+Modified slightly:
+* Added CSS properties
+* Changed list of characters used (new list obtained from https://github.com/kawogi/matrix-digital-rain/blob/main/src/main.rs
+* Mirror left-right
