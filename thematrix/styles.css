@@ -1,3 +1,6 @@
+/* Only show this on the screen, not print */
+
+@media screen {
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +12,11 @@ body {
 
 canvas {
     display: block;
+}
+}
+
+@media print {
+canvas {
+display: none;
+}
 }
