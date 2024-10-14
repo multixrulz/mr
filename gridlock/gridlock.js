@@ -24,11 +24,19 @@ var game_data = {};
 function gl_run() {
     gl_get_data();
     //gl_audio_load();
-    gl_load_game(function () {
-        //jquiz_shuffle_quiz();
-        //jquiz_start_button();
-        document.exitFullscreen(); // Just in case it's still fullscreen
-    });
+    gl_load_game(gl_set_up_game);
+}
+
+function gl_set_up_game() {
+    //Create all the game cards
+    //These are all the mathematical combinations of the game data
+    //Cards are created using indexes into the data, rather than the data itself.
+    card_size = 9; // TODO Make this user-specified
+    cards = combinations(game_data.data.length, card_size);
+    console.log(cards);
+    //jquiz_shuffle_quiz();
+    //jquiz_start_button();
+    document.exitFullscreen(); // Just in case it's still fullscreen
 }
 
 // Populate quiz_data from GET parameters
@@ -37,7 +45,6 @@ function gl_get_data() {
     game_data['src'] = params.get("src");
     game_data['title'] = params.get("title");
     console.log("Got the following from the GET string:")
-    console.log(game_data)
 }
 
 function gl_load_game(callback) {
@@ -60,6 +67,35 @@ function gl_load_game(callback) {
     rq.open('GET', url_no_cache, true);
     rq.send();
     console.log(game_data);
+}
+
+// Shuffle function copied over from jquiz
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Combinatorics inspiration here https://code-boxx.com/javascript-permutations-combinations/
+
+function combinations(n, k) {
+    items = [...Array(n).keys()];
+
+    let results = [];
+    for (let slots = items.length; slots > 0; slots--) {
+        for (let loop = 0; loop < items.length - slots + 1; loop++) {
+            let key = results.length;
+            results[key] = [];
+            for (let i = loop; i < loop + slots; i++) {
+                results[key].push(items[i]);
+            }
+        }
+    }
+    return results;
+
+    // TODO - delete all results where the array length is not k
 }
 
 // CSV parser, free to use from https://stackoverflow.com/questions/1293147/how-to-parse-csv-data
@@ -134,3 +170,4 @@ var CSV = {
         return csv;
     }
 };
+
