@@ -59,8 +59,6 @@ function gl_load_game(callback) {
         }
         game_data['columns'] = csv_data[0];
         game_data['data'] = csv_data.slice(1);
-        // TODO Don't allow more than 53 entries of game data, because
-        // other code can't handle that.
         console.log("Gridlock: column names are ", game_data['columns']);
         console.log("Gridlock: game data is ", game_data['data']);
         console.log("Gridlock: game at " + game_data['src'] + " parsed.");
@@ -119,14 +117,16 @@ function gl_generate_cards() {
     card_size = card_sizes[card_layout];
     max_cards_combo = document.getElementById('max_cards');
     max_cards = Number(max_cards_combo.options[max_cards_combo.selectedIndex].value);
+    game_data['cards'] = make_cards(game_data['data'].length, card_size, max_cards);
     // TODO START FROM HERE
-    game_data['cards'] = combinations(game_data['data'].length, card_size, max_cards);
-    print_cards = [];
     game_data['cards'].forEach((card, index) => {
-        if (card.length == card_size) {
-            print_cards.push(index);
-        }
+        card_html =`<div class="card">`;
+        card.forEach((prompt_index) => {
+            // Write html for each prompt's answer
+        })
+        card_html += `</div>`;
     });
+
     console.log(print_cards);
 }
 
@@ -153,44 +153,70 @@ function shuffle(array) {
     return array;
 }
 
-// Generate K-combinations
+// Generate cards, that is, K-combinations
 // Some good info here https://cp-algorithms.com/combinatorics/generating_combinations.html
-function combinations(num_prompts, card_size, max_cards) {
-    // Number of cards to generate - lesser of max_cards and the number of cards possible with num_questions and card_size = n!/k!(n-k)!
-    function factorial(x) {
-        if(x < 0)
-            return 0;
-        var f = 1;
-        for(var i = x; i > 1; i--)
-            f *= i;
-        return f;
-    }
-    function countSetBits(n) {
-        // Works up to 53 bits
-        // Code from https://stackoverflow.com/questions/43122082/efficiently-count-the-number-of-bits-in-an-integer-in-javascript/57631591#57631591
-        return n.toString(2).replace(/0/g,"").length
-    }
-    // Round because we end up with big floating point numbers and a small fractional part
-    possible_cards = Math.round(factorial(num_prompts) /
-        (factorial(card_size) * factorial(num_prompts - card_size)));
+function make_cards(num_prompts, card_size, max_cards) {
+    // Number of cards to generate - lesser of max_cards and the number of cards possible with num_questions and card_size =
+    possible_cards = nCk(num_prompts, card_size);
     num_cards = Math.min(max_cards, possible_cards);
-    // Represent all the prompts as a string of bits (ie unsigned int).
-    // index zero is on the right (LSB).
-    // Thus a game with 30 prompts will have a 30 bit string.
-    // Generate random numbers up to 2^n - 1, and check if they have
-    // card_size bits set. (This is known as Hamming Weight and also
-    // popcount. Stop after num_cards have been found.
-    let results = [];
-    all_bits_set = Math.pow(2, num_prompts) - 1;
     console.log("Gridlock: generating " + num_cards + " cards");
-    while (results.length < num_cards) {
-        test_num = Math.floor(Math.random() * all_bits_set);
-        if (countSetBits(test_num) == card_size) {
-            results.push(test_num);
+    let results = [];
+    // Create num_cards cards
+    for (let i=0; i<num_cards; i++) {
+        // Select card_size different random bits
+        results[i] = new bitfield(num_prompts);
+        while (results[i].setBits() < card_size) {
+            n = Math.floor(Math.random() * num_prompts);
+            results[i].setBit(n);
         }
     }
+    // TODO Check for duplicates
     console.log(results);
     return results;
+}
+
+function nCk(n, k) {
+    // Number of combinations - combinatorics in maths
+    // nCk = n!/k!(n-k)!
+    // Round because we end up with big floating point numbers and a small fractional part
+    return Math.round(factorial(n) /
+        (factorial(k) * factorial(n - k)));
+}
+
+function factorial(x) {
+    if(x < 0)
+        return 0;
+    var f = 1;
+    for(var i = x; i > 1; i--)
+        f *= i;
+    return f;
+}
+
+class bitfield {
+    constructor(n) {
+        this.data = new Array(n);
+        for (let i=0; i<n; i++) {
+            this.data[i] = false;
+        }
+    }
+
+    setBits() {
+        var bits = 0;
+        for (let i=0; i<this.data.length; i++) {
+            if (this.data[i]) {
+                bits++;
+            }
+        }
+        return bits;
+    }
+
+    setBit(n) {
+        this.data[n] = true;
+    }
+
+    resetBit(n) {
+        this.data[n] = false;
+    }
 }
 
 // CSV parser, free to use from https://stackoverflow.com/questions/1293147/how-to-parse-csv-data
