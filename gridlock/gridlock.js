@@ -159,19 +159,20 @@ function make_cards(num_prompts, card_size, max_cards) {
     // Number of cards to generate - lesser of max_cards and the number of cards possible with num_questions and card_size =
     possible_cards = nCk(num_prompts, card_size);
     num_cards = Math.min(max_cards, possible_cards);
-    console.log("Gridlock: generating " + num_cards + " cards");
-    let results = [];
+    console.log("Gridlock: generating " + num_cards + " cards of size " + card_size);
+    let result = [];
     // Create num_cards cards
     for (let i=0; i<num_cards; i++) {
-        // Select card_size different random bits
-        results[i] = new bitfield(num_prompts);
-        while (results[i].setBits() < card_size) {
+        new_card = new bitfield(num_prompts);
+        while (new_card.numSetBits() < card_size) {
             n = Math.floor(Math.random() * num_prompts);
-            results[i].setBit(n);
+            new_card.setBit(n);
         }
+        // Select card_size different random bits
+        results[i] = new_card;
     }
     // TODO Check for duplicates
-    console.log(results);
+    console.log();
     return results;
 }
 
@@ -200,11 +201,23 @@ class bitfield {
         }
     }
 
-    setBits() {
+    numSetBits() {
+        // The number of bits that are set
         var bits = 0;
         for (let i=0; i<this.data.length; i++) {
             if (this.data[i]) {
                 bits++;
+            }
+        }
+        return bits;
+    }
+
+    setBits() {
+        // An array of the bit indexes that are set
+        var bits = [];
+        for (let i=0; i<this.data.length; i++) {
+            if (this.data[i]) {
+                bits.push(i);
             }
         }
         return bits;
