@@ -31,7 +31,7 @@ function gl_set_up_game() {
     //Create all the game cards
     //These are all the mathematical combinations of the game data
     //Cards are created using indexes into the data, rather than the data itself.
-    prompt_order = shuffle(index_array(game_data['data'].length));
+    question_order = shuffle(index_array(game_data['data'].length));
     gl_show_buttons();
     document.exitFullscreen(); // Just in case it's still fullscreen
 }
@@ -109,25 +109,40 @@ function gl_print_cards() {
 
 function gl_generate_cards() {
     // Create cards
+    // Some predefined data
     card_sizes = {"2x2": 4,
         "2x3": 6,
         "3x3": 9};
+    // Get data from form
     card_layout_combo = document.getElementById('card_layout');
     card_layout = card_layout_combo.options[card_layout_combo.selectedIndex].value;
     card_size = card_sizes[card_layout];
     max_cards_combo = document.getElementById('max_cards');
     max_cards = Number(max_cards_combo.options[max_cards_combo.selectedIndex].value);
-    game_data['cards'] = make_cards(game_data['data'].length, card_size, max_cards);
-    // TODO START FROM HERE
-    game_data['cards'].forEach((card, index) => {
-        card_html =`<div class="card">`;
-        card.forEach((prompt_index) => {
-            // Write html for each prompt's answer
-        })
-        card_html += `</div>`;
+    // Generate a set of cards
+    cards = make_cards(game_data['data'].length, card_size, max_cards);
+    // Create html for each card
+    var cardset_html = [`<div class="gl-cards">`];
+    cards.forEach((card) => {
+        card_html = [];
+        card_html.push(`<div class="card">`);
+        card_html.push(`<div class="card_content layout${card_layout}">`);
+        card_questions = card.setBits();
+        console.log("Creating html for card " + card_questions);
+        card_questions.forEach((question_index) => {
+            // TODO use a specified column to draw questions from
+            let question = game_data['data'][question_index][0];
+            card_html.push(`<div class="carditem">${question}</div>`);
+        });
+        card_html.push(`</div>`);
+        card_hex = card.hex();
+        card_html.push(`<div class="card_id">Card ID: ${card_hex}</div>`);
+        card_html.push(`</div>`);
+        console.log(card_html);
+        cardset_html.push(card_html.join("\n"));
     });
-
-    console.log(print_cards);
+    cardset_html.push('</div>');
+    gl_write_page_html(cardset_html.join("\n"));
 }
 
 function gl_start_game() {
@@ -155,25 +170,45 @@ function shuffle(array) {
 
 // Generate cards, that is, K-combinations
 // Some good info here https://cp-algorithms.com/combinatorics/generating_combinations.html
-function make_cards(num_prompts, card_size, max_cards) {
+function make_cards(num_questions, card_size, max_cards) {
+
+    function generate_card(length, size) {
+        var card = new bitfield(length);
+        while (card.numSetBits() < size) {
+            n = Math.floor(Math.random() * length);
+            card.setBit(n);
+        }
+        return card;
+    }
+
+    function has_dupes(all_cards, new_card) {
+        new_card_hex = new_card.hex();
+        console.log("Comparing existing cards against " + new_card_hex);
+        for (let i=0; i<all_cards.length; i++) {
+            if (new_card_hex == all_cards[i].hex()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     // Number of cards to generate - lesser of max_cards and the number of cards possible with num_questions and card_size =
-    possible_cards = nCk(num_prompts, card_size);
+    possible_cards = nCk(num_questions, card_size);
     num_cards = Math.min(max_cards, possible_cards);
     console.log("Gridlock: generating " + num_cards + " cards of size " + card_size);
     let result = [];
     // Create num_cards cards
     for (let i=0; i<num_cards; i++) {
-        new_card = new bitfield(num_prompts);
-        while (new_card.numSetBits() < card_size) {
-            n = Math.floor(Math.random() * num_prompts);
-            new_card.setBit(n);
+        var new_card = generate_card(num_questions, card_size);
+        // TODO Check for duplicates
+        while (has_dupes(result, new_card)) {
+            console.log("Duplicate found, generating another card");
+            new_card = generate_card(num_questions, card_size);
         }
-        // Select card_size different random bits
-        results[i] = new_card;
+        console.log("Adding card " + new_card.setBits())
+        result[i] = new_card;
     }
-    // TODO Check for duplicates
-    console.log();
-    return results;
+    return result;
 }
 
 function nCk(n, k) {
@@ -221,6 +256,29 @@ class bitfield {
             }
         }
         return bits;
+    }
+
+    hex() {
+        var hex_lookup = ["0", "1", "2", "3", "4", "5", "6", "7",
+            "8", "9", "a", "b", "c", "d", "e", "f"];
+        var hexits = [];
+        // An array of the bit indexes that are set
+        var hex_number = 0;
+        for (let i=0; i<this.data.length; i++) {
+            let hexit = Math.floor(i/4);
+            var bit = Math.floor(i%4);
+            if (this.data[i]) {
+                hex_number += Math.pow(2, bit);
+            }
+            if (bit == 3) {
+                // TODO not convinced the hex conversion is working right
+                // and if the dup detection is working
+                // 4 bits for a hexit have been processed
+                hexits.push(hex_lookup[hex_number]);
+                hex_number = 0;
+            }
+        }
+        return hexits.join("");
     }
 
     setBit(n) {
