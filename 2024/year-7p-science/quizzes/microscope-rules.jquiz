@@ -1,0 +1,69 @@
+% jquiz
+
+% multichoice
+text: Where do you hold the microscope?
+@answer
+text: One hand on the arm
+correct: true
+@answer
+text: One hand under the base
+correct: true
+@answer
+text: One hand on the body tube
+correct: false
+@answer
+text: One hand on the stage
+correct: false
+
+% multichoice
+text: Which objective lens do you start with?
+@answer
+text: The lowest power lens
+correct: true
+@answer
+text: The highest power lens
+correct: false
+@answer
+text: Whatever lens is already in position
+correct: false
+
+% multichoice
+text: How do you adjust the focus before looking through the microscope?
+@answer
+text: Go as close as possible without touching the stage
+correct: true
+@answer
+text: Go as far away as it will go
+correct: false
+@answer
+text: Adjust it to where you think it will be right
+correct: false
+
+% multichoice
+text: How do you adjust the focus while using the microscope?
+@answer
+text: Adjust the focus so the lens and stage move apart
+correct: true
+@answer
+text: Adjust the focus so the lens and stage move together
+correct: false
+
+% multichoice
+text: Do you ever let the objective lens touch the thing you're looking at?
+@answer
+text: No
+correct: true
+@answer
+text: Yes
+correct: false
+
+% multichoice
+text: Do you ever touch the glass lens?
+@answer
+text: No
+correct: true
+@answer
+text: Yes
+correct: false
+
+

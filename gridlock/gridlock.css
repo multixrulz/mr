@@ -1,0 +1,67 @@
+/* Main layout */
+@font-face {
+font-family: 'SiteFont';
+font-style: normal;
+font-weight: 800;
+src: url('fonts/EncodeSans-Black.ttf');
+}
+
+@font-face {
+font-family: 'SiteFont';
+font-style: normal;
+font-weight: 400;
+src: url('fonts/ABeeZee-Regular.ttf');
+}
+
+@font-face {
+font-family: 'SiteFont';
+font-style: italic;
+font-weight: 400;
+src: url('fonts/ABeeZee-Italic.ttf');
+}
+
+body {
+    font-family: SiteFont;
+}
+
+/* Style answers */
+.gl-cards {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.card {
+    margin: 0;
+    margin-top: 3em;
+}
+.card_content {
+    display: grid;
+    margin: 1em;
+    text-align: center;
+    align-items: center;
+    font-size: 14pt;
+    border-top: solid black 0.2ex;
+    border-left: solid black 0.2ex;
+}
+.layout2x2 {
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+}
+.layout2x3 {
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+}
+.layout3x3 {
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+}
+.card_id {
+    font-size: 80%;
+    text-align: center;
+}
+.carditem {
+    display: grid;
+    align-items: center;
+    border-right: solid black 0.2ex;
+    border-bottom: solid black 0.2ex;
+    height: 5em;
+}

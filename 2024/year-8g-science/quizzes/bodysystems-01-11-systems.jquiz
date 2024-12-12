@@ -1,0 +1,181 @@
+% jquiz
+% multichoice
+text:How many different body systems are there?
+@answer
+text: 11
+correct: true
+@answer
+text: 5
+correct: false
+@answer
+text: 8
+correct: false
+@answer
+text: 14
+correct: false
+
+% multichoice
+text: Which body system moves nutrients to different parts of your body?
+@answer
+text: Circulatory
+correct: true
+@answer
+text: Digestive
+correct: false
+@answer
+text: Excretory
+correct: false
+@answer
+text:Integumentory
+correct: false
+
+% multichoice
+text: Which body system brings nutrients from your food into your blood?
+@answer
+text: Circulatory
+correct: false
+@answer
+text: Digestive
+correct: true
+@answer
+text: Excretory
+correct: false
+@answer
+text:Integumentory
+correct: false
+
+% multichoice
+text: Which body system makes hormones such as adrenaline?
+@answer
+text: Endocrine
+correct: true
+@answer
+text: Lymphatic/Immunbe
+correct: false
+@answer
+text: Nervous
+correct: false
+@answer
+text: Respiratory
+correct: false
+
+% multichoice
+text: Which body system removes waste from your body?
+@answer
+text:Excretory
+correct: true
+@answer
+text:Digestive
+correct: false
+@answer
+text:Muscular
+correct: false
+@answer
+text:Skeletal
+correct: false
+
+% multichoice
+text: Which body system protects your body from the rest of the world?
+@answer
+text: Integumentory
+correct: true
+@answer
+text: Skeletal
+correct: false
+@answer
+text:Muscular
+correct: false
+@answer
+text:Endocrine
+correct: false
+
+% multichoice
+text:Which body system fights off diseases?
+@answer
+text:Lymphatic / Immune
+correct: true
+@answer
+text: Digestive
+correct: false
+@answer
+text:Respiratory
+correct: false
+@answer
+text: Nervous
+correct: false
+
+% multichoice
+text:Which body system enables you to move around?
+@answer
+text:Muscular
+correct: true
+@answer
+text:Excretory
+correct: false
+@answer
+text:Digestive
+correct: false
+@answer
+text:Reproductive
+correct: false
+
+% multichoice
+text:Which body system allows you to sense the world around you and choose to do things in it?
+@answer
+text:Nervous
+correct: true
+@answer
+text:Skeletal
+correct: false
+@answer
+text:Circulatory
+correct: false
+@answer
+text:Respiratory
+correct: false
+
+% multichoice
+text:Which body system creates new people?
+@answer
+text:Reproductive
+correct: true
+@answer
+text:Digestive
+correct: false
+@answer
+text:Skeletal
+correct: false
+@answer
+text:Integumentory
+correct: false
+
+% multichoice
+text:Which body system brings oxygen into your blood?
+@answer
+text:Respiratory
+correct: true
+@answer
+text:Nervous
+correct: false
+@answer
+text:Endocrine
+correct: false
+@answer
+text:Muscular
+correct: false
+
+
+% multichoice
+text: Which body system gives you a shape and enables your muscles to move you effectively?
+@answer
+text: Skeletal
+correct: true
+@answer
+text: Nervous
+correct: false
+@answer
+text: Excretory
+correct: false
+@answer
+text:Lymphatic/Immune
+correct: false

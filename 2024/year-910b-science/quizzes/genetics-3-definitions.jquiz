@@ -1,0 +1,107 @@
+% jquiz
+% multichoice
+text: What is made of DNA, and controls one inherited trait?
+@answer
+text: gene
+correct: true
+@answer
+text: zygote
+correct: false
+@answer
+text: chromosome
+correct: false
+@answer
+text: genotype
+correct: false
+
+% multichoice
+text: What is a long molecule that contains the instructions for life?
+@answer
+text: DNA
+correct: true
+@answer
+text: chromosome
+correct: false
+@answer
+text: gene
+correct: false
+@answer
+text: phenotype
+correct: false
+
+% multichoice
+text: What is a collection of genes that is big enough to see using a microscope?
+@answer
+text: chromosome
+correct: true
+@answer
+text: genotype
+correct: false
+@answer
+text: phenotype
+correct: false
+@answer
+text: DNA
+correct: false
+
+% multichoice
+text: What is the set of genes for a particular trait?
+@answer
+text: genotype
+correct: true
+@answer
+text: phenotype
+correct: false
+@answer
+text: chromosome
+correct: false
+@answer
+text: homozygous
+correct: false
+
+% multichoice
+text: What is the trait that can be seen in a living thing?
+@answer
+text: phenotype
+correct: true
+@answer
+text: genotype
+correct: false
+@answer
+text: DNA
+correct: false
+@answer
+text: heterozygous
+correct: false
+
+% multichoice
+text: What means “has different alleles for a trait”?
+@answer
+text: heterozygous
+correct: true
+@answer
+text: homozygous
+correct: false
+@answer
+text: genotype
+correct: false
+@answer
+text: chromosome
+correct: false
+
+% multichoice
+text: What means “has the same alleles for a trait”?
+@answer
+text: homozygous
+correct: true
+@answer
+text: heterozygous
+correct: false
+@answer
+text: phenotype
+correct: false
+@answer
+text: gene
+correct: false
+
+

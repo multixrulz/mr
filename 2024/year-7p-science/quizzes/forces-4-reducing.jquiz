@@ -1,0 +1,95 @@
+% jquiz
+
+% multichoice
+text: Why do shoes have padding?
+@answer
+text: To reduce the force on your foot
+correct: true
+@answer
+text: To look great
+correct: false
+@answer
+text: To make your feet hurt
+correct: false
+@answer
+text: To make you jump higher
+correct: false
+
+% multichoice
+text: How does padding in a shoe reduce force on your foot?
+@answer
+text: Make the foot stop more slowly
+correct: true
+@answer
+text: Make you lighter
+correct: false
+@answer
+text: Make the foot stop faster
+correct: false
+
+% multichoice
+text: Why do shoes need high friction soles?
+@answer
+text: To help you push off the ground to walk and run
+correct: true
+@answer
+text: To help you grip the ground to slow down
+correct: true
+@answer
+text: To stop you from slipping over
+correct: false
+@answer
+text: To look great
+correct: false
+
+% multichoice
+text: How does a car seatbelt keep you safe?
+@answer
+text: Stops you from moving forward when the car stops
+correct: true
+@answer
+text: Stops you from falling out the open door
+correct: false
+@answer
+text: Keeps you in your seat when the car goes faster
+correct: false
+
+% multichoice
+text: How do car airbags keep you safe?
+@answer
+text: Stop you from hitting your head on hard car parts
+correct: true
+@answer
+text: Slow down your head as it moves forward
+correct: true
+@answer
+text: Make you jump back when they go off
+correct: false
+
+% multichoice
+text: Why do cars have crumple zones?
+@answer
+text: So the car stops more slowly in a crash to keep you safe
+correct: true
+@answer
+text: To make even a small crash destroy the car
+correct: false
+@answer
+text: So you can play demlotion derby in the carpark
+correct: false
+
+% multichoice
+text: What are the safety features in a car?
+@answer
+text: Seatbelts
+correct: true
+@answer
+text: Airbags
+correct: true
+@answer
+text: Crumple zones
+correct: true
+@answer
+text: Windows
+correct: false
+

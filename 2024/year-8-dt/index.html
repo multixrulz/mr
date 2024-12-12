@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Year 8 Arduino: status</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/css/css.css">
+<link rel="shortcut icon" href="/favicon.png">
+<meta name="description" content="Year 8 Arduino student status page">
+<meta name="generator" content="0cms">
+<meta name="author" content="Jared Henley">
+<meta name="copyright" content="&copy; State of NSW (Department of Education) 2024">
+</head>
+<body>
+<div id="width">
+    <div id="head">
+        <a href="/"><p>Year 8 Arduino: status</p></a>
+        <a href="/quicklinks.html" target="_blank"><img /></a>
+    </div>
+    <div id="content">
+<table id="studentinfo"><tbody><tr><td><link rel="stylesheet" type="text/css" href="status.css"><script type="text/javascript" src="status.js"></script><input id="nickname_entry" type="textbox" oninput="queue_load_student();"></input><input type="button" value="Update" onclick="load_student();"></input><h1 id="nickname">Enter a nickname</h1></td><td><img src="avatars/1.svg" id="avatar" /></td></tr></tbody></table>
+
+<div id="badges" class="hide">
+<p><a href="avatar_browser.html">Avatar list</a></p>
+<p><a href="badges.html">Badge list</a></p>
+<a href="badges/start.svg" target=_blank><img id="badge-start" class="active" src="badges/start.svg" /></a>
+<a href="badges/rookie.svg" target=_blank><img id="badge-rookie" class="active" src="badges/rookie.svg" /></a>
+<a href="badges/arduino-level-1.svg" target=_blank><img id="badge-arduino-level-1" class="active" src="badges/arduino-level-1.svg" /></a>
+<a href="badges/arduino-level-2.svg" target=_blank><img id="badge-arduino-level-2" class="active" src="badges/arduino-level-2.svg" /></a>
+<a href="badges/arduino-level-3.svg" target=_blank><img id="badge-arduino-level-3" class="active" src="badges/arduino-level-3.svg" /></a>
+<a href="badges/arduino-level-4.svg" target=_blank><img id="badge-arduino-level-4" class="active" src="badges/arduino-level-4.svg" /></a>
+<a href="badges/new-coder.svg" target=_blank><img id="badge-new-coder" class="active" src="badges/new-coder.svg" /></a>
+<a href="badges/master-coder.svg" target=_blank><img id="badge-master-coder" class="active" src="badges/master-coder.svg" /></a>
+<a href="badges/electronics-beginner.svg" target=_blank><img id="badge-electronics-beginner" class="active" src="badges/electronics-beginner.svg" /></a>
+<a href="badges/electronics-master.svg" target=_blank><img id="badge-electronics-master" class="active" src="badges/electronics-master.svg" /></a>
+<a href="badges/electronics-wizard.svg" target=_blank><img id="badge-electronics-wizard" class="active" src="badges/electronics-wizard.svg" /></a>
+<a href="badges/project-designed.svg" target=_blank><img id="badge-project-designed" class="active" src="badges/project-designed.svg" /></a>
+<a href="badges/project-build-start.svg" target=_blank><img id="badge-project-build-start" class="active" src="badges/project-build-start.svg" /></a>
+<a href="badges/project-build-complete.svg" target=_blank><img id="badge-project-build-complete" class="active" src="badges/project-build-complete.svg" /></a>
+<a href="badges/project-documented.svg" target=_blank><img id="badge-project-documented" class="active" src="badges/project-documented.svg" /></a>
+</div>
+
+<div id="progress" class="hide">
+<p class="progressbar">XP (Experience)</p>
+<div class="progressbar">
+<span id="XP" style="width: 100%"></span>
+</div></div>
+
+<div id="activities" class="hide">
+<table class="activities">
+<tr id="activity-T1">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T1/level1.html" target=_blank>T1 ­— Getting set up</a></td>
+<td id="T1-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T1/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T2">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T2/level1.html" target=_blank>T2 ­— Setup and loop functions</a></td>
+<td id="T2-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T2/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T3">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T3/level1.html" target=_blank>T3 ­— The delay function</a></td>
+<td id="T3-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T3/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T4">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T4/level1.html" target=_blank>T4 ­— Digital outputs</a></td>
+<td id="T4-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T4/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T5">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T5/level1.html" target=_blank>T5 ­— Calling functions</a></td>
+<td id="T5-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T5/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T6">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T6/level1.html" target=_blank>T6 ­— Variables and Constants</a></td>
+<td id="T6-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T6/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T7">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T7/level1.html" target=_blank>T7 ­— Digital inputs</a></td>
+<td id="T7-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T7/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T8">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T8/level1.html" target=_blank>T8 ­— Serial communication</a></td>
+<td id="T8-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T8/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T9">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T9/level1.html" target=_blank>T9 ­— Digital and analogue values</a></td>
+<td id="T9-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T9/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T10">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T10/level1.html" target=_blank>T10 ­— Analogue inputs and outputs</a></td>
+<td id="T10-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T10/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T11">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T11/level1.html" target=_blank>T11 ­— If …</a></td>
+<td id="T11-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T11/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T12">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T12/level1.html" target=_blank>T12 ­— Bouncy switches</a></td>
+<td id="T12-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T12/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T13">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T13/level1.html" target=_blank>T13 ­— Installing libraries</a></td>
+<td id="T13-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T13/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T14">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T14/level1.html" target=_blank>T14 ­— Using the debounce library</a></td>
+<td id="T14-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T14/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T15">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T15/level1.html" target=_blank>T15 ­— Using a variable to track a single binary state</a></td>
+<td id="T15-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T15/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T16">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T16/level1.html" target=_blank>T16 ­— State machines</a></td>
+<td id="T16-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T16/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T17">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T17/level1.html" target=_blank>T17 ­— Code blocks and indentation</a></td>
+<td id="T17-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T17/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T18">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T18/level1.html" target=_blank>T18 ­— Asynchronous delays</a></td>
+<td id="T18-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T18/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T19">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T19/level1.html" target=_blank>T19 ­— Control technology?</a></td>
+<td id="T19-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T19/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T20">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T20/level1.html" target=_blank>T20 ­— Arduinos and Microcontrollers</a></td>
+<td id="T20-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T20/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-T21">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-T21/level1.html" target=_blank>T21 ­— Binary numbers</a></td>
+<td id="T21-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-T21/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-C1">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-C1/level1.html" target=_blank>C1 ­— Upload to an Arduino</a></td>
+<td id="C1-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C1/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-C2">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-C2" target=_blank>C2 ­— Blink (the delay function)</a></td>
+<td id="C2-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C2/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C2-star-2"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C2/level2.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C2-star-3"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C2/level3.html" target=_blank><img src="award.svg" /></a>
+</td>
+</tr>
+<tr id="activity-C3">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-C3" target=_blank>C3 ­— Digital outputs</a></td>
+<td id="C3-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C3/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C3-star-2"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C3/level2.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C3-star-3"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C3/level3.html" target=_blank><img src="award.svg" /></a>
+</td>
+</tr>
+<tr id="activity-C4">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-C4" target=_blank>C4 ­— Digital inputs</a></td>
+<td id="C4-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C4/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C4-star-2"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C4/level2.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C4-star-3"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C4/level3.html" target=_blank><img src="award.svg" /></a>
+</td>
+</tr>
+<tr id="activity-C5">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-C5" target=_blank>C5 ­— Analogue inputs</a></td>
+<td id="C5-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C5/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C5-star-2"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C5/level2.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C5-star-3"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C5/level3.html" target=_blank><img src="award.svg" /></a>
+</td>
+</tr>
+<tr id="activity-C6">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-C6" target=_blank>C6 ­— Analogue outputs</a></td>
+<td id="C6-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C6/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C6-star-2"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C6/level2.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C6-star-3"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C6/level3.html" target=_blank><img src="award.svg" /></a>
+</td>
+</tr>
+<tr id="activity-C7">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-C7" target=_blank>C7 ­— The torch</a></td>
+<td id="C7-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C7/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C7-star-2"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C7/level2.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td id="C7-star-3"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-C7/level3.html" target=_blank><img src="award.svg" /></a>
+</td>
+</tr>
+<tr id="activity-E1">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-E1/level1.html" target=_blank>E1 ­— Wiring an LED</a></td>
+<td id="E1-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-E1/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-E2">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-E2/level1.html" target=_blank>E2 ­— Breadboards</a></td>
+<td id="E2-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-E2/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-E3">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-E3/level1.html" target=_blank>E3 ­— Buttons and switches</a></td>
+<td id="E3-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-E3/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-E4">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-E4/level1.html" target=_blank>E4 ­— Wiring an LDR</a></td>
+<td id="E4-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-E4/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-E5">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-E5/level1.html" target=_blank>E5 ­— Wiring a buzzer</a></td>
+<td id="E5-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-E5/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-E6">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-E6/level1.html" target=_blank>E6 ­— Creating a door switch</a></td>
+<td id="E6-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-E6/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-E7">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-E7/level1.html" target=_blank>E7 ­— Creating a touch sensor</a></td>
+<td id="E7-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-E7/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P1">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P1/level1.html" target=_blank>P1 ­— The project</a></td>
+<td id="P1-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P1/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P2">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P2/level1.html" target=_blank>P2 ­— Project: Inputs and Outputs</a></td>
+<td id="P2-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P2/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P3">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P3/level1.html" target=_blank>P3 ­— Project: How does it work?</a></td>
+<td id="P3-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P3/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P4">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P4/level1.html" target=_blank>P4 ­— Project: The assessment task</a></td>
+<td id="P4-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P4/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P5">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P5/level1.html" target=_blank>P5 ­— Project: Wiring diagram</a></td>
+<td id="P5-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P5/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P6">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P6/level1.html" target=_blank>P6 ­— Project: State diagram</a></td>
+<td id="P6-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P6/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P7">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P7/level1.html" target=_blank>P7 ­— Project: Doing the wiring</a></td>
+<td id="P7-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P7/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P8">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P8/level1.html" target=_blank>P8 ­— Project: Programming step 1</a></td>
+<td id="P8-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P8/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P9">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P9/level1.html" target=_blank>P9 ­— Project: Programming step 2</a></td>
+<td id="P9-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P9/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P10">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P10/level1.html" target=_blank>P10 ­— Project: Programming step 3</a></td>
+<td id="P10-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P10/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P11">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P11/level1.html" target=_blank>P11 ­— Project: Programming step 4</a></td>
+<td id="P11-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P11/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P12">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P12/level1.html" target=_blank>P12 ­— Project: Finishing the physical</a></td>
+<td id="P12-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P12/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P13">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P13/level1.html" target=_blank>P13 ­— Project: Making evaluation criteria</a></td>
+<td id="P13-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P13/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P14">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P14/level1.html" target=_blank>P14 ­— Project: Writing the manual</a></td>
+<td id="P14-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P14/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P15">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P15/level1.html" target=_blank>P15 ­— Project: Materials List</a></td>
+<td id="P15-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P15/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P16">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P16/level1.html" target=_blank>P16 ­— Project: Production Steps</a></td>
+<td id="P16-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P16/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr id="activity-P17">
+<td class="label"><a href="https://learn.henley.id.au/computing/arduino-year8/activity-P17/level1.html" target=_blank>P17 ­— Project: Evaluation</a></td>
+<td id="P17-star-1"  class="inactive">
+<a href="https://learn.henley.id.au/computing/arduino-year8/activity-P17/level1.html" target=_blank><img src="award.svg" /></a>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+    </div>
+    <div id="foot">
+<p>Author: Jared Henley</p>
+<p><strong>Copyright: © State of NSW (Department of Education) 2024</strong> <img src="/img/by-sa.svg" alt="Creative Commons BY-SA icon" /></p>
+<p>Except as otherwise noted, all material in this website is licensed under a Creative Commons Share Alike Licence (CC-BY-SA).</p>
+<p><a href="/credits.html">Credits for material from third parties</a></p>
+<p>Built with <a href="http://0cms.henley.id.au">0cms</a>.</p>
+<p><em>Last built: 2024-10-14 08:41:02.665774</em></p>
+<p><em>Last modified: 2024-02-09 08:50:53.339955</em></p>
+    </div>
+</div>
+<canvas id="matrixcanvas" width="500" height="200">
+</canvas>
+<!-- <script src="/thematrix/main.js"></script> -->
+</body>
+</html>

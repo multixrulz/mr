@@ -1,0 +1,216 @@
+% jquiz
+% multichoice
+text: Which allele is dominant in this punnett square?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: A
+correct: true
+@answer
+text: AA
+correct: false
+@answer
+text: a
+correct: false
+@answer
+text: Aa
+correct: false
+
+% multichoice
+text: Which allele is recessive in this punnett square?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: a
+correct: true
+@answer
+text: AA
+correct: false
+@answer
+text: A
+correct: false
+@answer
+text: Aa
+correct: false
+
+% multichoice
+text: What are the genotypes of the parents in this punnett square?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: AA and Aa
+correct: true
+@answer
+text: A and a
+correct: false
+@answer
+text: A, A and b
+correct: false
+@answer
+text: AA, AA, Aa and Aa
+correct: false
+
+% multichoice
+text: The A allele produces airy sponges while the a allele produces dense sponges. What phenotype does the Aa genotype produce
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: Airy
+correct: true
+@answer
+text: Dense
+correct: false
+@answer
+text: Mostly airy
+correct: false
+@answer
+text: Mostly dense
+correct: false
+
+% multichoice
+text: What genotype should be in the empty square?
+image: genetics/punnett-Bb-bb-incomplete.svg
+@answer
+text: Bb
+correct: true
+@answer
+text: BB
+correct: false
+@answer
+text: bb
+correct: false
+@answer
+text: 2b
+correct: false
+
+% multichoice
+text: What genotype should be in the empty square?
+image: genetics/punnett-Aa-Aa-incomplete.svg
+@answer
+text: aa
+correct: true
+@answer
+text: AA
+correct: false
+@answer
+text: Aa
+correct: false
+@answer
+text: aA
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype AA?
+image: genetics/punnett-Aa-Aa-complete.svg
+@answer
+text: 25%
+correct: true
+@answer
+text: 50%
+correct: false
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype aa?
+image: genetics/punnett-Aa-Aa-complete.svg
+@answer
+text: 25%
+correct: true
+@answer
+text: 50%
+correct: false
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype Aa?
+image: genetics/punnett-Aa-Aa-complete.svg
+@answer
+text: 25%
+correct: false
+@answer
+text: 50%
+correct: true
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype AA?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: 50%
+correct: true
+@answer
+text: 0%
+correct: false
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype Aa?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: 50%
+correct: true
+@answer
+text: 0%
+correct: false
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What fraction of the offspring would you expect to have the genotype aa?
+image: genetics/punnett-AA-Aa-complete.svg
+@answer
+text: 50%
+correct: false
+@answer
+text: 0%
+correct: true
+@answer
+text: 75%
+correct: false
+@answer
+text: 100%
+correct: false
+
+% multichoice
+text: What allele should be in the empty square?
+image: genetics/punnett-CC-cc-incomplete.svg
+@answer
+text: c
+correct: true
+@answer
+text: C
+correct: false
+
+% multichoice
+text: The dominant allele R produces a tongue that can roll, and the recessive allele r produces a tongue that cannot roll. What genotypes can produce a tongue-rolling phenotype?
+@answer
+text: RR
+correct: true
+@answer
+text: Rr
+correct: true
+@answer
+text: rr
+correct: false
+
+
