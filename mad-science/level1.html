@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mr Henley’s Website</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/css/css.css">
+<link rel="shortcut icon" href="/favicon.png">
+<meta name="description" content="Year 7P Science">
+<meta name="generator" content="0cms">
+<meta name="author" content="Jared Henley">
+<meta name="copyright" content="&copy; State of NSW (Department of Education) 2024">
+</head>
+<body>
+<div id="width">
+    <div id="head">
+        <a href="/"><p>Mr Henley’s Website</p></a>
+        <a href="/quicklinks.html" target="_blank"><img /></a>
+    </div>
+    <div id="content">
+
+<style>
+#headimg img{
+content: url("/2023/mad-science/img/mad-scientist.svg");
+}
+.hide {
+display: none;
+}
+
+</style>
+
+
+<h1>Mad Science</h1>
+
+<div id="correctpw" class="hide">
+<h2>Secure area login</h2>
+<blockquote>
+<p>Dark shadows rise</p>
+<p>Enduring flames ignite the sky</p>
+<p>Ashes dance in the air</p>
+<p><em>Doctor Nefarious</em></p>
+</blockquote>
+
+<form action="level2.html" method="get">
+<input type="text" id="chem" name="chem"></input>
+<label for="chem">Chemistry</label>
+<br>
+<input type="text" id="geol" name="geol"></input>
+<label for="geol">Geology</label>
+<br>
+<input type="text" id="light" name="light"></input>
+<label for="light">Light</label>
+<br>
+<input type="text" id="elec" name="elec"></input>
+<label for="elec">Electricity</label>
+<br>
+<input type="text" id="quiz" name="quiz"></input>
+<label for="quiz">Quiz</label>
+<br>
+<input type="submit" value="Log in">
+</form>
+
+
+            <p><a href="/jquiz/run_quiz.html?src=/mad-science/quizzes/quiz.jquiz&title=Mad Science quiz" target=_blank>Mad Science quiz</a></p>
+            
+</div>
+
+<div id="incorrectpw" class="hide">
+<p>Incorrect password. Begone, hacker!</p>
+</div>
+
+
+<script>
+document.onreadystatechange = function () {
+    if (document.readyState == "complete") {
+        params = new URLSearchParams(window.location.search);
+        password = params.get("pw");
+        if (password.toLowerCase() == "mcgdfb") {
+            document.getElementById("correctpw").classList="";
+        } else {
+            document.getElementById("incorrectpw").classList="";
+        }
+    }
+}
+</script>
+
+    </div>
+    <div id="foot">
+<p>Author: Jared Henley</p>
+<p><strong>Copyright: © State of NSW (Department of Education) 2024</strong> <img src="/img/by-sa.svg" alt="Creative Commons BY-SA icon" /></p>
+<p>Except as otherwise noted, all material in this website is licensed under a Creative Commons Share Alike Licence (CC-BY-SA).</p>
+<p><a href="/credits.html">Credits for material from third parties</a></p>
+<p>Built with <a href="http://0cms.henley.id.au">0cms</a>.</p>
+<p><em>Last built: 2024-12-03 08:38:50.604938</em></p>
+<p><em>Last modified: 2024-12-01 10:16:03.275851</em></p>
+    </div>
+</div>
+<canvas id="matrixcanvas" width="500" height="200">
+</canvas>
+<!-- <script src="/thematrix/main.js"></script> -->
+</body>
+</html>

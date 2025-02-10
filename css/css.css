@@ -1,0 +1,538 @@
+@font-face {
+font-family: 'SiteFont';
+font-style: normal;
+font-weight: 800;
+src: url('/fonts/EncodeSans-Black.ttf');
+}
+
+@font-face {
+font-family: 'SiteFont';
+font-style: normal;
+font-weight: 400;
+src: url('/fonts/ABeeZee-Regular.ttf');
+}
+
+@font-face {
+font-family: 'SiteFont';
+font-style: italic;
+font-weight: 400;
+src: url('/fonts/ABeeZee-Italic.ttf');
+}
+
+/* reset */
+html, body {
+margin: 0;
+border: 0;
+padding: 0;
+}
+
+body {
+background: #222;
+font-family: "SiteFont";
+font-size: 19px;
+}
+
+/* Layout */
+#width {
+min-width: 35em;
+max-width: 75em;
+overflow: auto;
+margin: 0 auto 0 auto;
+padding: 0;
+}
+
+#head {
+display: inline-flex;
+width: 100%;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+background: linear-gradient(-27deg, rgba(2,0,36,0.5) 0%, rgba(54,54,54,0.4) 35%, rgba(255,255,255,0) 100%), rgba(255,122,22,1);
+}
+#head p {
+font-size: 250%;
+font-weight: 900;
+padding: 0;
+margin: 0;
+margin-left: 1em;
+color: #f5f8f9;
+text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.3);
+}
+#head a {
+text-decoration: none;
+margin: 0;
+padding: 0;
+display: contents;
+}
+#head img{
+content: url(/img/mrhenley.svg);
+height: 7em; /* same as #head */
+margin-right: 1ex;
+}
+
+#content {
+background: #f5f8f9;
+padding: 0 2em 2em 2em;
+margin-top: 0;
+border-top: solid #0091DF 0.2em;
+}
+
+#foot {
+border-top: solid 1px;
+padding: 1em 3em 3em 3em;
+background: #efefef;
+font-size: 80%;
+text-align: center;
+}
+#foot * {
+margin: 0.2em 0 0 0;
+}
+
+/* Two column layout */
+.twocol {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+/* General formatting */
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+text-align: left;
+font-weight: 900;
+text-shadow: 0.05em 0.05em 0.2em rgba(0,0,0,0.3);
+}
+
+h1 {
+color: #360082;
+}
+h2 {
+color: #000287;
+}
+h3 {
+color: #003C80;
+}
+h4 {
+color: #004352;
+}
+h5 {
+color: #034D3C;
+}
+h6 {
+color: #095205;
+}
+
+h2 a, h3 a {
+text-decoration: none;
+}
+/* Lists */
+dt {
+font-weight: bold;
+}
+dd {
+margin: 0 0 1em 5em;
+}
+ol, ul
+{
+margin-bottom: 1em;
+}
+li {
+}
+ul {
+list-style: disc;
+}
+ul ul {
+list-style: circle;
+margin: 0 0 0 0em;
+}
+ol {
+margin: 0 0 1em 1em;
+list-style-type: decimal;
+}
+ol ol {
+list-style-type: lower-alpha;
+}
+ol ol ol {
+list-style-type: lower-roman;
+}
+/* Other */
+code {
+background: #E7FFC7;
+border-radius: 0.2em;
+padding: 0.1em;
+font-size: 80% !important;
+}
+pre {
+background: #E7FFC7;
+margin: 1em 0 1em 0;
+padding: 0.5em;
+border: solid #C3EB8D;
+border-width: 0 0 0 0.2em;
+white-space: pre-wrap;
+}
+pre code {
+padding: 0;
+}
+p + p {
+margin-top: 1em;
+}
+blockquote {
+margin: 1em 3em 1em 3em;
+padding: 0 0 0 1em;
+border-left: solid 3px #006587;
+}
+hr {
+width: 80%;
+height: 0;
+border: none;
+border-top: solid 1px #ddd;
+}
+
+/* Point to the targetted id */
+:target {
+color: #FF7A16;
+}
+
+/* Spacing for links to make touching easier */
+.touch-spacing li {
+margin: 0.4em 0;
+}
+
+
+/* Buttons */
+.bigbutton ul {
+list-style: none;
+text-align: center;
+padding: 0;
+}
+
+.bigbutton ul li {
+position: relative;
+vertical-align: middle;
+display: inline-flex;
+flex-direction: column;
+justify-content: space-around;
+margin: 3vh;
+background: #eee;
+border: solid #999 0.5vh;
+border-radius: 4vh;
+padding: 5vh;
+width: 25vh;
+height: 25vh;
+box-shadow: 1vh 1vh 0.85vh rgba(0,0,0,0.1);
+font-size: 2.5vh;
+}
+
+.bigbutton ul li:hover {
+background: #efffff;
+border: solid #6fcfdf 0.5vh;
+box-shadow: 1vh 1vh 1vh rgba(0,20,30,0.15);
+}
+
+.bigbutton img {
+max-height: 20vh;
+max-width: 20vh !important;
+margin-bottom: 1ex;
+}
+
+/* Credits pages */
+
+.credits img {
+height: 4em;
+}
+
+/* Rounded corners - specifically for jpg icons*/
+
+.roundcorners {
+border-radius: 2vh;
+}
+
+/* Blog */
+div.blogpost {
+margin-top: 1em;
+background: rgba(255,122,22,0.1);
+padding: 1em 1em 0.2em 1em;
+border-radius: 1em;
+}
+div.blogpost > h1 {
+margin-top: 0;
+}
+p.blogdate{
+font-size: 90%;
+text-align: right;
+}
+p.blogdate:before{
+content: "";
+display: block;
+position: relative;
+right: -90%;
+width: 10%;
+top: 0;
+border-top: solid 0.1em black;
+padding-top: 0.5em;
+}
+.contents ul li {
+list-style-type: none;
+list-style: none;
+padding-top: 0.3em;
+padding-bottom: 0.3em;
+text-indent: -2em;
+}
+
+/* List of activites - show it's been done */
+
+.lessonoutline {
+font-size: 200%;
+}
+.lessonoutline .speech {
+font-size: 75%;
+}
+input.show_done {
+display: none;
+}
+input.show_done + label > div {
+margin: 0.5em 0;
+border: solid #FF7A16;
+border-radius: 0.5em;
+padding: 0em 1em;
+background: #FFD8BB;
+min-height: 18vh; /* same as icon below + padding*/
+}
+input.show_done:checked + label {
+filter: grayscale(100%);
+}
+input.show_done + label .icon {
+float: right;
+clear: both;
+height: 10vh;
+padding: 1em 0;
+}
+.icon img {
+height: 10vh;
+}
+
+/* Behaviour for Learning pages */
+.b4l {
+font-size: 200%;
+}
+.b4l .speech {
+font-size: 90%;
+}
+.b4l .speech img{
+font-size: 75%;
+}
+.icondef {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-top: 1ex;
+}
+.icondef .icon {
+height: 5em;
+}
+.icondef h1 {
+bottom: 0;
+}
+
+/* Google etc. */
+iframe {
+margin: 1em auto 1em auto;
+}
+
+.float_left {
+float: left;
+}
+.float_right {
+float: right;
+}
+.clear {
+clear: both;
+}
+
+/* YouTube video embed */
+.youtube {
+aspect-ratio: 16 / 9;
+width: 80%;
+}
+
+/* Teacher and student speech bubbles (and thought bubbles) - copied in
+ * from learn.henley.id.au - update from there if edits are required
+ */
+
+/* Speakers */
+.speech {
+  position: relative; /* Ensure positioning of child elements is within this one */
+}
+.speech img {
+  position: absolute;
+  width: 7em;
+  max-height: 6em;
+  bottom: 0;
+}
+.speech.right img {
+  right: 0;
+}
+.speech.left img {
+  left: 0;
+}
+
+/* Speech and thought bubbles based on CSS found here:
+ * https://www.sitepoint.com/pure-css3-speech-bubbles/ and
+ * https://blogs.sitepointstatic.com/examples/tech/css3-speech-bubbles/index.html
+ * Attribution is appreciated but not required - these links will suffice.
+ */
+
+.speechbubble, .thoughtbubble {
+  position:relative;
+  padding:0 1em;
+  min-height: 4em;
+  margin:2em;
+  border:0.4em solid #5a8f00;
+  text-align:left;
+  color:#333;
+  background:#fff;
+  border-radius:1.5em;
+}
+input.show_read {
+display: none;
+}
+input.show_read:checked + label .speech {
+filter: grayscale(100%);
+}
+.speechbubble.left, .thoughtbubble.left {
+  margin-left: 9em;
+  margin-right: 2em;
+}
+.speechbubble.right, .thoughtbubble.right{
+  margin-left: 2em;
+  margin-right: 9em;
+  right: 0;
+}
+/* Speech bubble coloured triangle */
+.speechbubble::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 1.1em;
+  border: 1.25em solid;
+}
+.left.speechbubble::before {
+  border-top-color: transparent;
+  border-bottom-color: #5a8f00;
+  border-left-color: transparent;
+  border-right-color: #5a8f00;
+  left: -2.5em;
+}
+.right.speechbubble::before {
+  border-top-color: transparent;
+  border-bottom-color: #5a8f00;
+  border-left-color: #5a8f00;
+  border-right-color: transparent;
+  right: -2.5em;
+}
+/* Speech bubble white triangle */
+.speechbubble::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 1.42em;
+  border: 0.95em solid;
+}
+.left.speechbubble::after {
+  border-top-color: transparent;
+  border-bottom-color: #fff;
+  border-left-color: transparent;
+  border-right-color: #fff;
+  left: -1.7em;
+}
+.right.speechbubble::after {
+  border-top-color: transparent;
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+  border-right-color: transparent;
+  right: -1.7em;
+}
+/* Thought bubble circles */
+.thoughtbubble::before {
+  content: '';
+  position: absolute;
+  width: 2.5em;
+  height: 2.5em;
+  background-color: #fff;
+  border: 0.5em solid #5a8f00;
+  border-radius: 2em;
+}
+.thoughtbubble::after {
+  content: '';
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  background-color: #fff;
+  border: 0.5em solid #5a8f00;
+  border-radius: 2em;
+}
+.left.thoughtbubble::before {
+  left: -2.5em;
+  bottom: 2em;
+}
+.left.thoughtbubble::after {
+  left: -3.5em;
+  bottom: 2em;
+}
+.right.thoughtbubble::before {
+  right: -2.5em;
+  bottom: 2em;
+}
+.right.thoughtbubble::after {
+  right: -3.5em;
+  bottom: 2em;
+}
+
+/* For narrow viewports */
+@media (max-width: 800px) {
+body {
+font-size: 14px;
+}
+#width {
+min-width: 100%;
+max-width: 100%;
+width: 100%;
+}
+@media (max-width: 600px) {
+body {
+font-size: 13px;
+}
+#width {
+min-width: 100%;
+max-width: 100%;
+width: 100%;
+}
+@media (max-width: 500px) {
+body {
+font-size: 12px;
+}
+#width {
+min-width: 100%;
+max-width: 100%;
+width: 100%;
+}
+@media (max-width: 400px) {
+body {
+font-size: 11px;
+}
+#width {
+min-width: 100%;
+max-width: 100%;
+width: 100%;
+}
+#head {
+display: none;
+}
+
+/* Don't let stuff expand outside the width of the window - particularly relevant for narrow mobile devices */
+img, iframe {
+max-width: 100% !important;
+}
