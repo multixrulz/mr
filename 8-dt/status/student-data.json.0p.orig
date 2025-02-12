@@ -1,0 +1,293 @@
+#!/usr/bin/python
+
+import json
+
+### Look near the end of this file for the actual generation of the json file
+# The Data() function does that.
+# Afterward, a csv is also created.
+
+### Student Data
+
+class Student():
+    def __init__(self, data, activities):
+        """This class holds student data and has methods to return various
+        manipulations of it.
+
+        data: Other data such as XP (experience points).
+        activities: A dictionary of student progress through the unit.
+        """
+        self._data = data
+        self._activities = activities
+
+    def _compute_condition(self, condition):
+        """Work out whether the condition has been met for this student.
+
+        condition: a tuple of the form ((activities), total_required)
+        """
+        total = 0
+        (activities, total_required) = condition
+        for a in activities:
+            total += self._stars(a)
+        return total >= total_required
+
+    def _stars(self, activity):
+        """Work out the number of stars that have been completed for the
+        specified activity.
+
+        activity: a string containing the name of an activity in the data
+            dictionary.
+        """
+        starcount = 0
+        for star in self._activities[activity]:
+            if star:
+                starcount += 1
+        return starcount
+
+    def compute_deps(self, deps):
+        """ Work out whether the dependencies have been met for this student.
+
+        deps: Tuple where each element is a tuple of the form
+            ((list of activities), points for those activities)
+        """
+        meets_conditions = True
+        for condition in deps:
+            # All conditions are logically "anded"
+            meets_conditions = meets_conditions and self._compute_condition(condition)
+        return meets_conditions
+
+    def data_item(self, key):
+        return self._data[key]
+
+    def activities(self):
+        return self._activities
+
+# These activities are available to all students regardless of their progress
+globally_available = {
+        "T1": True,
+        "C1": False,
+        "C2": False,
+        "C3": False,
+        "C4": False,
+        "C5": False,
+        "C6": False,
+        "C7": False,
+        "E1": False,
+        "E2": False,
+        "E3": False,
+        "E4": False,
+        "E5": False,
+        "E6": False,
+        "E7": False,
+        "P1": True,
+        }
+
+students = [
+    # Someone who's done everything, for testing and
+    # ability to access anything if necessary
+    Student({ # Data
+        "nickname": "multixrulz",
+        "XP": 20, # up to 100
+        "avatar": 57, # 1 to 62
+        },
+        { # Activities
+        "T1": (True,),
+        "C1": (True,),
+        "C2": (True,True,True),
+        "C3": (True,True,True),
+        "C4": (True,True,True),
+        "C5": (True,True,True),
+        "C6": (True,True,True),
+        "C7": (True,True,True),
+        "E1": (True,),
+        "E2": (True,),
+        "E3": (True,),
+        "E4": (True,),
+        "E5": (True,),
+        "E6": (True,),
+        "E7": (True,),
+        "P1": (True,),
+        }),
+    # Someone for the first session before students have been set up
+    Student({ # Data
+        "nickname": "start",
+        "XP": 0, # up to 100
+        "avatar": 49, # 1 to 62
+        },
+        { # Activities
+        "T1": (False,),
+        "C1": (False,),
+        "C2": (False,False,False),
+        "C3": (False,False,False),
+        "C4": (False,False,False),
+        "C5": (False,False,False),
+        "C6": (False,False,False),
+        "C7": (False,False,False),
+        "E1": (False,),
+        "E2": (False,),
+        "E3": (False,),
+        "E4": (False,),
+        "E5": (False,),
+        "E6": (False,),
+        "E7": (False,),
+        "P1": (False,),
+        }),
+    ]
+# Dependencies: Tuple where each element is a tuple:
+#   ((list of activities), points for those activities)
+
+# This convenience function helps to reduce typos
+def condition(activities, total_required):
+    return (tuple(activities), total_required)
+### Dependency specifications
+
+## What do you need to do to earn a badge?
+deps_badges = {
+    "start": [],
+    "rookie": (
+        condition(["T1",], 1),
+        condition(["C1",], 1),
+        condition(["P1",], 1),
+        ),
+    "new-coder": (
+        condition(["C2",], 1),
+        condition(["C3",], 1),
+        condition(["C4",], 1),
+        ),
+    "master-coder": (
+        condition(["C5",], 1),
+        condition(["C6",], 1),
+        condition(["C7",], 1),
+        ),
+    "electronics-beginner": (
+        condition(["E1",], 1),
+        condition(["E2",], 1),
+        condition(["E3",], 1),
+        ),
+    "electronics-master": (
+        condition(["E4",], 1),
+        condition(["E5",], 1),
+        ),
+    "electronics-wizard": (
+        condition(["E6",], 1),
+        condition(["E7",], 1),
+        ),
+    }
+
+## What badge do you need for each activity to be unlocked?
+
+deps_activities = {
+        "T1": "start",
+        "C1": "start",
+        "C2": "rookie",
+        "C3": "rookie",
+        "C4": "rookie",
+        "C5": "new-coder",
+        "C6": "new-coder",
+        "C7": "new-coder",
+        "E1": "rookie",
+        "E2": "rookie",
+        "E3": "rookie",
+        "E4": "electronics-beginner",
+        "E5": "electronics-beginner",
+        "E6": "electronics-master",
+        "E7": "electronics-master",
+        "P1": "start",
+        }
+
+### Generate json - it contains a dictionary of which badges and activities are visible/unlocked for that student.
+
+out_students = []
+for s in students:
+    new_s = {"nickname": s.data_item("nickname"),
+        "XP": s.data_item("XP"),
+        "avatar": s.data_item("avatar"),
+        "badges": {},
+        "activities": {}}
+    ### Compute the badges
+    for badge in deps_badges:
+        # Whether the student has earned the badge
+        new_s["badges"]["badge-{}".format(badge)] = s.compute_deps(deps_badges[badge])
+    ### Compute the unlocked activities
+    for activity in deps_activities:
+        # Whether the student has access to the activity
+        badge_required = deps_activities[activity]
+        new_s["activities"]["activity-{}".format(activity)] = (
+            new_s["badges"]["badge-{}".format(badge_required)] or
+            globally_available[activity])
+    #### Work out the stars that need to be gold
+    # Get a dictionary of activities and progress in them
+    activities = s.activities()
+    for a in activities:
+        for (i, star) in enumerate(activities[a]):
+        # Whether the student has completed the activity
+            new_s["activities"]["{}-star-{}".format(a, i+1)] = star
+    ### Append the new student to the list of students
+    out_students.append(new_s)
+
+# Convert to json first
+Data(json.dumps(out_students))
+
+### Also create a CSV file
+csv_headers = [
+    "Nickname",
+    "T1",
+    "C1",
+    "C2-1",
+    "C2-2",
+    "C2-3",
+    "C3-1",
+    "C3-2",
+    "C3-3",
+    "C4-1",
+    "C4-2",
+    "C4-3",
+    "C5-1",
+    "C5-2",
+    "C5-3",
+    "C6-1",
+    "C6-2",
+    "C6-3",
+    "C7-1",
+    "C7-2",
+    "C7-3",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "P1",
+]
+csv_activities = [
+    "T1",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "P1",
+]
+# Open a file for writing
+with open("student-data.csv", "w") as fp:
+# Write out the header column
+    csv_headers_out = ['{}'.format(h) for h in csv_headers]
+    fp.write(", ".join(csv_headers_out))
+    fp.write("\n")
+    for s in students:
+        row = [s.data_item("nickname")]
+        activities = s.activities()
+        for a in csv_activities:
+            row.extend(activities[a])
+        row_out = ['{}'.format(r) for r in row]
+        fp.write(", ".join(row_out))
+        fp.write("\n")
