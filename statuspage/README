@@ -1,0 +1,11 @@
+How to call the status page up: statuspage/index.html?root=URL
+    If no root is given, it loads up from the current dir - provides a convenient way of loading test data.
+
+Data files:
+
+* page-data.csv - defines up the page name and other global stuff
+* task-group-data.csv - defines up task groups
+* task-data.csv - defines activity titles and grouping, URLs, etc.
+* student-data.csv - contains student data - which activities have been done, nickname, avatar, etc.
+* themes/name.css - theming files
+* avatars/avatar-theme/* - collections of avatars
