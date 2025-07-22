@@ -1,0 +1,276 @@
+/* Override stuff from global css */
+#headimg img{
+content: none;
+}
+
+#width {
+background: #333;
+}
+
+#content {
+background: #333;
+color: #eee;
+}
+
+h1 {
+color: #eee;
+}
+
+a {
+color: #37BBE1;
+}
+a:visited {
+color: #37BBE1;
+}
+
+#foot {
+clear: both;
+}
+
+#status {
+min-height: 100vh;
+}
+/* General table properties */
+td {
+border: 0;
+}
+
+/* Table of tasks */
+#tasks a {
+color: #eee;
+text-decoration: none;
+}
+#tasks {
+width: 70%;
+margin-left: 0;
+margin-right: auto;
+border-collapse: separate;
+border-spacing: 0 0.3em;
+border: 0;
+color: #eee;
+}
+#tasks tr {
+background-image: linear-gradient(
+    to bottom right,
+    rgb(32,35,35),
+    rgb(43,43,47)
+    );
+box-shadow:
+    inset 0.2em 0.2em 0.3em rgba(255,255,255,0.1),
+    inset -0.2em -0.2em 0.3em rgba(0,0,0,0.2);
+padding: 0.2em;
+}
+#tasks tr.active {
+background-image: linear-gradient(
+    to bottom right,
+    rgb(65,70,70),
+    rgb(85,85,95)
+    );
+box-shadow:
+    inset 0.2em 0.2em 0.3em rgba(255,255,255,0.1),
+    inset -0.2em -0.2em 0.3em rgba(0,0,0,0.2);
+padding: 0.2em;
+}
+#tasks tr.current {
+background-image: linear-gradient(
+    to bottom right,
+    rgb(32,70,120),
+    rgb(43,85,150)
+    );
+box-shadow:
+    inset 0.2em 0.2em 0.3em rgba(255,255,255,0.1),
+    inset -0.2em -0.2em 0.3em rgba(0,0,0,0.2);
+padding: 0.2em;
+}
+#tasks tr.headings td {
+font-weight: bold;
+text-align: center;
+}
+#tasks td.label {
+text-align: left;
+padding-left: 1em;
+}
+#tasks td.task {
+width: 3em;
+height: 3em;
+padding: 0 0.4em;
+}
+#tasks td.task img{
+width: 100%;
+height: 100%;
+}
+#tasks td img {
+vertical-align: middle;
+}
+#tasks td.task img {
+content: url('stars/award-inactive.svg');
+}
+#tasks td.task.award img {
+content: url('stars/award.svg');
+}
+
+/* Table of students */
+#students a {
+color: #eee;
+text-decoration: none;
+}
+#students {
+width: 70%;
+margin-left: 0;
+margin-right: auto;
+border-collapse: separate;
+border-spacing: 0 0.3em;
+border: 0;
+color: #eee;
+}
+#students tr {
+background-image: linear-gradient(
+    to bottom right,
+    rgb(32,35,35),
+    rgb(43,43,47)
+    );
+box-shadow:
+    inset 0.2em 0.2em 0.3em rgba(255,255,255,0.1),
+    inset -0.2em -0.2em 0.3em rgba(0,0,0,0.2);
+padding: 0.2em;
+}
+#students tr.headings td {
+font-weight: bold;
+text-align: center;
+}
+
+/* Student nickname, avatar, XP */
+#student_layout {
+display: flex;
+justify-content: space-between;
+width: 70%;
+}
+#avatar {
+height: 8em;
+margin: 1em;
+}
+
+/* Progress bar for XP */
+#progress {
+margin: 1em auto 1em 0;
+width: 70%;
+}
+#progress p.progressbar {
+margin: 0;
+}
+div.progressbar {
+margin-left: auto;
+margin-right: auto;
+font-size: 6mm;
+height: 1em;
+background: #555;
+border-radius: 0.25em;
+padding: 0.2em;
+}
+div.progressbar span {
+position: relative;
+display: block;
+overflow: hidden;
+height: 100%;
+border-radius: 0.15em;
+background-color: rgb(43,194,83);
+background-image: linear-gradient(
+    to top left,
+    rgb(43,194,83) 37%,
+    rgb(64,218,84) 69%
+    );
+box-shadow:
+    inset 0.2em 0.2em 0.2em rgba(255,255,255,0.2),
+    inset -0.2em -0.2em 0.2em rgba(0,0,0,0.2);
+}
+
+
+/* Nickname form etc */
+#nickname input {
+background: #333;
+margin: 1em 0.5em 0 0;
+border: outset 0.2em #777;
+border-radius: 0.3em;
+padding: 0.2em;
+color: #eee;
+font-size: 100%;
+}
+#nickname_entry {
+width: 18em;
+max-width: 50%;
+}
+#nickname input:hover {
+background: #444;
+}
+#nickname input:active {
+background: #666;
+}
+
+/* Status page gradescales and avatar list*/
+#gradesetc {
+position: absolute;
+right: 0;
+width: 25%;
+display: flex;
+flex-direction: column;
+align-items: stretch;
+gap: 1em;
+padding: 1em;
+}
+#gradesetc .button {
+display: block;
+padding: 0.5em;
+background: #2498D5;
+border: solid #005987 0.1em;
+border-radius: 0.3em;
+color: #eee;
+text-decoration: none;
+text-align: center;
+}
+#gradesetc div.grade {
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #444;
+margin: 0 10% 0 10%;
+border-radius: 0.3em;
+padding: 1em 0 1em 0;
+}
+#gradesetc a.overlap {
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 30vh;
+}
+#gradesetc a.overlap img {
+position: absolute;
+display: block;
+height: 100%;
+}
+#gradeaveragedark {
+clip-path: inset(0 0 50% 0); /* top right bottom left */
+}
+#gradefinaldark {
+clip-path: inset(0 0 30% 0); /* top right bottom left */
+}
+
+/* Leaderboard gradescales */
+td.nickname {
+padding: 0 0 0 1em;
+}
+#leaderboard div.grade {
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 3em;
+margin: 0 10% 0 10%;
+border-radius: 0.3em;
+padding: 0.4em 0 0.4em 0;
+}
+#leaderboard div.grade img {
+position: absolute;
+display: block;
+height: 3em;
+}

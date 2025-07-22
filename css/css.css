@@ -206,7 +206,7 @@ text-align: center;
 padding: 0;
 }
 
-.bigbutton ul li {
+.bigbutton ul a {
 position: relative;
 vertical-align: middle;
 display: inline-flex;
@@ -223,7 +223,7 @@ box-shadow: 1vh 1vh 0.85vh rgba(0,0,0,0.1);
 font-size: 2.5vh;
 }
 
-.bigbutton ul li:hover {
+.bigbutton ul a:hover {
 background: #efffff;
 border: solid #6fcfdf 0.5vh;
 box-shadow: 1vh 1vh 1vh rgba(0,20,30,0.15);

@@ -1,6 +1,9 @@
 How to call the status page up: statuspage/index.html?root=URL
     If no root is given, it loads up from the current dir - provides a convenient way of loading test data.
 
+status.html - enter a username, and it loads the user's data.
+index.html - shows a leaderboard of all the students - you can click through to their status page
+
 Data files:
 
 * page-data.csv - defines up the page name and other global stuff
