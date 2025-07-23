@@ -171,7 +171,7 @@ function create_status_page() {
         url = task[columns['url']];
         id = code + '-' + grade;
         element = document.getElementById(id);
-        element.innerHTML = `<a href="${url}" target=_blank><img></a>`;
+        element.innerHTML = `<a href="${url}" target="activity"><img></a>`;
     });
 
     /*
@@ -234,9 +234,9 @@ function load_student() {
     remove_all_data();
     // Match the student
     student_data['data'].forEach(student => {
-        if (student[nickname_column] == nickname) {
+        if (student[nickname_column].toLowerCase() == nickname) {
             console.log("statuspage: found student " + nickname + " -- loading data");
-            nickname_e.innerText = nickname;
+            nickname_e.innerText = student[nickname_column];
             // This is the student.  Process all the other columns of data
             for (i=0; i<student.length; i++) {
                 column = student_data['columns'][i];
