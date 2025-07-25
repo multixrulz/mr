@@ -346,6 +346,7 @@ function create_leaderboard_page() {
      *  Write out a table row for each student, sorted by average grade
      */
     sorted_students = student_data['data'].toSorted(grade_compare);
+    console.log(sorted_students);
     columns = [];
     columns['nickname'] = student_data['columns'].indexOf('Nickname');
     columns['average'] = student_data['columns'].indexOf('Average Grade');
@@ -375,13 +376,26 @@ function student_row_html(nickname, average, final) {
 }
 
 function grade_compare(student_a, student_b) {
+    function comp(a, b, rev=false) {
+        val = 0;
+        if (a == b)
+            val = 0;
+        else if (a > b)
+            val = -1;
+        else
+            val = 1;
+        if (rev)
+            return -val;
+        else
+            return val;
+    }
     grade_column = student_data['columns'].indexOf('Final Grade');
     if (student_a[grade_column] == student_b[grade_column]) {
         nickname_column = student_data['columns'].indexOf('Nickname');
-        return student_a[nickname_column] > student_b[nickname_column];
+        return comp(student_a[nickname_column], student_b[nickname_column], true);
+    } else {
+        return comp(student_a[grade_column], student_b[grade_column]);
     }
-    else
-        return student_a[grade_column] < student_b[grade_column];
 }
 
 function to_bool(bool_string) {
