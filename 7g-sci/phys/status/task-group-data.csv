@@ -1,14 +1,14 @@
 Active,Current,Task group code,Task group name,URL
 1,0,F1,Forces,https://learn.henley.id.au/science/forces/activities/f1.html
-1,1,F2,Unbalanced forces,https://learn.henley.id.au/science/forces/activities/f2.html
-0,0,F3,Managing forces,https://learn.henley.id.au/science/forces/activities/f3.html
+1,0,F2,Unbalanced forces,https://learn.henley.id.au/science/forces/activities/f2.html
+1,1,F3,Managing forces,https://learn.henley.id.au/science/forces/activities/f3.html
 0,0,F4,Friction,https://learn.henley.id.au/science/forces/activities/f4.html
 0,0,F5,Fields,https://learn.henley.id.au/science/forces/activities/f5.html
 0,0,F6,Magnetism,https://learn.henley.id.au/science/forces/activities/f6.html
 0,0,F7,Electrostatics,https://learn.henley.id.au/science/forces/activities/f7.html
 0,0,F8,Museum exhibit,https://learn.henley.id.au/science/forces/activities/f8.html
 0,0,F9,Gravity,https://learn.henley.id.au/science/forces/activities/f9.html
-1,1,FP1,Forces simulator,https://learn.henley.id.au/science/forces/activities/fp1.html
+1,0,FP1,Forces simulator,https://learn.henley.id.au/science/forces/activities/fp1.html
 0,0,FP2,Friction race,https://learn.henley.id.au/science/forces/activities/fp2.html
 0,0,FP3,Parachutes,https://learn.henley.id.au/science/forces/activities/fp3.html
 0,0,FP4,Rolling cars,https://learn.henley.id.au/science/forces/activities/fp4.html
