@@ -28,6 +28,8 @@ clear: both;
 }
 
 #status {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 min-height: 100vh;
 }
 /* General table properties */
@@ -41,9 +43,9 @@ color: #eee;
 text-decoration: none;
 }
 #tasks {
-width: 70%;
+grid-column: 1 / 4;
 margin-left: 0;
-margin-right: auto;
+margin-right: 0;
 border-collapse: separate;
 border-spacing: 0 0.3em;
 border: 0;
@@ -115,7 +117,7 @@ color: #eee;
 text-decoration: none;
 }
 #students {
-width: 70%;
+width: 100%;
 margin-left: 0;
 margin-right: auto;
 border-collapse: separate;
@@ -134,26 +136,27 @@ box-shadow:
     inset -0.2em -0.2em 0.3em rgba(0,0,0,0.2);
 padding: 0.2em;
 }
+#students td {
+text-align: left;
+padding: 0 0 0 1ex;
+}
 #students tr.headings td {
 font-weight: bold;
-text-align: center;
+padding: 1ex;
 }
 
 /* Student nickname, avatar, XP */
-#student_layout {
-display: flex;
-justify-content: space-between;
-width: 70%;
-}
 #avatar {
+grid-column: 3 / 4;
+grid-row: 1;
 height: 8em;
 margin: 1em;
 }
 
 /* Progress bar for XP */
 #progress {
-margin: 1em auto 1em 0;
-width: 70%;
+grid-column: 1 / 4;
+grid-row: 2;
 }
 #progress p.progressbar {
 margin: 0;
@@ -186,6 +189,10 @@ box-shadow:
 
 
 /* Nickname form etc */
+#nickname {
+grid-column: 1 / 4;
+grid-row: 1;
+}
 #nickname input {
 background: #333;
 margin: 1em 0.5em 0 0;
@@ -197,7 +204,6 @@ font-size: 100%;
 }
 #nickname_entry {
 width: 18em;
-max-width: 50%;
 }
 #nickname input:hover {
 background: #444;
@@ -208,9 +214,8 @@ background: #666;
 
 /* Status page gradescales and avatar list*/
 #gradesetc {
-position: absolute;
-right: 0;
-width: 25%;
+grid-column: 4;
+grid-row: 1 / 4;
 display: flex;
 flex-direction: column;
 align-items: stretch;
@@ -261,11 +266,9 @@ padding: 0 0 0 1em;
 }
 #leaderboard div.grade {
 position: relative;
-display: flex;
-flex-direction: column;
-align-items: center;
 height: 3em;
-margin: 0 10% 0 10%;
+width: 8em;
+max-width: 100%;
 border-radius: 0.3em;
 padding: 0.4em 0 0.4em 0;
 }

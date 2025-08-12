@@ -21,6 +21,20 @@
 
     <link rel="stylesheet" type="text/css" href="status.css">
     <div id="status">
+        <div id="nickname">
+            <input id="nickname_entry" type="textbox" oninput="queue_load_student();"></input>
+            <input type="button" value="Update" onclick="load_student();"></input>
+            <h1 id="nickname_heading">Enter a nickname</h1>
+        </div>
+        <img id="avatar" src="avatars/green-blob/1.svg">
+        <div id="progress">
+            <p class="progressbar">XP (Experience)</p>
+            <div class="progressbar">
+                <span id="XP" style="width: 100%"></span>
+            </div>
+        </div>
+        <table id="tasks"><tbody>
+        </tbody></table>
         <div id="gradesetc">
             <div>
                 <p><a id="leaderboardbutton" class="button" href="index.html">Leaderboard</a></p>
@@ -35,22 +49,6 @@
                 <p>Final grade</p>
             </div>
         </div>
-        <div id="student_layout">
-            <div id="nickname">
-                <input id="nickname_entry" type="textbox" oninput="queue_load_student();"></input>
-                <input type="button" value="Update" onclick="load_student();"></input>
-                <h1 id="nickname_heading">Enter a nickname</h1>
-            </div>
-            <img id="avatar" src="avatars/green-blob/1.svg">
-        </div>
-        <div id="progress">
-            <p class="progressbar">XP (Experience)</p>
-            <div class="progressbar">
-                <span id="XP" style="width: 100%"></span>
-            </div>
-        </div>
-        <table id="tasks"><tbody>
-        </tbody></table>
     </div>
     <script type="text/javascript" src="status.js"></script>
     
@@ -61,8 +59,8 @@
 <p>Except as otherwise noted, all material in this website is licensed under a Creative Commons Share Alike Licence (CC-BY-SA).</p>
 <p><a href="/credits.html">Credits for material from third parties</a></p>
 <p>Built with <a href="http://0cms.henley.id.au">0cms</a>.</p>
-<p><em>Last built: 2025-07-21 08:30:14.822269</em></p>
-<p><em>Last modified: 2025-07-14 20:28:16.316153</em></p>
+<p><em>Last built: 2025-08-12 21:02:44.502337</em></p>
+<p><em>Last modified: 2025-08-12 21:02:31.829406</em></p>
     </div>
 </div>
 </body>
