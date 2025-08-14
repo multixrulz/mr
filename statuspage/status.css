@@ -113,6 +113,8 @@ content: url('stars/award.svg');
 
 /* Table of students */
 #students a {
+display: block;
+padding: 0.9em 0;
 color: #eee;
 text-decoration: none;
 }
