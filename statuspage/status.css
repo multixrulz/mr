@@ -41,6 +41,8 @@ border: 0;
 #tasks a {
 color: #eee;
 text-decoration: none;
+display: block;
+padding: 0.1em 0;
 }
 #tasks {
 grid-column: 1 / 4;
