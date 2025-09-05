@@ -12,8 +12,8 @@ Active,Current,Task group code,Task group name,URL
 1,0,FP2,Friction race,https://learn.henley.id.au/science/forces/activities/fp2.html
 1,0,FP3,Parachutes,https://learn.henley.id.au/science/forces/activities/fp3.html
 1,0,FP4,Rolling cars,https://learn.henley.id.au/science/forces/activities/fp4.html
-0,0,FP5,Levers,https://learn.henley.id.au/science/forces/activities/fp5.html
+1,1,FP5,Levers,https://learn.henley.id.au/science/forces/activities/fp5.html
 0,0,FP6,Ball thrower,https://learn.henley.id.au/science/forces/activities/fp6.html
 0,0,FP7,Bernoulli,https://learn.henley.id.au/science/forces/activities/fp7.html
 1,0,FP8,Magnets,https://learn.henley.id.au/science/forces/activities/fp8.html
-1,1,FP9,Static electricity,https://learn.henley.id.au/science/forces/activities/fp9.html
+0,0,FP9,Static electricity,https://learn.henley.id.au/science/forces/activities/fp9.html
