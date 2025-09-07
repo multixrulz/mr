@@ -4,16 +4,16 @@ Active,Current,Task group code,Task group name,URL
 1,0,C1,Upload to an Arduino,https://learn.henley.id.au/computing/arduino-year8/activity-C1/index.html
 1,0,C2,Blink (the delay function),https://learn.henley.id.au/computing/arduino-year8/activity-C2/index.html
 1,0,C3,Digital outputs,https://learn.henley.id.au/computing/arduino-year8/activity-T3/index.html
-1,1,C4,Digital inputs,https://learn.henley.id.au/computing/arduino-year8/activity-C4/index.html
-1,1,C5,Analogue inputs,https://learn.henley.id.au/computing/arduino-year8/activity-C5/index.html
-0,0,C6,Analogue outputs,https://learn.henley.id.au/computing/arduino-year8/activity-C6/index.html
-0,0,C7,The torch,https://learn.henley.id.au/computing/arduino-year8/activity-C7/index.html
-0,0,E1,Wiring an LED,https://learn.henley.id.au/computing/arduino-year8/activity-E1/index.html
-0,0,E2,Breadboards,https://learn.henley.id.au/computing/arduino-year8/activity-E2/index.html
-0,0,E3,Buttons and switches,https://learn.henley.id.au/computing/arduino-year8/activity-E3/index.html
-0,0,E4,Wiring an LDR,https://learn.henley.id.au/computing/arduino-year8/activity-E4/index.html
-0,0,E5,Wiring a buzzer,https://learn.henley.id.au/computing/arduino-year8/activity-E5/index.html
-0,0,E6,Creating a door switch,https://learn.henley.id.au/computing/arduino-year8/activity-E6/index.html
+1,0,C4,Digital inputs,https://learn.henley.id.au/computing/arduino-year8/activity-C4/index.html
+1,0,C5,Analogue inputs,https://learn.henley.id.au/computing/arduino-year8/activity-C5/index.html
+1,0,C6,Analogue outputs,https://learn.henley.id.au/computing/arduino-year8/activity-C6/index.html
+1,0,C7,The torch,https://learn.henley.id.au/computing/arduino-year8/activity-C7/index.html
+1,1,E1,Wiring an LED,https://learn.henley.id.au/computing/arduino-year8/activity-E1/index.html
+1,1,E2,Breadboards,https://learn.henley.id.au/computing/arduino-year8/activity-E2/index.html
+1,1,E3,Buttons and switches,https://learn.henley.id.au/computing/arduino-year8/activity-E3/index.html
+1,1,E4,Wiring an LDR,https://learn.henley.id.au/computing/arduino-year8/activity-E4/index.html
+1,1,E5,Wiring a buzzer,https://learn.henley.id.au/computing/arduino-year8/activity-E5/index.html
+1,1,E6,Creating a door switch,https://learn.henley.id.au/computing/arduino-year8/activity-E6/index.html
 0,0,F1,Project specification,https://learn.henley.id.au/computing/arduino-year8/activity-F1/index.html
 0,0,P2,Building the project,https://learn.henley.id.au/computing/arduino-year8/activity-P2/index.html
 0,0,F2,Project documentation,https://learn.henley.id.au/computing/arduino-year8/activity-F2/index.html
