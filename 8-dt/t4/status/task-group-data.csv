@@ -1,9 +1,9 @@
 Active,Current,Task group code,Task group name,URL
 1,0,T1,Getting set up,https://learn.henley.id.au/computing/arduino-year8/activity-T1/index.html
 1,0,P1,Project options,https://learn.henley.id.au/computing/arduino-year8/activity-P1/index.html
-1,1,C1,Upload to an Arduino,https://learn.henley.id.au/computing/arduino-year8/activity-C1/index.html
-0,0,C2,Blink (the delay function),https://learn.henley.id.au/computing/arduino-year8/activity-C2/index.html
-0,0,C3,Digital outputs,https://learn.henley.id.au/computing/arduino-year8/activity-T3/index.html
+1,0,C1,Upload to an Arduino,https://learn.henley.id.au/computing/arduino-year8/activity-C1/index.html
+1,1,C2,Blink (the delay function),https://learn.henley.id.au/computing/arduino-year8/activity-C2/index.html
+1,1,C3,Digital outputs,https://learn.henley.id.au/computing/arduino-year8/activity-T3/index.html
 0,0,C4,Digital inputs,https://learn.henley.id.au/computing/arduino-year8/activity-C4/index.html
 0,0,C5,Analogue inputs,https://learn.henley.id.au/computing/arduino-year8/activity-C5/index.html
 0,0,C6,Analogue outputs,https://learn.henley.id.au/computing/arduino-year8/activity-C6/index.html

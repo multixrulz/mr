@@ -1,7 +1,7 @@
 Active,Current,Task group code,Task group name,URL
-0,0,G1,Volcanoes,https://learn.henley.id.au/science/geology/activities/g1.html
-0,0,G2,Erosion and sediment,https://learn.henley.id.au/science/geology/activities/g2.html
-0,0,G3,Sedimentary rocks and fossils,https://learn.henley.id.au/science/geology/activities/g3.html
+1,0,G1,Volcanoes & igneous rocks,https://learn.henley.id.au/science/geology/activities/g1.html
+1,1,G2,Sedimentary rocks and fossils,https://learn.henley.id.au/science/geology/activities/g2.html
+0,0,G3,Metamorphic rocks,https://learn.henley.id.au/science/geology/activities/g3.html
 0,0,G4,The rock cycle,https://learn.henley.id.au/science/geology/activities/g4.html
 0,0,G5,Mining,https://learn.henley.id.au/science/geology/activities/g5.html
 0,0,S1,The solar system,https://learn.henley.id.au/science/solar-system/activities/s1.html
