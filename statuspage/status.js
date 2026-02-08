@@ -132,6 +132,7 @@ function create_status_page() {
     html.push(
     `<tr class="headings">
         <td></td>
+        <td>I</td>
         <td>E</td>
         <td>D</td>
         <td>C</td>
@@ -202,6 +203,7 @@ function task_row_html(active, current, code, name, url) {
     return `
     <tr id="task-${code}" class="${class_str}">
         <td class="label"><a href="${url}" target=_blank>${code} ­— ${name}</a></td>
+        <td id="${code}-I" class="task"></td>
         <td id="${code}-E" class="task"></td>
         <td id="${code}-D" class="task"></td>
         <td id="${code}-C" class="task"></td>

@@ -510,6 +510,7 @@ min-width: 100%;
 max-width: 100%;
 width: 100%;
 }
+}
 @media (max-width: 600px) {
 body {
 font-size: 13px;
@@ -519,6 +520,7 @@ min-width: 100%;
 max-width: 100%;
 width: 100%;
 }
+}
 @media (max-width: 500px) {
 body {
 font-size: 12px;
@@ -527,6 +529,7 @@ font-size: 12px;
 min-width: 100%;
 max-width: 100%;
 width: 100%;
+}
 }
 @media (max-width: 400px) {
 body {
@@ -540,8 +543,59 @@ width: 100%;
 #head {
 display: none;
 }
+}
 
-/* Don't let stuff expand outside the width of the window - particularly relevant for narrow mobile devices */
-img, iframe {
+/* Don't let stuff expand outside the width of the window - particularly relevant for narrow mobile devices
+ *
+ * This was done to solve some problem or another, but it caused the gradescales on the status page to disappear.  Reinstate with caution.
+ * */
+/*img, iframe {
 max-width: 100% !important;
+}*/
+
+/* Tab stuff */
+.tabwidget {
+position: relative;
+background: #CCEEFF;
+border: solid #0091DF 0.2em;
+border-radius: 0.5em;
+padding: 1em;
+}
+
+.tabwidget input {
+display: none;
+}
+
+.tabwidget label {
+display: inline-block;
+float: left;
+margin-top: -2em;
+background: #CCEEFF;
+border: solid #0091DF 0.1em;
+padding: 0.4em;
+}
+
+.tabwidget input:checked + label {
+background: #0091DF;
+}
+
+.tabwidget div.tabcontent {
+display: none;
+}
+
+/* Show the content for the selected (checked) tab */
+input[data-index="1"]:checked ~ .tabcontent[data-index="1"],
+input[data-index="2"]:checked ~ .tabcontent[data-index="2"],
+input[data-index="3"]:checked ~ .tabcontent[data-index="3"],
+input[data-index="4"]:checked ~ .tabcontent[data-index="4"],
+input[data-index="5"]:checked ~ .tabcontent[data-index="5"],
+input[data-index="6"]:checked ~ .tabcontent[data-index="6"],
+input[data-index="7"]:checked ~ .tabcontent[data-index="7"],
+input[data-index="8"]:checked ~ .tabcontent[data-index="8"],
+input[data-index="9"]:checked ~ .tabcontent[data-index="9"],
+input[data-index="10"]:checked ~ .tabcontent[data-index="10"],
+input[data-index="11"]:checked ~ .tabcontent[data-index="11"],
+input[data-index="12"]:checked ~ .tabcontent[data-index="12"],
+input[data-index="13"]:checked ~ .tabcontent[data-index="13"]{
+  display: block;
 }
