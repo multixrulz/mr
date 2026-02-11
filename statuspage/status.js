@@ -106,7 +106,7 @@ function create_status_page() {
     columns['value'] = page_data['columns'].indexOf('Value');
     // Defaults
     title = "Student status"
-    avatar_theme = "green-blobs";
+    avatar_theme = "green-blob";
     theme = "slate";
     // Load actual values
     page_data['data'].forEach((entry) => {
@@ -250,9 +250,15 @@ function load_student() {
                         element.style.width = student[i] + "%";
                         break;
                     case 'Avatar':
+                        extension = avatar_theme;
+                        console.log(avatar_theme, extension);
+                        extension = extension.split(".")
+                        console.log(avatar_theme, extension);
+                        extension = extension.pop();
+                        console.log(avatar_theme, extension);
                         avatar = document.getElementById("avatar");
                         avatar.src = "avatars/" + avatar_theme + "/" +
-                            student[i] + ".svg";
+                            student[i] + "." + extension;
                         break;
                     case 'Average Grade':
                         average = document.getElementById("gradeaveragedark");
@@ -315,7 +321,7 @@ function create_leaderboard_page() {
     columns['value'] = page_data['columns'].indexOf('Value');
     // Defaults
     title = "Student status"
-    avatar_theme = "green-blobs";
+    avatar_theme = "green-blob.svg";
     theme = "slate";
     // Load actual values
     page_data['data'].forEach((entry) => {
