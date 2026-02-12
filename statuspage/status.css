@@ -114,20 +114,21 @@ content: url('stars/award.svg');
 }
 
 /* Table of students */
+
+#students {
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+border-collapse: separate;
+border-spacing: 0 0.3em;
+border: 0;
+color: #eee;
+}
 #students a {
 display: block;
 padding: 0.9em 0;
 color: #eee;
 text-decoration: none;
-}
-#students {
-width: 100%;
-margin-left: 0;
-margin-right: auto;
-border-collapse: separate;
-border-spacing: 0 0.3em;
-border: 0;
-color: #eee;
 }
 #students tr {
 background-image: linear-gradient(
@@ -141,10 +142,23 @@ box-shadow:
 padding: 0.2em;
 }
 #students td {
-text-align: left;
+text-align: right;
 padding: 0 0 0 1ex;
+width: 25%;
+}
+#students td.nickname {
+text-align: left;
+padding: 0 0 0 1em;
+width: 50%;
+min-width: 10em;
+}
+#students td.nickname img {
+height: 2.8em;
+margin-top: -1ex;
+margin-bottom: -1em;
 }
 #students tr.headings td {
+text-align: left;
 font-weight: bold;
 padding: 1ex;
 }
@@ -265,14 +279,10 @@ clip-path: inset(0 0 30% 0); /* top right bottom left */
 }
 
 /* Leaderboard gradescales */
-td.nickname {
-padding: 0 0 0 1em;
-}
 #leaderboard div.grade {
 position: relative;
 height: 3em;
-width: 8em;
-max-width: 100%;
+width: 12em;
 border-radius: 0.3em;
 padding: 0.4em 0 0.4em 0;
 }

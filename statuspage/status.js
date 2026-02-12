@@ -251,11 +251,8 @@ function load_student() {
                         break;
                     case 'Avatar':
                         extension = avatar_theme;
-                        console.log(avatar_theme, extension);
                         extension = extension.split(".")
-                        console.log(avatar_theme, extension);
                         extension = extension.pop();
-                        console.log(avatar_theme, extension);
                         avatar = document.getElementById("avatar");
                         avatar.src = "avatars/" + avatar_theme + "/" +
                             student[i] + "." + extension;
@@ -357,26 +354,35 @@ function create_leaderboard_page() {
     console.log(sorted_students);
     columns = [];
     columns['nickname'] = student_data['columns'].indexOf('Nickname');
+    columns['avatar'] = student_data['columns'].indexOf('Avatar');
     columns['average'] = student_data['columns'].indexOf('Average Grade');
     columns['final'] = student_data['columns'].indexOf('Final Grade');
     sorted_students.forEach((student) => {
         nickname = student[columns['nickname']];
+        avatar = student[columns['avatar']];
         average = student[columns['average']];
         final = student[columns['final']];
-        html.push(student_row_html(nickname, average, final));
+        html.push(student_row_html(nickname, avatar, average, final));
     });
     studentinfo = document.getElementById("students");
     studentinfo.innerHTML = html.join('\n');
 }
 
-function student_row_html(nickname, average, final) {
+function student_row_html(nickname, avatar_number, average, final) {
     // Work out what HTML classes need to be added
     url = "status.html?src=" + base_url + "&student=" + nickname;
+    // Get avatar src
+    extension = avatar_theme;
+    extension = extension.split(".")
+    extension = extension.pop();
+    avatar = "avatars/" + avatar_theme + "/" +
+        avatar_number + "." + extension;
+    // Scale grades to 100
     average = average * 20;
     final = final * 20;
     html = `
     <tr id="${nickname}">
-        <td class="nickname"><a href="${url}">${nickname}</a></td>
+        <td class="nickname"><a href="${url}"><img class="smallavatar" src="${avatar}" /> ${nickname}</a></td>
         <td><div class="grade"><img src="grades/grades-h.svg"><img src="grades/grades-h-dark.svg" style="clip-path: inset(0 0 0 ${average}%);"></div></td>
         <td><div class="grade"><img src="grades/grades-h.svg"><img src="grades/grades-h-dark.svg" style="clip-path: inset(0 0 0 ${final}%);"></div></td>
     </tr>`;
