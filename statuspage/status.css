@@ -112,6 +112,9 @@ content: url('stars/award-inactive.svg');
 #tasks td.task.award img {
 content: url('stars/award.svg');
 }
+#tasks td.task.partial img {
+content: url('stars/award-partial.svg');
+}
 
 /* Table of students */
 

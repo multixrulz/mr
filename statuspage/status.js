@@ -195,9 +195,9 @@ function create_status_page() {
 function task_row_html(active, current, code, name, url) {
     // Work out what HTML classes need to be added
     classes = [];
-    if (to_bool(active))
+    if (is_number(active))
         classes.push("active");
-    if (to_bool(current))
+    if (is_number(current))
         classes.push("current");
     class_str = classes.join(' ');
     return `
@@ -269,8 +269,11 @@ function load_student() {
                         break;
                     default:
                         element = document.getElementById(column);
-                        if (to_bool(student[i])) {
+                        if (is_number(student[i])) {
                             element.classList.add("award");
+                        }
+                        if (partial(student[i])) {
+                            element.classList.add("partial");
                         }
                 }
             }
@@ -412,8 +415,12 @@ function grade_compare(student_a, student_b) {
     }
 }
 
-function to_bool(bool_string) {
+function is_number(bool_string) {
     return Number(bool_string) > 0;
+}
+
+function partial(bool_string) {
+    return bool_string.toLowerCase() == "p";
 }
 
 // CSV parser, free to use from https://stackoverflow.com/questions/1293147/how-to-parse-csv-data
