@@ -245,9 +245,9 @@ function load_student() {
                 switch (column) {
                     case 'Nickname':
                         break;
-                    case 'XP':
-                        element = document.getElementById("XP");
-                        element.style.width = student[i] + "%";
+                    case 'KingCoin':
+                        element = document.getElementById("KingCoin");
+                        element.innerHTML = student[i]
                         break;
                     case 'Avatar':
                         extension = avatar_theme;
@@ -287,8 +287,8 @@ function remove_all_data() {
         switch (column) {
             case 'Nickname':
                 break;
-            case 'XP':
-                element = document.getElementById("XP");
+            case 'KingCoin':
+                element = document.getElementById("KingCoin");
                 element.style.width = "0%";
                 break;
             case 'Avatar':
