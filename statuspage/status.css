@@ -32,6 +32,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 min-height: 100vh;
 }
+
 /* General table properties */
 td {
 border: 0;
@@ -179,8 +180,15 @@ margin: 1em;
 grid-column: 1 / 4;
 font-size: 125%;
 font-weight: bold;
+margin-top: -3.5ex;
+margin-bottom: -2ex;
 }
 
+#kingyimg {
+height: 4ex;
+vertical-align: middle;
+margin-top: -1ex;
+}
 /* Progress bar for XP */
 #progress {
 grid-column: 1 / 4;

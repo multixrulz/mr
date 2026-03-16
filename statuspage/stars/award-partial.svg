@@ -3,7 +3,7 @@
 
 <svg
    id="svg2"
-   sodipodi:docname="partial.svg"
+   sodipodi:docname="award-partial.svg"
    viewBox="0 0 212.96201 216.42301"
    sodipodi:version="0.32"
    version="1.0"
@@ -985,16 +985,17 @@
     </linearGradient>
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath3">
+       id="clipPath1">
       <rect
-         style="fill:#0000ff;stroke-width:0.530276;stroke-linecap:round;stroke-linejoin:round"
-         id="rect3"
+         style="fill:#0000ff;stroke-width:0.530274;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1"
          width="63.581497"
-         height="29.677626"
+         height="31.649874"
          x="28.600515"
-         y="-5.2005491"
+         y="-7.1728001"
          ry="1.9527627e-06"
-         transform="scale(1,-1)" />
+         transform="scale(1,-1)"
+         rx="1.9527627e-06" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -1065,7 +1066,7 @@
         <g
            id="g1"
            transform="translate(-35.583421,17.90659)"
-           clip-path="url(#clipPath3)">
+           clip-path="url(#clipPath1)">
           <path
              id="s-7"
              style="opacity:0.678061;fill:url(#R1-9-3-3);stroke-width:1.00008;stroke-dasharray:none"
