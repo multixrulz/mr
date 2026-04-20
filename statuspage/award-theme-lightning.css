@@ -1,0 +1,9 @@
+#tasks td.task img {
+content: url('achievements/lightning/award-inactive.svg');
+}
+#tasks td.task.award img {
+content: url('achievements/lightning/award.svg');
+}
+#tasks td.task.partial img {
+content: url('achievements/lightning/award-partial.svg');
+}

@@ -1,0 +1,66 @@
+/* Override stuff from global css */
+#head {
+background: linear-gradient(-27deg, rgba(2,0,36,0.5) 0%, rgba(54,54,54,0.4) 35%, rgba(255,255,255,0) 100%), rgba(83,170,152,1);
+}
+
+#content {
+background: #82D3C3;
+color: #333;
+}
+
+/* Table of tasks */
+#tasks a {
+color: #eee;
+}
+#tasks {
+color: #eee;
+}
+#tasks tr, #tasks tr.headings {
+background-image: linear-gradient(
+    to bottom right,
+    rgb(65,70,70),
+    rgb(85,85,95)
+    );
+}
+#tasks tr.active {
+background-image: linear-gradient(
+    to bottom right,
+    rgb(43,112,98),
+    rgb(43,90,112)
+    );
+}
+#tasks tr.current {
+background-image: linear-gradient(
+    to bottom right,
+    rgb(42,106,158),
+    rgb(83,32,120)
+    );
+}
+
+/* Status page gradescales and avatar list*/
+#gradesetc div.grade {
+background: #588F84;
+}
+
+/* Nickname etc */
+#nickname input {
+background: #4B6862;
+border-color: #345C54;
+color: #eee;
+}
+
+#kingcoin a {
+color: #2A8DAA;
+}
+#kingcoin a:visited {
+color: #2A8DAA;
+}
+
+/* Leaderboard student list */
+#students tr {
+background-image: linear-gradient(
+    to bottom right,
+    rgb(43,112,98),
+    rgb(41,109,103)
+    );
+}

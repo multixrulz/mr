@@ -107,7 +107,7 @@ function create_status_page() {
     // Defaults
     title = "Student status"
     avatar_theme = "green-blob";
-    theme = "slate";
+    colour_theme = "slate";
     // Load actual values
     page_data['data'].forEach((entry) => {
         key = entry[columns['key']];
@@ -116,10 +116,16 @@ function create_status_page() {
             title = value;
         if (key == 'Avatar theme')
             avatar_theme = value;
-        if (key == 'Theme')
-            theme = value;
+        if (key == 'Colour theme')
+            colour_theme = value;
+        if (key == 'Award theme')
+            award_theme = value;
     });
     // TODO Load up the theme's CSS
+    css_element = document.getElementById("award_theme");
+    css_element.href="award-theme-" + award_theme + ".css";
+    css_element = document.getElementById("colour_theme");
+    css_element.href="colour-theme-" + colour_theme + ".css";
 
     // Update the page title
     title_element = document.getElementById("pagetitle");
@@ -322,7 +328,7 @@ function create_leaderboard_page() {
     // Defaults
     title = "Student status"
     avatar_theme = "green-blob.svg";
-    theme = "slate";
+    colour_theme = "slate";
     // Load actual values
     page_data['data'].forEach((entry) => {
         key = entry[columns['key']];
@@ -331,13 +337,15 @@ function create_leaderboard_page() {
             title = value;
         if (key == 'Avatar theme')
             avatar_theme = value;
-        if (key == 'Theme')
-            theme = value;
+        if (key == 'Colour theme')
+            colour_theme = value;
     });
     // TODO Load up the theme's CSS
+    css_element = document.getElementById("colour_theme");
+    css_element.href="colour-theme-" + colour_theme + ".css";
 
     // Update the page title
-    title_element = document.getElementById("pagetitle")
+    title_element = document.getElementById("pagetitle");
     title_element.innerHTML = title;
 
     /*
