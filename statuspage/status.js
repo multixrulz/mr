@@ -381,6 +381,9 @@ function create_leaderboard_page() {
 
 function student_row_html(nickname, avatar_number, average, final) {
     // Work out what HTML classes need to be added
+    // Students who have an avatar number of 0 are not shown.
+    if (avatar_number == 0)
+        return ""
     url = "status.html?src=" + base_url + "&student=" + nickname;
     // Get avatar src
     extension = avatar_theme;
