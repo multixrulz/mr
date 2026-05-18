@@ -296,7 +296,7 @@ border: solid #FF7A16;
 border-radius: 0.5em;
 padding: 0em 1em;
 background: #FFD8BB;
-min-height: 18vh; /* same as icon below + padding*/
+min-height: 6em; /* same as icon below + padding*/
 }
 input.show_done:checked + label {
 filter: grayscale(100%);
