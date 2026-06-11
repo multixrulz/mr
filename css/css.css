@@ -561,6 +561,10 @@ text-shadow: none;
 text-align: center;
 }
 
+.notebook p + p {
+padding-top: 1lh;
+}
+
 /* For narrow viewports */
 @media (max-width: 800px) {
 body {
