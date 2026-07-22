@@ -252,8 +252,10 @@ function load_student() {
                     case 'Nickname':
                         break;
                     case 'KingCoin':
+/* Kingcoin removed
                         element = document.getElementById("KingCoin");
                         element.innerHTML = student[i]
+*/
                         break;
                     case 'Avatar':
                         extension = avatar_theme;
@@ -296,8 +298,10 @@ function remove_all_data() {
             case 'Nickname':
                 break;
             case 'KingCoin':
+/* Kingcoin removed
                 element = document.getElementById("KingCoin");
                 element.style.width = "0%";
+*/
                 break;
             case 'Avatar':
                 avatar = document.getElementById("avatar");

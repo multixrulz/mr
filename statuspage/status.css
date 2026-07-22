@@ -166,8 +166,9 @@ height: 8em;
 margin: 1em;
 }
 
-/* Kingcoin */
+/* Kingcoin - removed*/
 #kingcoin {
+display: none;
 grid-column: 1 / 4;
 font-size: 125%;
 font-weight: bold;
