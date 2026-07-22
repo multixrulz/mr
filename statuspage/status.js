@@ -269,9 +269,11 @@ function load_student() {
                         average.style.clipPath = "inset(0 0 " + percent + "% 0)";
                         break;
                     case 'Final Grade':
+/* Final grade removed
                         final = document.getElementById("gradefinaldark");
                         percent = Number(student[i]) * 20;
                         final.style.clipPath = "inset(0 0 " + percent + "% 0)";
+*/
                         break;
                     default:
                         element = document.getElementById(column);
@@ -306,8 +308,10 @@ function remove_all_data() {
                 average.style.clipPath = "inset(0 0 0 0)";
                 break;
             case 'Final Grade':
+/* Removed final grade
                 final = document.getElementById("gradefinaldark");
                 final.style.clipPath = "inset(0 0 0 0)";
+*/
                 break;
             default:
                 element = document.getElementById(column);
@@ -356,8 +360,10 @@ function create_leaderboard_page() {
     `<tr class="headings">
         <td>Student</td>
         <td>Average grade</td>
-        <td>Final grade</td>
     </tr>`);
+/* Removed final grade
+        <td>Final grade</td>
+*/
     /*
      *  Write out a table row for each student, sorted by average grade
      */
@@ -373,7 +379,9 @@ function create_leaderboard_page() {
         avatar = student[columns['avatar']];
         average = student[columns['average']];
         final = student[columns['final']];
-        html.push(student_row_html(nickname, avatar, average, final));
+/*        html.push(student_row_html(nickname, avatar, average, final));
+*/
+        html.push(student_row_html(nickname, avatar, average));
     });
     studentinfo = document.getElementById("students");
     studentinfo.innerHTML = html.join('\n');
@@ -398,8 +406,11 @@ function student_row_html(nickname, avatar_number, average, final) {
     <tr id="${nickname}">
         <td class="nickname"><a href="${url}"><img class="smallavatar" src="${avatar}" /> ${nickname}</a></td>
         <td><div class="grade"><img src="grades/grades-h.svg"><img src="grades/grades-h-dark.svg" style="clip-path: inset(0 0 0 ${average}%);"></div></td>
-        <td><div class="grade"><img src="grades/grades-h.svg"><img src="grades/grades-h-dark.svg" style="clip-path: inset(0 0 0 ${final}%);"></div></td>
     </tr>`;
+/* Removed final grade
+        <td><div class="grade"><img src="grades/grades-h.svg"><img src="grades/grades-h-dark.svg" style="clip-path: inset(0 0 0
+        ${final}%);"></div></td>
+*/
     return html;
 }
 
