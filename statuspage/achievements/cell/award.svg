@@ -4,13 +4,13 @@
 <svg
    version="1.1"
    id="Layer_1"
-   width="254.02646"
-   height="321.75159"
-   viewBox="0 0 254.02645 321.7516"
+   width="330"
+   height="330"
+   viewBox="0 0 329.99999 330.00001"
    overflow="visible"
    enable-background="new 0 0 1435.478 1084.627"
    xml:space="preserve"
-   sodipodi:docname="cell.svg"
+   sodipodi:docname="award.svg"
    inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,9 +25,9 @@
    inkscape:pageopacity="0"
    inkscape:pagecheckerboard="1"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="0.38676892"
-   inkscape:cx="637.33145"
-   inkscape:cy="795.04836"
+   inkscape:zoom="2.1878954"
+   inkscape:cx="75.64347"
+   inkscape:cy="159.28549"
    inkscape:current-layer="Layer_1" />
 
 
@@ -52,8 +52,10 @@
 </linearGradient>
 
 <g
-   id="g90"
-   transform="translate(-21.823598,-753.22653)">
+   id="g1"
+   transform="translate(37.986774,4.124204)"><g
+     id="g90"
+     transform="translate(-21.823598,-753.22653)">
 	
 		<radialGradient
    id="XMLID_37_"
@@ -166,7 +168,7 @@
    d="m 159.767,1071.504 c 1.226,-0.056 2.454,-0.101 3.686,-0.13 32.291,-0.787 112.743,-21.759 108.386,-66.795 -1.957,-20.237 -14.162,-43.77 -21.187,-63.309 -10.249,-28.508 -23.601,-54.5 -28.606,-84.815 -3.203,-19.394 -5.08,-36.372 -12.466,-55.27 -17.339,-44.364 -65.807,-56.062 -107.857,-41.412 -43.472,15.144 -92.763,54.04 -76.839,105.675 8.174,26.507 24.164,49.681 30.446,77.658 4.685,20.865 4.7,38.979 6.084,60.395 1.493,23.06 10.353,46.608 30.184,59.928 21.612,14.514 44.28,9.161 68.169,8.075 z"
    id="path90"
    style="fill:url(#XMLID_39_)" />
-</g>
+</g></g>
 
 
 
