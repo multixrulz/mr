@@ -174,7 +174,7 @@ list-style: circle;
 margin: 0 0 0 0em;
 }
 ol {
-margin: 0 0 1em 1em;
+/*margin: 0 0 1em 1em;*/
 list-style-type: decimal;
 }
 ol ol {
