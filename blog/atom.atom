@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Mr Henley's Blog</title>
 <id>http://mr.henley.id.au/blog/atom.atom</id>
-<updated>2026-08-04T20:05:21.229679</updated>
+<updated>2026-08-04T20:15:18.644648</updated>
 <entry>
 <link href="http://mr.henley.id.au/blog/2025/0530.html" />
 <title>Making a giant Arduino</title>
 <summary>Making a giant Arduino</summary>
-<updated>2026-08-04T19:54:39.818850</updated>
+<updated>2026-08-04T20:15:11.045830</updated>
 <published>2026-08-04T00:00:00</published>
 </entry>
 <entry>
