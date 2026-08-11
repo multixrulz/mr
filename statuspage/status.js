@@ -29,7 +29,7 @@ function parse_url() {
     console.log("statuspage: Found a base URL of '" + base_url + "'");
     if ((base_url === null) || (base_url === undefined))
         base_url = '';
-    student = params.get("student");
+    student = decodeURI(params.get("student"));
     console.log("statuspage: Found a student of '" + student + "'");
 }
 
