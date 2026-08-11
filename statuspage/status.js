@@ -29,7 +29,8 @@ function parse_url() {
     console.log("statuspage: Found a base URL of '" + base_url + "'");
     if ((base_url === null) || (base_url === undefined))
         base_url = '';
-    student = decodeURI(params.get("student"));
+    student = decodeURIComponent(params.get("student"));
+    console.log("statuspage: Found a student from the URL" + params.get("student"))
     console.log("statuspage: Found a student of '" + student + "'");
 }
 
@@ -396,7 +397,7 @@ function student_row_html(nickname, avatar_number, average, final) {
     // Students who have an avatar number of 0 are not shown.
     if (avatar_number == 0)
         return ""
-    url = "status.html?src=" + base_url + "&student=" + nickname;
+    url = "status.html?src=" + base_url + "&student=" + encodeURIComponent(nickname);
     // Get avatar src
     extension = avatar_theme;
     extension = extension.split(".")
