@@ -2,7 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Mr Henley's Blog</title>
 <id>http://mr.henley.id.au/blog/atom.atom</id>
-<updated>2026-08-12T08:30:29.497339</updated>
+<updated>2026-08-25T13:20:25.924031</updated>
+<entry>
+<link href="http://mr.henley.id.au/blog/2026/0825.html" />
+<title>Is anything real?</title>
+<summary>A great Kurzgesagt video about your brain</summary>
+<updated>2026-08-25T13:20:21.923347</updated>
+<published>2026-08-25T00:00:00</published>
+</entry>
 <entry>
 <link href="http://mr.henley.id.au/blog/2026/0811.html" />
 <title>Project Hail Mary</title>
