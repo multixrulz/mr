@@ -2,7 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Mr Henley's Blog</title>
 <id>http://mr.henley.id.au/blog/atom.atom</id>
-<updated>2026-08-25T13:20:25.924031</updated>
+<updated>2026-09-17T13:48:48.589860</updated>
+<entry>
+<link href="http://mr.henley.id.au/blog/2026/0917.html" />
+<title>I'm that person</title>
+<summary>How social media changed us</summary>
+<updated>2026-09-17T13:48:46.028313</updated>
+<published>2026-09-17T00:00:00</published>
+</entry>
 <entry>
 <link href="http://mr.henley.id.au/blog/2026/0825.html" />
 <title>Is anything real?</title>
