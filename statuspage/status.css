@@ -288,21 +288,21 @@ clip-path: inset(0 0 50% 0); /* top right bottom left */
 clip-path: inset(0 0 30% 0); /* top right bottom left */
 }
 
-/* Leaderboard gradescales */
-#leaderboard div.grade {
+/* Classlist gradescales */
+#classlist div.grade {
 position: relative;
 height: 3em;
 width: 12em;
 border-radius: 0.3em;
 padding: 0.4em 0 0.4em 0;
 }
-#leaderboard div.grade img {
+#classlist div.grade img {
 position: absolute;
 display: block;
 height: 3em;
 }
 @media (max-width: 800px) {
-    #leaderboard div.grade img {
+    #classlist div.grade img {
     max-width: 100%;
     }
 }

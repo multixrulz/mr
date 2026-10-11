@@ -1,3 +1,9 @@
+// Defaults
+show_grade_average = true;
+show_grade_final = true;
+activities = "grades";
+
+// Functional stuff
 var base_url = '';
 var page_data = [];
 var task_group_data = [];
@@ -16,9 +22,9 @@ function detect_page() {
     if (document.getElementById("status") != null) {
         console.log("statuspage: status page found, loading...");
         page = 'status';
-    } else if (document.getElementById("leaderboard") != null) {
-        console.log("statuspage: leaderboard page found, loading...");
-        page = 'leaderboard';
+    } else if (document.getElementById("classlist") != null) {
+        console.log("statuspage: classlist page found, loading...");
+        page = 'classlist';
     }
 }
 
@@ -29,6 +35,7 @@ function parse_url() {
     console.log("statuspage: Found a base URL of '" + base_url + "'");
     if ((base_url === null) || (base_url === undefined))
         base_url = '';
+    // Student
     student = decodeURIComponent(params.get("student"));
     console.log("statuspage: Found a student from the URL" + params.get("student"))
     console.log("statuspage: Found a student of '" + student + "'");
@@ -82,10 +89,10 @@ function data_loaded() {
                 create_status_page();
             }
             break;
-        case "leaderboard":
+        case "classlist":
             if (page_data['loaded'] && student_data['loaded']) {
                 console.log("statuspage: all data files are loaded.");
-                create_leaderboard_page();
+                create_classlist_page();
             }
             break;
         default:
@@ -96,9 +103,10 @@ function data_loaded() {
 
 function create_status_page() {
     console.log("Creating the status page content");
-    // Change the leaderboard button to use the base_url
-    element = document.getElementById("leaderboardbutton");
+    // Change the classlist button to use the base_url
+    element = document.getElementById("classlistbutton");
     element.href = "index.html?src=" + base_url;
+
     /*
      * Use the page data
      */
@@ -107,7 +115,7 @@ function create_status_page() {
     columns['value'] = page_data['columns'].indexOf('Value');
     // Defaults
     title = "Student status"
-    avatar_theme = "green-blob";
+    avatar_theme = "green-blob.svg";
     colour_theme = "slate";
     // Load actual values
     page_data['data'].forEach((entry) => {
@@ -121,7 +129,25 @@ function create_status_page() {
             colour_theme = value;
         if (key == 'Award theme')
             award_theme = value;
+        if (key == 'Average grade')
+            show_grade_average = (value == "TRUE");
+        if (key == 'Final grade') {
+            show_grade_final = (value == "TRUE");}
+        if (key == 'Activities')
+            activities = value;
     });
+    /*
+     * Hide grades if required
+     */
+    if (!show_grade_average) {
+        element = document.getElementById("grade_average");
+        element.style.display = "none";
+    }
+    if (!show_grade_final) {
+        element = document.getElementById("grade_final");
+        element.style.display = "none";
+    }
+
     // TODO Load up the theme's CSS
     css_element = document.getElementById("award_theme");
     css_element.href="award-theme-" + award_theme + ".css";
@@ -136,6 +162,7 @@ function create_status_page() {
      *  Write out a table row for headings
      */
     var html = [];
+    if (activities == "grades") {
     html.push(
     `<tr class="headings">
         <td></td>
@@ -146,6 +173,17 @@ function create_status_page() {
         <td>B</td>
         <td>A</td>
     </tr>`);
+}
+    if (activities == "content") {
+    html.push(
+    `<tr class="headings">
+        <td></td>
+        <td>F</td>
+        <td>S</td>
+        <td>C</td>
+    </tr>`);
+}
+
     /*
      *  Write out a table row for each task group
      */
@@ -207,16 +245,26 @@ function task_row_html(active, current, code, name, url) {
     if (is_number(current))
         classes.push("current");
     class_str = classes.join(' ');
-    return `
-    <tr id="task-${code}" class="${class_str}">
-        <td class="label"><a href="${url}" target=_blank>${code} ­— ${name}</a></td>
-        <td id="${code}-I" class="task"></td>
-        <td id="${code}-E" class="task"></td>
-        <td id="${code}-D" class="task"></td>
-        <td id="${code}-C" class="task"></td>
-        <td id="${code}-B" class="task"></td>
-        <td id="${code}-A" class="task"></td>
-    </tr>`
+    if (activities == "grades")
+        html_string = `
+        <tr id="task-${code}" class="${class_str}">
+            <td class="label"><a href="${url}" target=_blank>${code} ­— ${name}</a></td>
+            <td id="${code}-I" class="task"></td>
+            <td id="${code}-E" class="task"></td>
+            <td id="${code}-D" class="task"></td>
+            <td id="${code}-C" class="task"></td>
+            <td id="${code}-B" class="task"></td>
+            <td id="${code}-A" class="task"></td>
+        </tr>`
+    if (activities == "content")
+        html_string = `
+        <tr id="task-${code}" class="${class_str}">
+            <td class="label"><a href="${url}" target=_blank>${code} ­— ${name}</a></td>
+            <td id="${code}-F" class="task"></td>
+            <td id="${code}-S" class="task"></td>
+            <td id="${code}-C" class="task"></td>
+        </tr>`
+    return html_string
 }
 
 function queue_load_student() {
@@ -267,16 +315,18 @@ function load_student() {
                             student[i] + "." + extension;
                         break;
                     case 'Average Grade':
-                        average = document.getElementById("gradeaveragedark");
-                        percent = Number(student[i]) * 20;
-                        average.style.clipPath = "inset(0 0 " + percent + "% 0)";
+                        if (show_grade_average) {
+                            average = document.getElementById("gradeaveragedark");
+                            percent = Number(student[i]) * 20;
+                            average.style.clipPath = "inset(0 0 " + percent + "% 0)";
+                        }
                         break;
                     case 'Final Grade':
-/* Final grade removed
-                        final = document.getElementById("gradefinaldark");
-                        percent = Number(student[i]) * 20;
-                        final.style.clipPath = "inset(0 0 " + percent + "% 0)";
-*/
+                        if (show_grade_final) {
+                            final = document.getElementById("gradefinaldark");
+                            percent = Number(student[i]) * 20;
+                            final.style.clipPath = "inset(0 0 " + percent + "% 0)";
+                        }
                         break;
                     default:
                         element = document.getElementById(column);
@@ -309,14 +359,16 @@ function remove_all_data() {
                 avatar.src = "avatars/" + avatar_theme + "/1.svg";
                 break;
             case 'Average Grade':
-                average = document.getElementById("gradeaveragedark");
-                average.style.clipPath = "inset(0 0 0 0)";
+                if (show_grade_average) {
+                    average = document.getElementById("gradeaveragedark");
+                    average.style.clipPath = "inset(0 0 0 0)";
+                }
                 break;
             case 'Final Grade':
-/* Removed final grade
-                final = document.getElementById("gradefinaldark");
-                final.style.clipPath = "inset(0 0 0 0)";
-*/
+                if (show_grade_final) {
+                    final = document.getElementById("gradefinaldark");
+                    final.style.clipPath = "inset(0 0 0 0)";
+                }
                 break;
             default:
                 element = document.getElementById(column);
@@ -326,8 +378,8 @@ function remove_all_data() {
     }
 }
 
-function create_leaderboard_page() {
-    console.log("Creating the leaderboard page content");
+function create_classlist_page() {
+    console.log("Creating the classlist page content");
     /*
      * Use the page data
      */
@@ -348,7 +400,12 @@ function create_leaderboard_page() {
             avatar_theme = value;
         if (key == 'Colour theme')
             colour_theme = value;
+        if (key == 'Average grade')
+            show_grade_average = (value == "TRUE");
+        if (key == 'Final grade') {
+            show_grade_final = (value == "TRUE");}
     });
+
     // TODO Load up the theme's CSS
     css_element = document.getElementById("colour_theme");
     css_element.href="colour-theme-" + colour_theme + ".css";
@@ -361,14 +418,17 @@ function create_leaderboard_page() {
      *  Write out a table row for headings
      */
     var html = [];
-    html.push(
-    `<tr class="headings">
-        <td>Student</td>
-        <td>Average grade</td>
-    </tr>`);
-/* Removed final grade
-        <td>Final grade</td>
-*/
+    row_html = `<tr class="headings">
+        <td>Student</td>`
+    if (show_grade_average) {
+        row_html += `<td>Average grade</td>`
+    }
+    if (show_grade_final) {
+        row_html += `<td>Final grade</td>`
+    }
+    row_html += `</tr>`
+    html.push(row_html);
+
     /*
      *  Write out a table row for each student, sorted by average grade
      */
@@ -384,9 +444,7 @@ function create_leaderboard_page() {
         avatar = student[columns['avatar']];
         average = student[columns['average']];
         final = student[columns['final']];
-/*        html.push(student_row_html(nickname, avatar, average, final));
-*/
-        html.push(student_row_html(nickname, avatar, average));
+        html.push(student_row_html(nickname, avatar, average, final));
     });
     studentinfo = document.getElementById("students");
     studentinfo.innerHTML = html.join('\n');
@@ -407,16 +465,19 @@ function student_row_html(nickname, avatar_number, average, final) {
     // Scale grades to 100
     average = average * 20;
     final = final * 20;
-    html = `
+    row_html = `
     <tr id="${nickname}">
-        <td class="nickname"><a href="${url}"><img class="smallavatar" src="${avatar}" /> ${nickname}</a></td>
-        <td><div class="grade"><img src="grades/grades-h.svg"><img src="grades/grades-h-dark.svg" style="clip-path: inset(0 0 0 ${average}%);"></div></td>
-    </tr>`;
-/* Removed final grade
-        <td><div class="grade"><img src="grades/grades-h.svg"><img src="grades/grades-h-dark.svg" style="clip-path: inset(0 0 0
-        ${final}%);"></div></td>
-*/
-    return html;
+        <td class="nickname"><a href="${url}"><img class="smallavatar" src="${avatar}" /> ${nickname}</a></td>`;
+if (show_grade_average) {
+    row_html += `
+        <td><div class="grade"><img src="grades/grades-h.svg"><img src="grades/grades-h-dark.svg" style="clip-path: inset(0 0 0 ${average}%);"></div></td>`;
+}
+if (show_grade_final) {
+    row_html += `
+        <td><div class="grade"><img src="grades/grades-h.svg"><img src="grades/grades-h-dark.svg" style="clip-path: inset(0 0 0 ${final}%);"></div></td>`;
+}
+    row_html += `</tr>`;
+    return row_html;
 }
 
 function grade_compare(student_a, student_b) {
