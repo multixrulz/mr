@@ -275,6 +275,11 @@ function queue_load_student() {
 }
 
 function load_student() {
+    // Get the avatar extension
+    extension = avatar_theme;
+    extension = extension.split(".")
+    extension = extension.pop();
+
     // Get the nickname, and set it on the page heading
     // Change to lower case
     nickname = document.getElementById("nickname_entry").value.trim();
@@ -307,9 +312,6 @@ function load_student() {
 */
                         break;
                     case 'Avatar':
-                        extension = avatar_theme;
-                        extension = extension.split(".")
-                        extension = extension.pop();
                         avatar = document.getElementById("avatar");
                         avatar.src = "avatars/" + avatar_theme + "/" +
                             student[i] + "." + extension;
@@ -355,8 +357,13 @@ function remove_all_data() {
 */
                 break;
             case 'Avatar':
+                // Get the avatar extension
+                extension = avatar_theme;
+                extension = extension.split(".")
+                extension = extension.pop();
+                // Set the avatar
                 avatar = document.getElementById("avatar");
-                avatar.src = "avatars/" + avatar_theme + "/1.svg";
+                avatar.src = "avatars/" + avatar_theme + "/1" + "." + extension;
                 break;
             case 'Average Grade':
                 if (show_grade_average) {
