@@ -139,14 +139,17 @@ function create_status_page() {
     /*
      * Hide grades if required
      */
-    if (!show_grade_average) {
-        element = document.getElementById("grade_average");
+    element = document.getElementById("grade_average");
+    if (show_grade_average)
+        element.style.display = "flex";
+    else
         element.style.display = "none";
-    }
-    if (!show_grade_final) {
-        element = document.getElementById("grade_final");
+
+    element = document.getElementById("grade_final");
+    if (show_grade_final)
+        element.style.display = "flex";
+    else
         element.style.display = "none";
-    }
 
     // TODO Load up the theme's CSS
     css_element = document.getElementById("award_theme");
